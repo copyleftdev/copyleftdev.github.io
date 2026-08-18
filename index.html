@@ -1,0 +1,1013 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Don Johnson (copyleftdev) — systems, security, and AI-native tooling</title>
+<link rel="canonical" href="https://copyleftdev.github.io/">
+<link rel="icon" href="https://copyleftdev.github.io/favicon.svg" type="image/svg+xml">
+<meta name="description" content="Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.">
+<meta name="author" content="Don Johnson">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Don Johnson (copyleftdev)">
+<meta property="og:url" content="https://copyleftdev.github.io/">
+<meta property="og:description" content="Systems-level software engineer building security tooling, developer infrastructure, and AI-native systems.">
+<meta property="profile:username" content="copyleftdev">
+<link rel="me" href="https://github.com/copyleftdev">
+<link rel="alternate" type="text/plain" href="https://copyleftdev.github.io/llms.txt" title="llms.txt">
+<link rel="alternate" type="application/json" href="https://copyleftdev.github.io/repos.json" title="Machine-readable repository index">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://copyleftdev.github.io/#person",
+  "name": "Don Johnson",
+  "alternateName": "copyleftdev",
+  "description": "Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.",
+  "disambiguatingDescription": "Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.",
+  "jobTitle": "Software Engineer",
+  "email": "mailto:don@codetestcode.io",
+  "url": "https://copyleftdev.github.io",
+  "mainEntityOfPage": "https://copyleftdev.github.io",
+  "homeLocation": {
+    "@type": "Place",
+    "name": "Oahu, Hawaii, United States"
+  },
+  "knowsAbout": [
+    "Security research \u2014 network beacon detection, distributed scanners, web fuzzers, OSINT frameworks, supply-chain forensics",
+    "Developer tooling \u2014 self-hosted tunnel servers, webhook inspectors, deterministic crawlers, CI/CD automation",
+    "AI infrastructure \u2014 Model Context Protocol servers, multi-agent coordination protocols, DSLs for composable AI systems",
+    "Systems programming \u2014 Rust-first, with production work in Zig, Go, Python, TypeScript, and Nim",
+    "Verification \u2014 contract-first design, property-based testing, mutation testing to zero survivors, deterministic replay"
+  ],
+  "knowsLanguage": [
+    "Rust",
+    "Zig",
+    "Go",
+    "Python",
+    "TypeScript",
+    "Nim",
+    "Shell"
+  ],
+  "sameAs": [
+    "https://github.com/copyleftdev",
+    "https://dev.to/copyleftdev",
+    "https://www.linkedin.com/in/donscv/",
+    "https://lib.rs/~copyleftdev",
+    "https://crates.io/users/copyleftdev",
+    "https://www.gitmesh.app/",
+    "https://tokentip.to/@copyleftdev"
+  ],
+  "subjectOf": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "micro-containers",
+      "codeRepository": "https://github.com/copyleftdev/micro-containers",
+      "description": "One Go HTTP server. Five isolation runtimes. gVisor, Kata, Firecracker, and WASM benchmarked.",
+      "programmingLanguage": "Go"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "emv-3ds",
+      "codeRepository": "https://github.com/copyleftdev/emv-3ds",
+      "description": "EMV 3-D Secure 2.x (3DS2) protocol \u2014 AReq/ARes/CReq/CRes messages, transaction state machine, ECI/CAVV helpers, and full EMVCo spec serialization for payment authentication (SCA/PSD2)",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "tailx",
+      "codeRepository": "https://github.com/copyleftdev/tailx",
+      "description": "Live system cognition engine. Reimagines tail from \"show me lines\" to \"what's happening, what matters, and why?\" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.",
+      "programmingLanguage": "Zig"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "tak-rs",
+      "codeRepository": "https://github.com/copyleftdev/tak-rs",
+      "description": "High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem \u2014 drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "anomalyx",
+      "codeRepository": "https://github.com/copyleftdev/anomalyx",
+      "description": "Contract-first anomaly detection across ~30 formats \u2014 logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "palimpsest",
+      "codeRepository": "https://github.com/copyleftdev/palimpsest",
+      "description": "Deterministic crawl kernel in Rust \u2014 same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "skbx",
+      "codeRepository": "https://github.com/copyleftdev/skbx",
+      "description": "Agent-first Linux packet-path tracing with Rust/eBPF: bounded evidence, deterministic replay, and packet routes with receipts.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "agent-calc",
+      "codeRepository": "https://github.com/copyleftdev/agent-calc",
+      "description": "AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "circuitbreaker-rs",
+      "codeRepository": "https://github.com/copyleftdev/circuitbreaker-rs",
+      "description": "",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "copyleftdev",
+      "codeRepository": "https://github.com/copyleftdev/copyleftdev",
+      "description": "Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "cora",
+      "codeRepository": "https://github.com/copyleftdev/cora",
+      "description": "Multi-pattern fixed-string matcher. Aho-Corasick + SIMD on mmap'd files. NDJSON output for AI agents and pipelines.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "cosaci",
+      "codeRepository": "https://github.com/copyleftdev/cosaci",
+      "description": "Distributed attested CI mesh \u2014 property-tested at every layer",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "dev-portal-correctly",
+      "codeRepository": "https://github.com/copyleftdev/dev-portal-correctly",
+      "description": "Specification-first developer portal: modular OpenAPI 3.1 + AsyncAPI 3.1 sharing one domain model, an enforced error registry, and CI that can actually fail.",
+      "programmingLanguage": "JavaScript"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "floq",
+      "codeRepository": "https://github.com/copyleftdev/floq",
+      "description": "Detect C2 beacons in network traffic using Floquet spectral analysis from quantum chaos theory. Fast, 274KB Zig binary. Reads pcap, live capture, or OpenTelemetry JSONL.",
+      "programmingLanguage": "Zig"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "git-archaeology-lab",
+      "codeRepository": "https://github.com/copyleftdev/git-archaeology-lab",
+      "description": "Hands-on exercises for forgotten git commands \u2014 crafted history, real bugs, real bisect targets.",
+      "programmingLanguage": "Shell"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "kahea",
+      "codeRepository": "https://github.com/copyleftdev/kahea",
+      "description": "OpenAPI testing and deterministic API fuzzing for AI agents\u2014catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "long-shadow",
+      "codeRepository": "https://github.com/copyleftdev/long-shadow",
+      "description": "Operation Long Shadow \u00b7 Forensic investigation of a four-cluster GitHub repo-laundering operation that buries fabricated commits in 2037 to bubble laundered repos to the top of every AI-built-code search.",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "mini-shai-hulud-dragnet",
+      "codeRepository": "https://github.com/copyleftdev/mini-shai-hulud-dragnet",
+      "description": "Forensic dataset + live dashboard for the 2026-04-29 'A Mini Shai-Hulud has Appeared' npm supply-chain worm by TeamPCP. 1,117 dropbox repos, 22 compromised accounts, 47 IOCs across 14 kinds. Trojaned: @cap-js, mbt, @bitwarden/cli. C2 attribution to AS209101 IP Vendetta Inc. JSONL data \u00b7 kinetic dashboard \u00b7 CC-BY-4.0.",
+      "programmingLanguage": "Shell"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "murmur",
+      "codeRepository": "https://github.com/copyleftdev/murmur",
+      "description": "Voice typing that never leaves your machine. Local NVIDIA Parakeet transcription, Rust + iced, for Linux.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "OverHelloWorld",
+      "codeRepository": "https://github.com/copyleftdev/OverHelloWorld",
+      "description": "A robust, over-engineered \"Hello World\" Go application demonstrating:  DDD, CQRS, and event sourcing Redis and file-backed event bus Plugin system (ASCII, TTS, LED, etc) Prometheus & OpenTelemetry observability Property-based and integration tests Automated test reporting and coverage",
+      "programmingLanguage": "Go"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "poise-rs",
+      "codeRepository": "https://github.com/copyleftdev/poise-rs",
+      "description": "Composable, rigorously verified load-balancing primitives for Rust",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "rational",
+      "codeRepository": "https://github.com/copyleftdev/rational",
+      "description": "AI cost, with the vibes removed. Exact-rational models + a live calculator for the 8 LLM inference-cost decisions every agent builder faces \u2014 model choice, routing, self-host, the reasoning-token tax, cascades, caching, and the O(K\u00b2) agent loop. Every number reproducible.",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "runs-on-compute",
+      "codeRepository": "https://github.com/copyleftdev/runs-on-compute",
+      "description": "A curated, living directory of open-source AI tools that run on inference \u2014 and how to fund the people who build them. Published by TokenTip.",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "smesh-rust",
+      "codeRepository": "https://github.com/copyleftdev/smesh-rust",
+      "description": "High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "symgliph",
+      "codeRepository": "https://github.com/copyleftdev/symgliph",
+      "description": "SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "tip-to-tip-efficiency",
+      "codeRepository": "https://github.com/copyleftdev/tip-to-tip-efficiency",
+      "description": "Mathematically serious Rust crate for a deeply unserious Silicon Valley tip-to-tip efficiency empire.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "vajra",
+      "codeRepository": "https://github.com/copyleftdev/vajra",
+      "description": "Break noise. Preserve truth. A deterministic semantic reduction engine for structured data \u2014 JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "akamaiforms-site",
+      "codeRepository": "https://github.com/copyleftdev/akamaiforms-site",
+      "description": "",
+      "programmingLanguage": "HTML"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "allman",
+      "codeRepository": "https://github.com/copyleftdev/allman",
+      "description": "High-performance MCP agent mail server \u2014 lock-free message routing, NRT search, Git audit trail. Built in Rust.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "art-of-context-and-intent",
+      "codeRepository": "https://github.com/copyleftdev/art-of-context-and-intent",
+      "description": "Why prompts are just the surface. Depth comes from the system you build. \u2014 Don Johnson",
+      "programmingLanguage": "HTML"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "asm_ftw",
+      "codeRepository": "https://github.com/copyleftdev/asm_ftw",
+      "description": "",
+      "programmingLanguage": "Assembly"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "bruno",
+      "codeRepository": "https://github.com/copyleftdev/bruno",
+      "description": "Zero-trust proxy network \u2014 nodes prove hardware identity via TPM 2.0 remote attestation before receiving ephemeral mTLS certificates. Written in Rust.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "cistron",
+      "codeRepository": "https://github.com/copyleftdev/cistron",
+      "description": "A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "claimzen-site",
+      "codeRepository": "https://github.com/copyleftdev/claimzen-site",
+      "description": "ClaimZen \u2014 evidence-backed denial recovery. Marketing site.",
+      "programmingLanguage": "HTML"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "claude-rust-todo-tutorial",
+      "codeRepository": "https://github.com/copyleftdev/claude-rust-todo-tutorial",
+      "description": "Production-grade Claude Code artifacts (hooks, agents, commands, gates, sweeps, drifts) wrapped around an axum + sqlx + sqlite todo API. Tutorial.",
+      "programmingLanguage": "Shell"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "coelacanth",
+      "codeRepository": "https://github.com/copyleftdev/coelacanth",
+      "description": "AI-first Unix primitives, clean-room reimplemented in Zig under one self-describing, machine-checkable contract",
+      "programmingLanguage": "Zig"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "cowiki-rs",
+      "codeRepository": "https://github.com/copyleftdev/cowiki-rs",
+      "description": "Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "darkstar",
+      "codeRepository": "https://github.com/copyleftdev/darkstar",
+      "description": "Backend-less internet health and flux monitoring tool (Zig)",
+      "programmingLanguage": "Zig"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "entropyx",
+      "codeRepository": "https://github.com/copyleftdev/entropyx",
+      "description": "A forensic instrument for codebases. A quantifiable way to tell the truth.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "entropyx-survey",
+      "codeRepository": "https://github.com/copyleftdev/entropyx-survey",
+      "description": "A cartographic browser survey for entropyx: streaming scans over SSE, a printable plain-language brief, and the scoring kernel in WebAssembly.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "fafoaas",
+      "codeRepository": "https://github.com/copyleftdev/fafoaas",
+      "description": "FAFO as a Service \u2014 an event-driven homage to FOAAS and a working masterclass in spec-first engineering: AsyncAPI 3 + MCP, polyglot codegen, derived contract tests, a generated conformant server, 98/98 mutation score. Consequences: eventual.",
+      "programmingLanguage": "TypeScript"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "gemma-4-challenge",
+      "codeRepository": "https://github.com/copyleftdev/gemma-4-challenge",
+      "description": "Care Compass: Gemma 4 healthcare navigation demo with Aion signed-policy decision evidence",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "hook-bin",
+      "codeRepository": "https://github.com/copyleftdev/hook-bin",
+      "description": "Single-binary webhook inbox \u2014 capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "humanitas",
+      "codeRepository": "https://github.com/copyleftdev/humanitas",
+      "description": "Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).",
+      "programmingLanguage": "TypeScript"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "invariantd-site",
+      "codeRepository": "https://github.com/copyleftdev/invariantd-site",
+      "description": "Marketing site for invariantd.com \u2014 video-first landing",
+      "programmingLanguage": "HTML"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "kilo-data",
+      "codeRepository": "https://github.com/copyleftdev/kilo-data",
+      "description": "Open threat-intelligence and IP-reputation ETL for phishing and abuse screening, with BGP and Arrow/Parquet releases",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "kilocheck",
+      "codeRepository": "https://github.com/copyleftdev/kilocheck",
+      "description": "Local-first deterministic IP intelligence CLI with auditable evidence and policy-grade JSON",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "kitboga",
+      "codeRepository": "https://github.com/copyleftdev/kitboga",
+      "description": "Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.",
+      "programmingLanguage": "HTML"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "leet-index",
+      "codeRepository": "https://github.com/copyleftdev/leet-index",
+      "description": "super top secret",
+      "programmingLanguage": "JavaScript"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "leet-touch",
+      "codeRepository": "https://github.com/copyleftdev/leet-touch",
+      "description": "Touch every layer of Git and GitHub\u2014from first commit to platform engineering.",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "linux-archaeology-lab",
+      "codeRepository": "https://github.com/copyleftdev/linux-archaeology-lab",
+      "description": "Hands-on exercises for forgotten Linux pipe & stream commands \u2014 sample data, real exercises, Claude Code skill included.",
+      "programmingLanguage": "Shell"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "nasa-power-of-ten-skill",
+      "codeRepository": "https://github.com/copyleftdev/nasa-power-of-ten-skill",
+      "description": "Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "nim-toon",
+      "codeRepository": "https://github.com/copyleftdev/nim-toon",
+      "description": "Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.",
+      "programmingLanguage": "Nim"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "oxide-ci",
+      "codeRepository": "https://github.com/copyleftdev/oxide-ci",
+      "description": "A modern, extensible, high-performance CI/CD engine written in Rust.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "pi-mini-rack",
+      "codeRepository": "https://github.com/copyleftdev/pi-mini-rack",
+      "description": "Cost-optimized 10-inch Raspberry Pi cluster rack builds (\u2013). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.",
+      "programmingLanguage": ""
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "pipeflow",
+      "codeRepository": "https://github.com/copyleftdev/pipeflow",
+      "description": "",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "rime",
+      "codeRepository": "https://github.com/copyleftdev/rime",
+      "description": "Lock-free delta-xDS control plane for Envoy. Incremental updates, zero-copy fan-out, content-addressed versioning \u2014 the performant Rust alternative to go-control-plane.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "seuil-bench",
+      "codeRepository": "https://github.com/copyleftdev/seuil-bench",
+      "description": "Seuil Proof of Rigor \u2014 WASM benchmark visualization",
+      "programmingLanguage": "HTML"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "seuil-rs",
+      "codeRepository": "https://github.com/copyleftdev/seuil-rs",
+      "description": "A complete, safe JSONata implementation in Rust \u2014 JSON query, transform, and expression evaluation",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "sk1llz",
+      "codeRepository": "https://github.com/copyleftdev/sk1llz",
+      "description": "The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.",
+      "programmingLanguage": "Python"
+    }
+  ]
+}
+</script>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbfbf9; --fg: #16161a; --muted: #5c5c66; --rule: #e2e2dc;
+  --accent: #9a3412; --card: #ffffff; --code: #f2f2ee;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101014; --fg: #e8e8e6; --muted: #9a9aa4; --rule: #26262e;
+    --accent: #fb923c; --card: #16161c; --code: #1c1c24;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 0 1.25rem 5rem;
+  background: var(--bg); color: var(--fg);
+  font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main { max-width: 62rem; margin: 0 auto; }
+header { padding: 4rem 0 2rem; border-bottom: 1px solid var(--rule); }
+h1 { margin: 0 0 .25rem; font-size: clamp(1.9rem, 5vw, 2.6rem); letter-spacing: -0.02em; }
+h1 .handle { color: var(--accent); }
+.lede { font-size: 1.12rem; color: var(--muted); max-width: 46rem; margin: .5rem 0 0; }
+.meta { margin: 1.5rem 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; color: var(--muted); font-size: .9rem; }
+h2 { margin: 3.5rem 0 .5rem; font-size: 1.3rem; letter-spacing: -0.01em; }
+h3 { margin: 2.5rem 0 .25rem; font-size: 1.05rem; display: flex; align-items: baseline; gap: .6rem; }
+.count { font-size: .75rem; font-weight: 400; color: var(--muted); }
+.blurb { margin: 0 0 1rem; color: var(--muted); font-size: .93rem; }
+ul.repos { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
+ul.repos li { background: var(--card); border: 1px solid var(--rule); border-radius: 9px; padding: .8rem .9rem; }
+ul.repos p { margin: .35rem 0 0; font-size: .88rem; color: var(--muted); }
+code { background: var(--code); padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a code { color: inherit; }
+.lang, .stars, .tag { font-size: .72rem; color: var(--muted); margin-left: .5rem; white-space: nowrap; }
+.tag { border: 1px solid var(--rule); border-radius: 999px; padding: 0 .45rem; }
+ul.plain { list-style: none; padding: 0; }
+ul.plain li { padding: .28rem 0; border-bottom: 1px solid var(--rule); font-size: .93rem; }
+ul.bullets { padding-left: 1.1rem; }
+ul.bullets li { margin: .4rem 0; }
+time { color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; }
+blockquote { margin: 1.5rem 0; padding: .1rem 0 .1rem 1.1rem; border-left: 3px solid var(--accent); color: var(--muted); font-style: italic; }
+footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .82rem; }
+@media (max-width: 34rem) { header { padding-top: 2.5rem; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Don Johnson <span class="handle">@copyleftdev</span></h1>
+    <p class="lede">Systems-level software engineer building security tooling, developer infrastructure, and AI-native systems.</p>
+    <p class="lede"><strong>Not the actor.</strong> Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.</p>
+    <ul class="meta">
+      <li>Oahu, Hawaii, United States</li>
+      <li>On GitHub since 2008</li>
+      <li>79 original public repositories</li>
+      <li>231 followers</li>
+      <li><a href="mailto:don@codetestcode.io">don@codetestcode.io</a></li>
+    </ul>
+  </header>
+
+  <h2>What I work on</h2>
+  <ul class="bullets">
+      <li>Security research — network beacon detection, distributed scanners, web fuzzers, OSINT frameworks, supply-chain forensics</li>
+      <li>Developer tooling — self-hosted tunnel servers, webhook inspectors, deterministic crawlers, CI/CD automation</li>
+      <li>AI infrastructure — Model Context Protocol servers, multi-agent coordination protocols, DSLs for composable AI systems</li>
+      <li>Systems programming — Rust-first, with production work in Zig, Go, Python, TypeScript, and Nim</li>
+      <li>Verification — contract-first design, property-based testing, mutation testing to zero survivors, deterministic replay</li>
+  </ul>
+  <blockquote>If it can&#x27;t be deployed with scp and run without a runtime, it&#x27;s probably too complicated.</blockquote>
+
+  <h2>Public work</h2>
+  <p class="blurb">Generated from the GitHub API on every run, so this list cannot outlive the repositories it describes. Forks are excluded. Machine-readable: <a href="https://copyleftdev.github.io/repos.json">repos.json</a>, <a href="https://copyleftdev.github.io/llms.txt">llms.txt</a>.</p>
+  <section id="security">
+    <h3>Security &amp; detection <span class="count">19</span></h3>
+    <p class="blurb">Beacon detection, anomaly detection, scanners, fuzzers, supply-chain and network forensics.</p>
+    <ul class="repos">
+      <li>
+        <a href="https://github.com/copyleftdev/anomalyx"><code>anomalyx</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 2</span>
+        <p>Contract-first anomaly detection across ~30 formats — logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/palimpsest"><code>palimpsest</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 2</span>
+        <p>Deterministic crawl kernel in Rust — same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/skbx"><code>skbx</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 2</span>
+        <p>Agent-first Linux packet-path tracing with Rust/eBPF: bounded evidence, deterministic replay, and packet routes with receipts.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a>
+        <span class="lang">Python</span><span class="stars" title="stars">★ 1</span>
+        <p>Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/floq"><code>floq</code></a>
+        <span class="lang">Zig</span><span class="stars" title="stars">★ 1</span>
+        <p>Detect C2 beacons in network traffic using Floquet spectral analysis from quantum chaos theory. Fast, 274KB Zig binary. Reads pcap, live capture, or OpenTelemetry JSONL.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/long-shadow"><code>long-shadow</code></a>
+        <span class="lang">Python</span><span class="stars" title="stars">★ 1</span>
+        <p>Operation Long Shadow · Forensic investigation of a four-cluster GitHub repo-laundering operation that buries fabricated commits in 2037 to bubble laundered repos to the top of every AI-built-code search.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/mini-shai-hulud-dragnet"><code>mini-shai-hulud-dragnet</code></a>
+        <span class="lang">Shell</span><span class="stars" title="stars">★ 1</span>
+        <p>Forensic dataset + live dashboard for the 2026-04-29 &#x27;A Mini Shai-Hulud has Appeared&#x27; npm supply-chain worm by TeamPCP. 1,117 dropbox repos, 22 compromised accounts, 47 IOCs across 14 kinds. Trojaned: @cap-js, mbt, @bitwarden/cli. C2 attribution to AS209101 IP Vendetta Inc. JSONL data · kinetic dashboard · CC-BY-4.0.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/bruno"><code>bruno</code></a>
+        <span class="lang">Rust</span>
+        <p>Zero-trust proxy network — nodes prove hardware identity via TPM 2.0 remote attestation before receiving ephemeral mTLS certificates. Written in Rust.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/claude-rust-todo-tutorial"><code>claude-rust-todo-tutorial</code></a>
+        <span class="lang">Shell</span>
+        <p>Production-grade Claude Code artifacts (hooks, agents, commands, gates, sweeps, drifts) wrapped around an axum + sqlx + sqlite todo API. Tutorial.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/darkstar"><code>darkstar</code></a>
+        <span class="lang">Zig</span>
+        <p>Backend-less internet health and flux monitoring tool (Zig)</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a>
+        <span class="lang">Rust</span>
+        <p>Open threat-intelligence and IP-reputation ETL for phishing and abuse screening, with BGP and Arrow/Parquet releases</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/kilocheck"><code>kilocheck</code></a>
+        <span class="lang">Rust</span>
+        <p>Local-first deterministic IP intelligence CLI with auditable evidence and policy-grade JSON</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/leet-touch"><code>leet-touch</code></a>
+        <span class="lang">Python</span>
+        <p>Touch every layer of Git and GitHub—from first commit to platform engineering.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/seuil-rs"><code>seuil-rs</code></a>
+        <span class="lang">Rust</span>
+        <p>A complete, safe JSONata implementation in Rust — JSON query, transform, and expression evaluation</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/solve-score"><code>solve-score</code></a>
+        <span class="lang">Rust</span>
+        <p>Independent Rust implementation of SOLVE v0.5, Irregular&#x27;s rubric for scoring vulnerability-discovery and exploit-development difficulty. Reproduces all 16 published DownUnderCTF calibration assessments.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/squib"><code>squib</code></a>
+        <span class="lang">Rust</span>
+        <p>Trust-scheduling execution fabric: run untrusted workloads in tiered disposable sandboxes (Firecracker microVM / gVisor / Xen) and emit host-sourced, tamper-evident evidence.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/totp-rfc"><code>totp-rfc</code></a>
+        <span class="lang">Rust</span>
+        <p>Security-hardened, allocation-free no_std HOTP/TOTP for Rust with strict RFC 4226/6238 behavior and constant-time verification.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/vulngraph-cli"><code>vulngraph-cli</code></a>
+        <span class="lang">Rust</span>
+        <p>Focused, offline-first vulnerability intelligence CLI — CVE &amp; package-version checks with typed evidence, from verified data releases</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a>
+        <span class="lang">Rust</span>
+        <p>Deterministic data pipeline for VulnGraph — ingests 11 vulnerability sources, publishes reproducible checksummed graph releases</p>
+      </li>
+    </ul>
+  </section>
+  <section id="devtools">
+    <h3>Developer tools <span class="count">23</span></h3>
+    <p class="blurb">Single-binary utilities for the parts of the workflow that usually need a service.</p>
+    <ul class="repos">
+      <li>
+        <a href="https://github.com/copyleftdev/tailx"><code>tailx</code></a>
+        <span class="lang">Zig</span><span class="stars" title="stars">★ 3</span>
+        <p>Live system cognition engine. Reimagines tail from &quot;show me lines&quot; to &quot;what&#x27;s happening, what matters, and why?&quot; Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/cora"><code>cora</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>Multi-pattern fixed-string matcher. Aho-Corasick + SIMD on mmap&#x27;d files. NDJSON output for AI agents and pipelines.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/cosaci"><code>cosaci</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>Distributed attested CI mesh — property-tested at every layer</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/dev-portal-correctly"><code>dev-portal-correctly</code></a>
+        <span class="lang">JavaScript</span><span class="stars" title="stars">★ 1</span>
+        <p>Specification-first developer portal: modular OpenAPI 3.1 + AsyncAPI 3.1 sharing one domain model, an enforced error registry, and CI that can actually fail.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/vajra"><code>vajra</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>Break noise. Preserve truth. A deterministic semantic reduction engine for structured data — JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/art-of-context-and-intent"><code>art-of-context-and-intent</code></a>
+        <span class="lang">HTML</span>
+        <p>Why prompts are just the surface. Depth comes from the system you build. — Don Johnson</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/cistron"><code>cistron</code></a>
+        <span class="lang">Rust</span>
+        <p>A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/coelacanth"><code>coelacanth</code></a>
+        <span class="lang">Zig</span>
+        <p>AI-first Unix primitives, clean-room reimplemented in Zig under one self-describing, machine-checkable contract</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/entropyx"><code>entropyx</code></a>
+        <span class="lang">Rust</span>
+        <p>A forensic instrument for codebases. A quantifiable way to tell the truth.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/entropyx-survey"><code>entropyx-survey</code></a>
+        <span class="lang">Rust</span>
+        <p>A cartographic browser survey for entropyx: streaming scans over SSE, a printable plain-language brief, and the scoring kernel in WebAssembly.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/gemma-4-challenge"><code>gemma-4-challenge</code></a>
+        <span class="lang">Python</span>
+        <p>Care Compass: Gemma 4 healthcare navigation demo with Aion signed-policy decision evidence</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/hook-bin"><code>hook-bin</code></a>
+        <span class="lang">Rust</span>
+        <p>Single-binary webhook inbox — capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a>
+        <span class="lang">JavaScript</span>
+        <p>super top secret</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/linux-archaeology-lab"><code>linux-archaeology-lab</code></a>
+        <span class="lang">Shell</span>
+        <p>Hands-on exercises for forgotten Linux pipe &amp; stream commands — sample data, real exercises, Claude Code skill included.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/oxide-ci"><code>oxide-ci</code></a>
+        <span class="lang">Rust</span>
+        <p>A modern, extensible, high-performance CI/CD engine written in Rust.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/pi-mini-rack"><code>pi-mini-rack</code></a>
+        
+        <p>Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/tlatools-rs"><code>tlatools-rs</code></a>
+        <span class="lang">Rust</span>
+        <p>Ask a TLA+ specification about a state, and get an answer. A parser and evaluator for TLA+ in Rust — not a model checker.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/tokentip-go"><code>tokentip-go</code></a>
+        <span class="lang">Go</span>
+        <p>Official Go SDK for the TokenTip API — tips that buy AI inference credit. Zero dependencies, stdlib only.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/tokentip-js"><code>tokentip-js</code></a>
+        <span class="lang">TypeScript</span>
+        <p>Official TypeScript SDK for the TokenTip API — tips that buy AI inference credit. Zero runtime deps.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/tokentip-python"><code>tokentip-python</code></a>
+        <span class="lang">Python</span>
+        <p>Official Python SDK for the TokenTip API — tips that buy AI inference credit. Sync + async, typed.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/vervet"><code>vervet</code></a>
+        <span class="lang">Rust</span>
+        <p>AI-native adversary-emulation &amp; breach-and-attack-simulation (BAS) instrument in Rust — atomic MITRE ATT&amp;CK techniques an LLM can orchestrate, behind Ed25519-signed authorization scopes, emitting typed tamper-evident evidence.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/whatthediff"><code>whatthediff</code></a>
+        <span class="lang">Zig</span>
+        <p>What actually matters across N files: consensus, drift, outliers and variant families — for configs, JSON, YAML, XML, PDF, even executables (SSDeep-class fuzzy analysis). Deterministic, evidence-backed, zero-dependency Zig.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/zgrok"><code>zgrok</code></a>
+        <span class="lang">Rust</span>
+        <p>Self-hosted ngrok alternative in Rust. Development in progress - check out the issues for detailed specs.</p>
+      </li>
+    </ul>
+  </section>
+  <section id="ai">
+    <h3>AI &amp; agent infrastructure <span class="count">16</span></h3>
+    <p class="blurb">Protocols, servers, and exact instruments for multi-agent systems — built so an agent gets facts instead of guesses.</p>
+    <ul class="repos">
+      <li>
+        <a href="https://github.com/copyleftdev/agent-calc"><code>agent-calc</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/kahea"><code>kahea</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/murmur"><code>murmur</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>Voice typing that never leaves your machine. Local NVIDIA Parakeet transcription, Rust + iced, for Linux.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/rational"><code>rational</code></a>
+        <span class="lang">Python</span><span class="stars" title="stars">★ 1</span>
+        <p>AI cost, with the vibes removed. Exact-rational models + a live calculator for the 8 LLM inference-cost decisions every agent builder faces — model choice, routing, self-host, the reasoning-token tax, cascades, caching, and the O(K²) agent loop. Every number reproducible.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/runs-on-compute"><code>runs-on-compute</code></a>
+        <span class="lang">Python</span><span class="stars" title="stars">★ 1</span>
+        <p>A curated, living directory of open-source AI tools that run on inference — and how to fund the people who build them. Published by TokenTip.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/smesh-rust"><code>smesh-rust</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/symgliph"><code>symgliph</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/allman"><code>allman</code></a>
+        <span class="lang">Rust</span>
+        <p>High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/cowiki-rs"><code>cowiki-rs</code></a>
+        <span class="lang">Rust</span>
+        <p>Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/kitboga"><code>kitboga</code></a>
+        <span class="lang">HTML</span>
+        <p>Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/nasa-power-of-ten-skill"><code>nasa-power-of-ten-skill</code></a>
+        <span class="lang">Python</span>
+        <p>Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/nim-toon"><code>nim-toon</code></a>
+        <span class="lang">Nim</span>
+        <p>Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/sk1llz"><code>sk1llz</code></a>
+        <span class="lang">Python</span>
+        <p>The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/stretch"><code>stretch</code></a>
+        <span class="lang">Rust</span>
+        <p>MCP control plane kernel — routes intents through policy, federates upstream MCP servers, and reasons with Claude Opus 4.7. Named after IBM Project Stretch (IBM 7030, 1961).</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/taxis-bench"><code>taxis-bench</code></a>
+        <span class="lang">TypeScript</span>
+        <p>An adversarial certification environment for agentic RPA: does the agent respect its authorization envelope and commit exactly once under ambiguity? Scores conduct, not just correctness.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/zemacs"><code>zemacs</code></a>
+        <span class="lang">Zig</span>
+        <p>The Agentic MCP Server for Emacs. Multi-agent orchestration and autonomous coding tools in Zig.</p>
+      </li>
+    </ul>
+  </section>
+  <section id="systems">
+    <h3>Systems &amp; protocol <span class="count">17</span></h3>
+    <p class="blurb">Protocol implementations, runtimes, and load-bearing primitives.</p>
+    <ul class="repos">
+      <li>
+        <a href="https://github.com/copyleftdev/micro-containers"><code>micro-containers</code></a>
+        <span class="lang">Go</span><span class="stars" title="stars">★ 6</span>
+        <p>One Go HTTP server. Five isolation runtimes. gVisor, Kata, Firecracker, and WASM benchmarked.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/emv-3ds"><code>emv-3ds</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 3</span>
+        <p>EMV 3-D Secure 2.x (3DS2) protocol — AReq/ARes/CReq/CRes messages, transaction state machine, ECI/CAVV helpers, and full EMVCo spec serialization for payment authentication (SCA/PSD2)</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/tak-rs"><code>tak-rs</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 3</span>
+        <p>High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem — drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/circuitbreaker-rs"><code>circuitbreaker-rs</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p></p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/poise-rs"><code>poise-rs</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>Composable, rigorously verified load-balancing primitives for Rust</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/akamaiforms-site"><code>akamaiforms-site</code></a>
+        <span class="lang">HTML</span>
+        <p></p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/asm_ftw"><code>asm_ftw</code></a>
+        <span class="lang">Assembly</span>
+        <p></p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/claimzen-site"><code>claimzen-site</code></a>
+        <span class="lang">HTML</span>
+        <p>ClaimZen — evidence-backed denial recovery. Marketing site.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/humanitas"><code>humanitas</code></a>
+        <span class="lang">TypeScript</span>
+        <p>Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/invariantd-site"><code>invariantd-site</code></a>
+        <span class="lang">HTML</span>
+        <p>Marketing site for invariantd.com — video-first landing</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/pipeflow"><code>pipeflow</code></a>
+        <span class="lang">Python</span>
+        <p></p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/rime"><code>rime</code></a>
+        <span class="lang">Rust</span>
+        <p>Lock-free delta-xDS control plane for Envoy. Incremental updates, zero-copy fan-out, content-addressed versioning — the performant Rust alternative to go-control-plane.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/seuil-bench"><code>seuil-bench</code></a>
+        <span class="lang">HTML</span>
+        <p>Seuil Proof of Rigor — WASM benchmark visualization</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/Space-Shooter-Pro"><code>Space-Shooter-Pro</code></a>
+        
+        <p>Unity Simple 3D Shooter</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/the-last-honest-abstraction"><code>the-last-honest-abstraction</code></a>
+        
+        <p>An essay about abstraction, engineering judgment, and why AI changes the burden of proof—not the need for engineering.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/the-shape-of-failure"><code>the-shape-of-failure</code></a>
+        <span class="lang">Python</span>
+        <p>Executable essay on AI system boundaries, property-based testing, and mutation testing</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/viable-hospital"><code>viable-hospital</code></a>
+        <span class="lang">HTML</span>
+        <p></p>
+      </li>
+    </ul>
+  </section>
+  <section id="absurd">
+    <h3>Education &amp; the absurd <span class="count">4</span></h3>
+    <p class="blurb">Teaching material, and things built entirely too seriously on purpose.</p>
+    <ul class="repos">
+      <li>
+        <a href="https://github.com/copyleftdev/git-archaeology-lab"><code>git-archaeology-lab</code></a>
+        <span class="lang">Shell</span><span class="stars" title="stars">★ 1</span>
+        <p>Hands-on exercises for forgotten git commands — crafted history, real bugs, real bisect targets.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/OverHelloWorld"><code>OverHelloWorld</code></a>
+        <span class="lang">Go</span><span class="stars" title="stars">★ 1</span>
+        <p>A robust, over-engineered &quot;Hello World&quot; Go application demonstrating:  DDD, CQRS, and event sourcing Redis and file-backed event bus Plugin system (ASCII, TTS, LED, etc) Prometheus &amp; OpenTelemetry observability Property-based and integration tests Automated test reporting and coverage</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/tip-to-tip-efficiency"><code>tip-to-tip-efficiency</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
+        <p>Mathematically serious Rust crate for a deeply unserious Silicon Valley tip-to-tip efficiency empire.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/fafoaas"><code>fafoaas</code></a>
+        <span class="lang">TypeScript</span>
+        <p>FAFO as a Service — an event-driven homage to FOAAS and a working masterclass in spec-first engineering: AsyncAPI 3 + MCP, polyglot codegen, derived contract tests, a generated conformant server, 98/98 mutation score. Consequences: eventual.</p>
+      </li>
+    </ul>
+  </section>
+
+  <h2>Recently pushed</h2>
+  <ul class="plain">
+      <li><a href="https://github.com/copyleftdev/skbx"><code>skbx</code></a> <time datetime="2026-08-18T20:21:34Z">2026-08-18</time></li>
+      <li><a href="https://github.com/copyleftdev/poise-rs"><code>poise-rs</code></a> <time datetime="2026-08-18T20:21:32Z">2026-08-18</time></li>
+      <li><a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a> <time datetime="2026-08-18T20:07:50Z">2026-08-18</time></li>
+      <li><a href="https://github.com/copyleftdev/kahea"><code>kahea</code></a> <time datetime="2026-08-18T20:01:30Z">2026-08-18</time></li>
+      <li><a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a> <time datetime="2026-08-18T12:05:39Z">2026-08-18</time></li>
+      <li><a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a> <time datetime="2026-08-18T05:49:33Z">2026-08-18</time></li>
+      <li><a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a> <time datetime="2026-08-18T05:03:01Z">2026-08-18</time></li>
+      <li><a href="https://github.com/copyleftdev/murmur"><code>murmur</code></a> <time datetime="2026-08-14T05:51:24Z">2026-08-14</time></li>
+  </ul>
+
+  <h2>Elsewhere</h2>
+  <ul class="plain">
+      <li><a href="https://github.com/copyleftdev" rel="me">github.com/copyleftdev</a></li>
+      <li><a href="https://dev.to/copyleftdev" rel="me">dev.to/copyleftdev</a></li>
+      <li><a href="https://www.linkedin.com/in/donscv/" rel="me">www.linkedin.com/in/donscv</a></li>
+      <li><a href="https://lib.rs/~copyleftdev" rel="me">lib.rs/~copyleftdev</a></li>
+      <li><a href="https://crates.io/users/copyleftdev" rel="me">crates.io/users/copyleftdev</a></li>
+      <li><a href="https://www.gitmesh.app/" rel="me">www.gitmesh.app</a></li>
+      <li><a href="https://tokentip.to/@copyleftdev" rel="me">tokentip.to/@copyleftdev</a></li>
+  </ul>
+
+  <footer>
+    <p>Last generated 2026-08-18 20:25 UTC. Source: <a href="https://github.com/copyleftdev/copyleftdev.github.io">copyleftdev/copyleftdev.github.io</a>.</p>
+    <p>This page is self-published and describes its author. Every claim about a repository links to that repository; treat the rest as self-description.</p>
+  </footer>
+</main>
+</body>
+</html>

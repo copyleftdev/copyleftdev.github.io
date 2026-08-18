@@ -1,0 +1,135 @@
+# Don Johnson (@copyleftdev)
+
+> Systems-level software engineer building security tooling, developer infrastructure, and AI-native systems.
+
+## Identity
+
+- Name: Don Johnson
+- GitHub handle: copyleftdev (https://github.com/copyleftdev)
+- Location: Oahu, Hawaii, United States
+- Email: don@codetestcode.io
+- Active on GitHub since: 2008-05-28
+- Original public repositories: 79
+- Followers: 231
+
+Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
+
+## Areas of work
+
+- Security research — network beacon detection, distributed scanners, web fuzzers, OSINT frameworks, supply-chain forensics
+- Developer tooling — self-hosted tunnel servers, webhook inspectors, deterministic crawlers, CI/CD automation
+- AI infrastructure — Model Context Protocol servers, multi-agent coordination protocols, DSLs for composable AI systems
+- Systems programming — Rust-first, with production work in Zig, Go, Python, TypeScript, and Nim
+- Verification — contract-first design, property-based testing, mutation testing to zero survivors, deterministic replay
+
+Design principle: If it can't be deployed with scp and run without a runtime, it's probably too complicated.
+
+## Verified profiles
+
+- https://github.com/copyleftdev
+- https://dev.to/copyleftdev
+- https://www.linkedin.com/in/donscv/
+- https://lib.rs/~copyleftdev
+- https://crates.io/users/copyleftdev
+- https://www.gitmesh.app/
+- https://tokentip.to/@copyleftdev
+
+## Repositories
+
+### Security & detection
+
+- [anomalyx](https://github.com/copyleftdev/anomalyx) [Rust]: Contract-first anomaly detection across ~30 formats — logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.
+- [palimpsest](https://github.com/copyleftdev/palimpsest) [Rust]: Deterministic crawl kernel in Rust — same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.
+- [skbx](https://github.com/copyleftdev/skbx) [Rust]: Agent-first Linux packet-path tracing with Rust/eBPF: bounded evidence, deterministic replay, and packet routes with receipts.
+- [copyleftdev](https://github.com/copyleftdev/copyleftdev) [Python]: Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.
+- [floq](https://github.com/copyleftdev/floq) [Zig]: Detect C2 beacons in network traffic using Floquet spectral analysis from quantum chaos theory. Fast, 274KB Zig binary. Reads pcap, live capture, or OpenTelemetry JSONL.
+- [long-shadow](https://github.com/copyleftdev/long-shadow) [Python]: Operation Long Shadow · Forensic investigation of a four-cluster GitHub repo-laundering operation that buries fabricated commits in 2037 to bubble laundered repos to the top of every AI-built-code search.
+- [mini-shai-hulud-dragnet](https://github.com/copyleftdev/mini-shai-hulud-dragnet) [Shell]: Forensic dataset + live dashboard for the 2026-04-29 'A Mini Shai-Hulud has Appeared' npm supply-chain worm by TeamPCP. 1,117 dropbox repos, 22 compromised accounts, 47 IOCs across 14 kinds. Trojaned: @cap-js, mbt, @bitwarden/cli. C2 attribution to AS209101 IP Vendetta Inc. JSONL data · kinetic dashboard · CC-BY-4.0.
+- [bruno](https://github.com/copyleftdev/bruno) [Rust]: Zero-trust proxy network — nodes prove hardware identity via TPM 2.0 remote attestation before receiving ephemeral mTLS certificates. Written in Rust.
+- [claude-rust-todo-tutorial](https://github.com/copyleftdev/claude-rust-todo-tutorial) [Shell]: Production-grade Claude Code artifacts (hooks, agents, commands, gates, sweeps, drifts) wrapped around an axum + sqlx + sqlite todo API. Tutorial.
+- [darkstar](https://github.com/copyleftdev/darkstar) [Zig]: Backend-less internet health and flux monitoring tool (Zig)
+- [kilo-data](https://github.com/copyleftdev/kilo-data) [Rust]: Open threat-intelligence and IP-reputation ETL for phishing and abuse screening, with BGP and Arrow/Parquet releases
+- [kilocheck](https://github.com/copyleftdev/kilocheck) [Rust]: Local-first deterministic IP intelligence CLI with auditable evidence and policy-grade JSON
+- [leet-touch](https://github.com/copyleftdev/leet-touch) [Python]: Touch every layer of Git and GitHub—from first commit to platform engineering.
+- [seuil-rs](https://github.com/copyleftdev/seuil-rs) [Rust]: A complete, safe JSONata implementation in Rust — JSON query, transform, and expression evaluation
+- [solve-score](https://github.com/copyleftdev/solve-score) [Rust]: Independent Rust implementation of SOLVE v0.5, Irregular's rubric for scoring vulnerability-discovery and exploit-development difficulty. Reproduces all 16 published DownUnderCTF calibration assessments.
+- [squib](https://github.com/copyleftdev/squib) [Rust]: Trust-scheduling execution fabric: run untrusted workloads in tiered disposable sandboxes (Firecracker microVM / gVisor / Xen) and emit host-sourced, tamper-evident evidence.
+- [totp-rfc](https://github.com/copyleftdev/totp-rfc) [Rust]: Security-hardened, allocation-free no_std HOTP/TOTP for Rust with strict RFC 4226/6238 behavior and constant-time verification.
+- [vulngraph-cli](https://github.com/copyleftdev/vulngraph-cli) [Rust]: Focused, offline-first vulnerability intelligence CLI — CVE & package-version checks with typed evidence, from verified data releases
+- [vulngraph-data](https://github.com/copyleftdev/vulngraph-data) [Rust]: Deterministic data pipeline for VulnGraph — ingests 11 vulnerability sources, publishes reproducible checksummed graph releases
+
+### Developer tools
+
+- [tailx](https://github.com/copyleftdev/tailx) [Zig]: Live system cognition engine. Reimagines tail from "show me lines" to "what's happening, what matters, and why?" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.
+- [cora](https://github.com/copyleftdev/cora) [Rust]: Multi-pattern fixed-string matcher. Aho-Corasick + SIMD on mmap'd files. NDJSON output for AI agents and pipelines.
+- [cosaci](https://github.com/copyleftdev/cosaci) [Rust]: Distributed attested CI mesh — property-tested at every layer
+- [dev-portal-correctly](https://github.com/copyleftdev/dev-portal-correctly) [JavaScript]: Specification-first developer portal: modular OpenAPI 3.1 + AsyncAPI 3.1 sharing one domain model, an enforced error registry, and CI that can actually fail.
+- [vajra](https://github.com/copyleftdev/vajra) [Rust]: Break noise. Preserve truth. A deterministic semantic reduction engine for structured data — JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.
+- [art-of-context-and-intent](https://github.com/copyleftdev/art-of-context-and-intent) [HTML]: Why prompts are just the surface. Depth comes from the system you build. — Don Johnson
+- [cistron](https://github.com/copyleftdev/cistron) [Rust]: A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.
+- [coelacanth](https://github.com/copyleftdev/coelacanth) [Zig]: AI-first Unix primitives, clean-room reimplemented in Zig under one self-describing, machine-checkable contract
+- [entropyx](https://github.com/copyleftdev/entropyx) [Rust]: A forensic instrument for codebases. A quantifiable way to tell the truth.
+- [entropyx-survey](https://github.com/copyleftdev/entropyx-survey) [Rust]: A cartographic browser survey for entropyx: streaming scans over SSE, a printable plain-language brief, and the scoring kernel in WebAssembly.
+- [gemma-4-challenge](https://github.com/copyleftdev/gemma-4-challenge) [Python]: Care Compass: Gemma 4 healthcare navigation demo with Aion signed-policy decision evidence
+- [hook-bin](https://github.com/copyleftdev/hook-bin) [Rust]: Single-binary webhook inbox — capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.
+- [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: super top secret
+- [linux-archaeology-lab](https://github.com/copyleftdev/linux-archaeology-lab) [Shell]: Hands-on exercises for forgotten Linux pipe & stream commands — sample data, real exercises, Claude Code skill included.
+- [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
+- [pi-mini-rack](https://github.com/copyleftdev/pi-mini-rack): Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.
+- [tlatools-rs](https://github.com/copyleftdev/tlatools-rs) [Rust]: Ask a TLA+ specification about a state, and get an answer. A parser and evaluator for TLA+ in Rust — not a model checker.
+- [tokentip-go](https://github.com/copyleftdev/tokentip-go) [Go]: Official Go SDK for the TokenTip API — tips that buy AI inference credit. Zero dependencies, stdlib only.
+- [tokentip-js](https://github.com/copyleftdev/tokentip-js) [TypeScript]: Official TypeScript SDK for the TokenTip API — tips that buy AI inference credit. Zero runtime deps.
+- [tokentip-python](https://github.com/copyleftdev/tokentip-python) [Python]: Official Python SDK for the TokenTip API — tips that buy AI inference credit. Sync + async, typed.
+- [vervet](https://github.com/copyleftdev/vervet) [Rust]: AI-native adversary-emulation & breach-and-attack-simulation (BAS) instrument in Rust — atomic MITRE ATT&CK techniques an LLM can orchestrate, behind Ed25519-signed authorization scopes, emitting typed tamper-evident evidence.
+- [whatthediff](https://github.com/copyleftdev/whatthediff) [Zig]: What actually matters across N files: consensus, drift, outliers and variant families — for configs, JSON, YAML, XML, PDF, even executables (SSDeep-class fuzzy analysis). Deterministic, evidence-backed, zero-dependency Zig.
+- [zgrok](https://github.com/copyleftdev/zgrok) [Rust]: Self-hosted ngrok alternative in Rust. Development in progress - check out the issues for detailed specs.
+
+### AI & agent infrastructure
+
+- [agent-calc](https://github.com/copyleftdev/agent-calc) [Rust]: AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.
+- [kahea](https://github.com/copyleftdev/kahea) [Rust]: OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.
+- [murmur](https://github.com/copyleftdev/murmur) [Rust]: Voice typing that never leaves your machine. Local NVIDIA Parakeet transcription, Rust + iced, for Linux.
+- [rational](https://github.com/copyleftdev/rational) [Python]: AI cost, with the vibes removed. Exact-rational models + a live calculator for the 8 LLM inference-cost decisions every agent builder faces — model choice, routing, self-host, the reasoning-token tax, cascades, caching, and the O(K²) agent loop. Every number reproducible.
+- [runs-on-compute](https://github.com/copyleftdev/runs-on-compute) [Python]: A curated, living directory of open-source AI tools that run on inference — and how to fund the people who build them. Published by TokenTip.
+- [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
+- [symgliph](https://github.com/copyleftdev/symgliph) [Rust]: SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.
+- [allman](https://github.com/copyleftdev/allman) [Rust]: High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.
+- [cowiki-rs](https://github.com/copyleftdev/cowiki-rs) [Rust]: Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.
+- [kitboga](https://github.com/copyleftdev/kitboga) [HTML]: Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.
+- [nasa-power-of-ten-skill](https://github.com/copyleftdev/nasa-power-of-ten-skill) [Python]: Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.
+- [nim-toon](https://github.com/copyleftdev/nim-toon) [Nim]: Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.
+- [sk1llz](https://github.com/copyleftdev/sk1llz) [Python]: The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.
+- [stretch](https://github.com/copyleftdev/stretch) [Rust]: MCP control plane kernel — routes intents through policy, federates upstream MCP servers, and reasons with Claude Opus 4.7. Named after IBM Project Stretch (IBM 7030, 1961).
+- [taxis-bench](https://github.com/copyleftdev/taxis-bench) [TypeScript]: An adversarial certification environment for agentic RPA: does the agent respect its authorization envelope and commit exactly once under ambiguity? Scores conduct, not just correctness.
+- [zemacs](https://github.com/copyleftdev/zemacs) [Zig]: The Agentic MCP Server for Emacs. Multi-agent orchestration and autonomous coding tools in Zig.
+
+### Systems & protocol
+
+- [micro-containers](https://github.com/copyleftdev/micro-containers) [Go]: One Go HTTP server. Five isolation runtimes. gVisor, Kata, Firecracker, and WASM benchmarked.
+- [emv-3ds](https://github.com/copyleftdev/emv-3ds) [Rust]: EMV 3-D Secure 2.x (3DS2) protocol — AReq/ARes/CReq/CRes messages, transaction state machine, ECI/CAVV helpers, and full EMVCo spec serialization for payment authentication (SCA/PSD2)
+- [tak-rs](https://github.com/copyleftdev/tak-rs) [Rust]: High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem — drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.
+- [circuitbreaker-rs](https://github.com/copyleftdev/circuitbreaker-rs) [Rust]: 
+- [poise-rs](https://github.com/copyleftdev/poise-rs) [Rust]: Composable, rigorously verified load-balancing primitives for Rust
+- [akamaiforms-site](https://github.com/copyleftdev/akamaiforms-site) [HTML]: 
+- [asm_ftw](https://github.com/copyleftdev/asm_ftw) [Assembly]: 
+- [claimzen-site](https://github.com/copyleftdev/claimzen-site) [HTML]: ClaimZen — evidence-backed denial recovery. Marketing site.
+- [humanitas](https://github.com/copyleftdev/humanitas) [TypeScript]: Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).
+- [invariantd-site](https://github.com/copyleftdev/invariantd-site) [HTML]: Marketing site for invariantd.com — video-first landing
+- [pipeflow](https://github.com/copyleftdev/pipeflow) [Python]: 
+- [rime](https://github.com/copyleftdev/rime) [Rust]: Lock-free delta-xDS control plane for Envoy. Incremental updates, zero-copy fan-out, content-addressed versioning — the performant Rust alternative to go-control-plane.
+- [seuil-bench](https://github.com/copyleftdev/seuil-bench) [HTML]: Seuil Proof of Rigor — WASM benchmark visualization
+- [Space-Shooter-Pro](https://github.com/copyleftdev/Space-Shooter-Pro): Unity Simple 3D Shooter
+- [the-last-honest-abstraction](https://github.com/copyleftdev/the-last-honest-abstraction): An essay about abstraction, engineering judgment, and why AI changes the burden of proof—not the need for engineering.
+- [the-shape-of-failure](https://github.com/copyleftdev/the-shape-of-failure) [Python]: Executable essay on AI system boundaries, property-based testing, and mutation testing
+- [viable-hospital](https://github.com/copyleftdev/viable-hospital) [HTML]: 
+
+### Education & the absurd
+
+- [git-archaeology-lab](https://github.com/copyleftdev/git-archaeology-lab) [Shell]: Hands-on exercises for forgotten git commands — crafted history, real bugs, real bisect targets.
+- [OverHelloWorld](https://github.com/copyleftdev/OverHelloWorld) [Go]: A robust, over-engineered "Hello World" Go application demonstrating:  DDD, CQRS, and event sourcing Redis and file-backed event bus Plugin system (ASCII, TTS, LED, etc) Prometheus & OpenTelemetry observability Property-based and integration tests Automated test reporting and coverage
+- [tip-to-tip-efficiency](https://github.com/copyleftdev/tip-to-tip-efficiency) [Rust]: Mathematically serious Rust crate for a deeply unserious Silicon Valley tip-to-tip efficiency empire.
+- [fafoaas](https://github.com/copyleftdev/fafoaas) [TypeScript]: FAFO as a Service — an event-driven homage to FOAAS and a working masterclass in spec-first engineering: AsyncAPI 3 + MCP, polyglot codegen, derived contract tests, a generated conformant server, 98/98 mutation score. Consequences: eventual.
+
+## Provenance
+
+Generated 2026-08-18 20:25 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

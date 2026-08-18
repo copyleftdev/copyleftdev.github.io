@@ -1,0 +1,59 @@
+{
+  "name": "Don Johnson",
+  "handle": "copyleftdev",
+  "headline": "Systems-level software engineer building security tooling, developer infrastructure, and AI-native systems.",
+  "disambiguation": "Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.",
+  "location": "Oahu, Hawaii, United States",
+  "email": "don@codetestcode.io",
+  "since": "2008-05-28",
+  "languages": ["Rust", "Zig", "Go", "Python", "TypeScript", "Nim", "Shell"],
+  "principle": "If it can't be deployed with scp and run without a runtime, it's probably too complicated.",
+  "expertise": [
+    "Security research — network beacon detection, distributed scanners, web fuzzers, OSINT frameworks, supply-chain forensics",
+    "Developer tooling — self-hosted tunnel servers, webhook inspectors, deterministic crawlers, CI/CD automation",
+    "AI infrastructure — Model Context Protocol servers, multi-agent coordination protocols, DSLs for composable AI systems",
+    "Systems programming — Rust-first, with production work in Zig, Go, Python, TypeScript, and Nim",
+    "Verification — contract-first design, property-based testing, mutation testing to zero survivors, deterministic replay"
+  ],
+  "sameAs": [
+    "https://github.com/copyleftdev",
+    "https://dev.to/copyleftdev",
+    "https://www.linkedin.com/in/donscv/",
+    "https://lib.rs/~copyleftdev",
+    "https://crates.io/users/copyleftdev",
+    "https://www.gitmesh.app/",
+    "https://tokentip.to/@copyleftdev"
+  ],
+  "categories": {
+    "security": {
+      "label": "Security & detection",
+      "blurb": "Beacon detection, anomaly detection, scanners, fuzzers, supply-chain and network forensics.",
+      "keywords": ["security", "beacon", "c2", "anomaly", "forensic", "osint", "scanner", "fuzz", "vulnerab", "threat", "exploit", "malicious", "packet", "ebpf", "pcap", "phish", "intrusion", "cve", "dragnet", "recon", "tor", "darknet"],
+      "repos": ["floq", "anomalyx", "skbx", "mini-shai-hulud-dragnet", "long-shadow", "kilo-data", "vulngraph-data", "palimpsest"]
+    },
+    "devtools": {
+      "label": "Developer tools",
+      "blurb": "Single-binary utilities for the parts of the workflow that usually need a service.",
+      "keywords": ["cli", "tool", "diff", "tunnel", "webhook", "crawl", "log", "tail", "git", "terminal", "shell", "editor", "build", "ci"],
+      "repos": ["whatthediff", "tailx", "zgrok", "hook-bin", "coelacanth", "entropyx", "entropyx-survey", "vajra", "leet-index"]
+    },
+    "ai": {
+      "label": "AI & agent infrastructure",
+      "blurb": "Protocols, servers, and exact instruments for multi-agent systems — built so an agent gets facts instead of guesses.",
+      "keywords": ["mcp", "agent", "llm", "ai-", "-ai", "prompt", "model context", "swarm", "smesh", "token"],
+      "repos": ["allman", "smesh-rust", "agent-calc", "kahea", "symgliph", "cowiki-rs", "murmur", "kitboga"]
+    },
+    "systems": {
+      "label": "Systems & protocol",
+      "blurb": "Protocol implementations, runtimes, and load-bearing primitives.",
+      "keywords": ["protocol", "kernel", "runtime", "container", "emv", "tak", "balanc", "circuit", "async", "concurren", "rust", "zig"],
+      "repos": ["emv-3ds", "tak-rs", "micro-containers", "poise-rs", "circuitbreaker-rs", "humanitas"]
+    },
+    "absurd": {
+      "label": "Education & the absurd",
+      "blurb": "Teaching material, and things built entirely too seriously on purpose.",
+      "keywords": ["awesome", "learn", "tutorial", "lab", "masterclass", "hello", "absurd", "episode", "kata", "exercise"],
+      "repos": ["OverHelloWorld", "fafoaas", "tip-to-tip-efficiency", "git-archaeology-lab", "Zig"]
+    }
+  }
+}
