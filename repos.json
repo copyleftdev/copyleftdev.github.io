@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 22:07 UTC",
+  "generated": "2026-08-18 22:09 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 80,
+  "count": 79,
   "repositories": [
     {
       "name": "micro-containers",
@@ -882,18 +882,6 @@
       "category": "devtools"
     },
     {
-      "name": "copyleftdev.github.io",
-      "url": "https://github.com/copyleftdev/copyleftdev.github.io",
-      "description": "Canonical, self-regenerating identity page for copyleftdev \u2014 schema.org Person, llms.txt, and a machine-readable index of every original public repo.",
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "archived": false,
-      "created": "2026-08-18T22:01:59Z",
-      "pushed": "2026-08-18T22:05:43Z",
-      "category": "devtools"
-    },
-    {
       "name": "cowiki-rs",
       "url": "https://github.com/copyleftdev/cowiki-rs",
       "description": "Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.",
@@ -1162,7 +1150,7 @@
       "stars": 0,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-18T21:09:30Z",
+      "pushed": "2026-08-18T22:08:04Z",
       "category": "devtools"
     },
     {

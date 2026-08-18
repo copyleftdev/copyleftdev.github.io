@@ -60,7 +60,10 @@ def fetch_repos():
         out += batch
         if len(batch) < 100:
             break
-    return [r for r in out if not r["fork"]]
+    # The site repo is excluded deliberately: it would list itself, and every
+    # commit this build makes would move its own pushed_at, changing the page
+    # and triggering the next commit forever.
+    return [r for r in out if not r["fork"] and r["name"] != f"{USER}.github.io"]
 
 
 def categorize(repo):
