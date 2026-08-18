@@ -7,6 +7,7 @@ is renamed, archived, or deleted stops being advertised on the next run.
 import html
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -18,6 +19,23 @@ IDENTITY = json.loads((ROOT / "scripts" / "identity.json").read_text())
 USER = IDENTITY["handle"]
 SITE = f"https://{USER}.github.io"
 API = "https://api.github.com"
+
+
+TS_SENTINEL = "@@GENERATED@@"
+TS_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC")
+
+
+def write_if_changed(path, rendered, generated):
+    """Write only on a real content change.
+
+    Everything is rendered with a placeholder where the build time goes, so a
+    run that finds nothing new leaves the file untouched instead of producing a
+    commit whose only diff is its own timestamp.
+    """
+    if path.exists() and TS_PATTERN.sub(TS_SENTINEL, path.read_text()) == rendered:
+        return False
+    path.write_text(rendered.replace(TS_SENTINEL, generated))
+    return True
 
 
 def api(path):
@@ -321,12 +339,15 @@ def main():
         return 1
 
     repos.sort(key=lambda r: (-r["stargazers_count"], r["name"].lower()))
-    (ROOT / "index.html").write_text(render_html(profile, repos, generated))
-    (ROOT / "llms.txt").write_text(render_llms(profile, repos, generated))
-    (ROOT / "repos.json").write_text(
+    written = []
+    if write_if_changed(ROOT / "index.html", render_html(profile, repos, TS_SENTINEL), generated):
+        written.append("index.html")
+    if write_if_changed(ROOT / "llms.txt", render_llms(profile, repos, TS_SENTINEL), generated):
+        written.append("llms.txt")
+    repos_json = (
         json.dumps(
             {
-                "generated": generated,
+                "generated": TS_SENTINEL,
                 "person": {
                     "name": IDENTITY["name"],
                     "handle": USER,
@@ -354,7 +375,13 @@ def main():
         )
         + "\n"
     )
-    print(f"generated index.html, llms.txt, repos.json — {len(repos)} repos, {generated}")
+    if write_if_changed(ROOT / "repos.json", repos_json, generated):
+        written.append("repos.json")
+
+    if written:
+        print(f"updated {', '.join(written)} — {len(repos)} repos, {generated}")
+    else:
+        print(f"no change — {len(repos)} repos still current")
     return 0
 
 
