@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 22:02 UTC",
+  "generated": "2026-08-18 22:03 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -885,12 +885,12 @@
       "name": "copyleftdev.github.io",
       "url": "https://github.com/copyleftdev/copyleftdev.github.io",
       "description": "Canonical, self-regenerating identity page for copyleftdev \u2014 schema.org Person, llms.txt, and a machine-readable index of every original public repo.",
-      "language": null,
+      "language": "HTML",
       "topics": [],
       "stars": 0,
       "archived": false,
       "created": "2026-08-18T22:01:59Z",
-      "pushed": "2026-08-18T22:02:02Z",
+      "pushed": "2026-08-18T22:02:14Z",
       "category": "devtools"
     },
     {
