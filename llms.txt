@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 79
+- Original public repositories: 80
 - Followers: 231
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -68,6 +68,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [art-of-context-and-intent](https://github.com/copyleftdev/art-of-context-and-intent) [HTML]: Why prompts are just the surface. Depth comes from the system you build. — Don Johnson
 - [cistron](https://github.com/copyleftdev/cistron) [Rust]: A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.
 - [coelacanth](https://github.com/copyleftdev/coelacanth) [Zig]: AI-first Unix primitives, clean-room reimplemented in Zig under one self-describing, machine-checkable contract
+- [copyleftdev.github.io](https://github.com/copyleftdev/copyleftdev.github.io): Canonical, self-regenerating identity page for copyleftdev — schema.org Person, llms.txt, and a machine-readable index of every original public repo.
 - [entropyx](https://github.com/copyleftdev/entropyx) [Rust]: A forensic instrument for codebases. A quantifiable way to tell the truth.
 - [entropyx-survey](https://github.com/copyleftdev/entropyx-survey) [Rust]: A cartographic browser survey for entropyx: streaming scans over SSE, a printable plain-language brief, and the scoring kernel in WebAssembly.
 - [gemma-4-challenge](https://github.com/copyleftdev/gemma-4-challenge) [Python]: Care Compass: Gemma 4 healthcare navigation demo with Aion signed-policy decision evidence
@@ -132,4 +133,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-08-18 20:25 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-08-18 22:02 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
