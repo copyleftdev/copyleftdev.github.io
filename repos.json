@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 22:09 UTC",
+  "generated": "2026-08-19 06:27 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -27,6 +27,39 @@
       "created": "2026-05-26T19:56:19Z",
       "pushed": "2026-07-19T23:39:46Z",
       "category": "systems"
+    },
+    {
+      "name": "anomalyx",
+      "url": "https://github.com/copyleftdev/anomalyx",
+      "description": "Contract-first anomaly detection across ~30 formats \u2014 logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.",
+      "language": "Rust",
+      "topics": [
+        "anomaly-detection",
+        "cli",
+        "data-quality",
+        "deterministic",
+        "dfir",
+        "drift-detection",
+        "llm-tools",
+        "log-analysis",
+        "mutation-testing",
+        "netflow",
+        "observability",
+        "opentelemetry",
+        "outlier-detection",
+        "pcap",
+        "rust",
+        "security",
+        "siem",
+        "syslog",
+        "threat-hunting",
+        "time-series"
+      ],
+      "stars": 3,
+      "archived": false,
+      "created": "2026-05-30T19:22:07Z",
+      "pushed": "2026-07-19T19:11:32Z",
+      "category": "security"
     },
     {
       "name": "emv-3ds",
@@ -114,39 +147,6 @@
       "created": "2026-04-28T05:46:42Z",
       "pushed": "2026-07-19T19:11:47Z",
       "category": "systems"
-    },
-    {
-      "name": "anomalyx",
-      "url": "https://github.com/copyleftdev/anomalyx",
-      "description": "Contract-first anomaly detection across ~30 formats \u2014 logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.",
-      "language": "Rust",
-      "topics": [
-        "anomaly-detection",
-        "cli",
-        "data-quality",
-        "deterministic",
-        "dfir",
-        "drift-detection",
-        "llm-tools",
-        "log-analysis",
-        "mutation-testing",
-        "netflow",
-        "observability",
-        "opentelemetry",
-        "outlier-detection",
-        "pcap",
-        "rust",
-        "security",
-        "siem",
-        "syslog",
-        "threat-hunting",
-        "time-series"
-      ],
-      "stars": 2,
-      "archived": false,
-      "created": "2026-05-30T19:22:07Z",
-      "pushed": "2026-07-19T19:11:32Z",
-      "category": "security"
     },
     {
       "name": "palimpsest",
@@ -279,7 +279,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-18T12:05:39Z",
+      "pushed": "2026-08-19T04:29:33Z",
       "category": "security"
     },
     {
@@ -617,7 +617,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-01-06T04:22:20Z",
-      "pushed": "2026-07-19T19:11:53Z",
+      "pushed": "2026-08-19T06:24:27Z",
       "category": "ai"
     },
     {
@@ -1077,7 +1077,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-08-18T05:49:33Z",
+      "pushed": "2026-08-19T05:50:50Z",
       "category": "security"
     },
     {
@@ -1150,7 +1150,7 @@
       "stars": 0,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-18T22:08:04Z",
+      "pushed": "2026-08-19T06:14:59Z",
       "category": "devtools"
     },
     {
@@ -1664,7 +1664,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-18T05:03:01Z",
+      "pushed": "2026-08-19T05:01:56Z",
       "category": "security"
     },
     {
