@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20 06:27 UTC",
+  "generated": "2026-08-21 06:27 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 79,
+  "count": 80,
   "repositories": [
     {
       "name": "micro-containers",
@@ -26,6 +26,31 @@
       "archived": false,
       "created": "2026-05-26T19:56:19Z",
       "pushed": "2026-07-19T23:39:46Z",
+      "category": "systems"
+    },
+    {
+      "name": "emv-3ds",
+      "url": "https://github.com/copyleftdev/emv-3ds",
+      "description": "EMV 3-D Secure 2.x (3DS2) protocol \u2014 AReq/ARes/CReq/CRes messages, transaction state machine, ECI/CAVV helpers, and full EMVCo spec serialization for payment authentication (SCA/PSD2)",
+      "language": "Rust",
+      "topics": [
+        "3d-secure",
+        "3ds2",
+        "authentication",
+        "emv",
+        "fintech",
+        "mastercard",
+        "payments",
+        "pci-dss",
+        "psd2",
+        "rust",
+        "sca",
+        "visa"
+      ],
+      "stars": 4,
+      "archived": false,
+      "created": "2026-05-26T15:44:16Z",
+      "pushed": "2026-07-19T23:39:28Z",
       "category": "systems"
     },
     {
@@ -60,31 +85,6 @@
       "created": "2026-05-30T19:22:07Z",
       "pushed": "2026-07-19T19:11:32Z",
       "category": "security"
-    },
-    {
-      "name": "emv-3ds",
-      "url": "https://github.com/copyleftdev/emv-3ds",
-      "description": "EMV 3-D Secure 2.x (3DS2) protocol \u2014 AReq/ARes/CReq/CRes messages, transaction state machine, ECI/CAVV helpers, and full EMVCo spec serialization for payment authentication (SCA/PSD2)",
-      "language": "Rust",
-      "topics": [
-        "3d-secure",
-        "3ds2",
-        "authentication",
-        "emv",
-        "fintech",
-        "mastercard",
-        "payments",
-        "pci-dss",
-        "psd2",
-        "rust",
-        "sca",
-        "visa"
-      ],
-      "stars": 3,
-      "archived": false,
-      "created": "2026-05-26T15:44:16Z",
-      "pushed": "2026-07-19T23:39:28Z",
-      "category": "systems"
     },
     {
       "name": "tailx",
@@ -279,7 +279,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-20T04:29:40Z",
+      "pushed": "2026-08-21T04:29:32Z",
       "category": "security"
     },
     {
@@ -1077,7 +1077,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-08-20T05:50:38Z",
+      "pushed": "2026-08-21T05:50:54Z",
       "category": "security"
     },
     {
@@ -1150,7 +1150,7 @@
       "stars": 0,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-20T06:15:33Z",
+      "pushed": "2026-08-21T06:15:26Z",
       "category": "devtools"
     },
     {
@@ -1361,6 +1361,25 @@
       "archived": false,
       "created": "2026-01-24T03:04:28Z",
       "pushed": "2026-07-19T23:39:55Z",
+      "category": "ai"
+    },
+    {
+      "name": "smesh-devteam",
+      "url": "https://github.com/copyleftdev/smesh-devteam",
+      "description": "An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify",
+      "language": "Rust",
+      "topics": [
+        "deterministic-simulation",
+        "formal-methods",
+        "llm-agents",
+        "mutation-testing",
+        "rust",
+        "tla-plus"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-08-21T05:46:46Z",
+      "pushed": "2026-08-21T05:55:03Z",
       "category": "ai"
     },
     {
@@ -1664,7 +1683,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-20T05:02:11Z",
+      "pushed": "2026-08-21T04:57:44Z",
       "category": "security"
     },
     {
