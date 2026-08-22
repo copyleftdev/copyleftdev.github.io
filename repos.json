@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21 06:27 UTC",
+  "generated": "2026-08-22 06:27 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 80,
+  "count": 81,
   "repositories": [
     {
       "name": "micro-containers",
@@ -279,7 +279,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-21T04:29:32Z",
+      "pushed": "2026-08-22T04:28:37Z",
       "category": "security"
     },
     {
@@ -417,7 +417,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-08-06T15:13:42Z",
-      "pushed": "2026-08-18T20:01:30Z",
+      "pushed": "2026-08-21T10:15:32Z",
       "category": "ai"
     },
     {
@@ -593,6 +593,25 @@
       "archived": false,
       "created": "2026-07-21T04:25:18Z",
       "pushed": "2026-07-21T04:26:26Z",
+      "category": "ai"
+    },
+    {
+      "name": "smesh-devteam",
+      "url": "https://github.com/copyleftdev/smesh-devteam",
+      "description": "An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify",
+      "language": "Rust",
+      "topics": [
+        "deterministic-simulation",
+        "formal-methods",
+        "llm-agents",
+        "mutation-testing",
+        "rust",
+        "tla-plus"
+      ],
+      "stars": 1,
+      "archived": false,
+      "created": "2026-08-21T05:46:46Z",
+      "pushed": "2026-08-21T16:49:08Z",
       "category": "ai"
     },
     {
@@ -1077,7 +1096,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-08-21T05:50:54Z",
+      "pushed": "2026-08-22T05:48:45Z",
       "category": "security"
     },
     {
@@ -1150,7 +1169,7 @@
       "stars": 0,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-21T06:15:26Z",
+      "pushed": "2026-08-22T06:12:32Z",
       "category": "devtools"
     },
     {
@@ -1364,22 +1383,32 @@
       "category": "ai"
     },
     {
-      "name": "smesh-devteam",
-      "url": "https://github.com/copyleftdev/smesh-devteam",
-      "description": "An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify",
+      "name": "smesh-crawler",
+      "url": "https://github.com/copyleftdev/smesh-crawler",
+      "description": "Agent-orchestrated web crawler for exact evidence and historical changepoints\u2014with deterministic policy, robots compliance, and local MCP support.",
       "language": "Rust",
       "topics": [
-        "deterministic-simulation",
-        "formal-methods",
-        "llm-agents",
-        "mutation-testing",
+        "agentic-ai",
+        "ai-agents",
+        "claude-desktop",
+        "codex",
+        "crawler",
+        "information-retrieval",
+        "mcp-server",
+        "model-context-protocol",
+        "openrouter",
+        "robots-txt",
         "rust",
-        "tla-plus"
+        "semantic-search",
+        "wayback-machine",
+        "web-crawler",
+        "web-research",
+        "web-scraping"
       ],
       "stars": 0,
       "archived": false,
-      "created": "2026-08-21T05:46:46Z",
-      "pushed": "2026-08-21T05:55:03Z",
+      "created": "2026-08-22T00:46:08Z",
+      "pushed": "2026-08-22T01:50:15Z",
       "category": "ai"
     },
     {
@@ -1683,7 +1712,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-21T04:57:44Z",
+      "pushed": "2026-08-22T04:49:32Z",
       "category": "security"
     },
     {
