@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 81
+- Original public repositories: 82
 - Followers: 231
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -72,6 +72,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [entropyx-survey](https://github.com/copyleftdev/entropyx-survey) [Rust]: A cartographic browser survey for entropyx: streaming scans over SSE, a printable plain-language brief, and the scoring kernel in WebAssembly.
 - [gemma-4-challenge](https://github.com/copyleftdev/gemma-4-challenge) [Python]: Care Compass: Gemma 4 healthcare navigation demo with Aion signed-policy decision evidence
 - [hook-bin](https://github.com/copyleftdev/hook-bin) [Rust]: Single-binary webhook inbox — capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.
+- [kalshi-kernel](https://github.com/copyleftdev/kalshi-kernel) [Go]: Unofficial safety-focused MCP kernel for Kalshi market workflows
 - [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: super top secret
 - [linux-archaeology-lab](https://github.com/copyleftdev/linux-archaeology-lab) [Shell]: Hands-on exercises for forgotten Linux pipe & stream commands — sample data, real exercises, Claude Code skill included.
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
@@ -134,4 +135,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-08-22 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-08-23 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

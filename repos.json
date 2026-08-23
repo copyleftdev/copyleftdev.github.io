@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22 06:27 UTC",
+  "generated": "2026-08-23 06:27 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 81,
+  "count": 82,
   "repositories": [
     {
       "name": "micro-containers",
@@ -279,7 +279,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-22T04:28:37Z",
+      "pushed": "2026-08-23T04:29:35Z",
       "category": "security"
     },
     {
@@ -1067,6 +1067,18 @@
       "category": "systems"
     },
     {
+      "name": "kalshi-kernel",
+      "url": "https://github.com/copyleftdev/kalshi-kernel",
+      "description": "Unofficial safety-focused MCP kernel for Kalshi market workflows",
+      "language": "Go",
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-08-22T15:17:52Z",
+      "pushed": "2026-08-22T23:26:35Z",
+      "category": "devtools"
+    },
+    {
       "name": "kilo-data",
       "url": "https://github.com/copyleftdev/kilo-data",
       "description": "Open threat-intelligence and IP-reputation ETL for phishing and abuse screening, with BGP and Arrow/Parquet releases",
@@ -1096,7 +1108,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-08-22T05:48:45Z",
+      "pushed": "2026-08-23T05:49:48Z",
       "category": "security"
     },
     {
@@ -1169,7 +1181,7 @@
       "stars": 0,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-22T06:12:32Z",
+      "pushed": "2026-08-23T06:13:26Z",
       "category": "devtools"
     },
     {
@@ -1712,7 +1724,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-22T04:49:32Z",
+      "pushed": "2026-08-23T04:41:55Z",
       "category": "security"
     },
     {

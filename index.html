@@ -383,6 +383,13 @@
     },
     {
       "@type": "SoftwareSourceCode",
+      "name": "kalshi-kernel",
+      "codeRepository": "https://github.com/copyleftdev/kalshi-kernel",
+      "description": "Unofficial safety-focused MCP kernel for Kalshi market workflows",
+      "programmingLanguage": "Go"
+    },
+    {
+      "@type": "SoftwareSourceCode",
       "name": "kilo-data",
       "codeRepository": "https://github.com/copyleftdev/kilo-data",
       "description": "Open threat-intelligence and IP-reputation ETL for phishing and abuse screening, with BGP and Arrow/Parquet releases",
@@ -471,13 +478,6 @@
       "codeRepository": "https://github.com/copyleftdev/seuil-bench",
       "description": "Seuil Proof of Rigor \u2014 WASM benchmark visualization",
       "programmingLanguage": "HTML"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "seuil-rs",
-      "codeRepository": "https://github.com/copyleftdev/seuil-rs",
-      "description": "A complete, safe JSONata implementation in Rust \u2014 JSON query, transform, and expression evaluation",
-      "programmingLanguage": "Rust"
     }
   ]
 }
@@ -537,7 +537,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
     <ul class="meta">
       <li>Oahu, Hawaii, United States</li>
       <li>On GitHub since 2008</li>
-      <li>81 original public repositories</li>
+      <li>82 original public repositories</li>
       <li>231 followers</li>
       <li><a href="mailto:don@codetestcode.io">don@codetestcode.io</a></li>
     </ul>
@@ -657,7 +657,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
     </ul>
   </section>
   <section id="devtools">
-    <h3>Developer tools <span class="count">23</span></h3>
+    <h3>Developer tools <span class="count">24</span></h3>
     <p class="blurb">Single-binary utilities for the parts of the workflow that usually need a service.</p>
     <ul class="repos">
       <li>
@@ -719,6 +719,11 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
         <a href="https://github.com/copyleftdev/hook-bin"><code>hook-bin</code></a>
         <span class="lang">Rust</span>
         <p>Single-binary webhook inbox — capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/kalshi-kernel"><code>kalshi-kernel</code></a>
+        <span class="lang">Go</span>
+        <p>Unofficial safety-focused MCP kernel for Kalshi market workflows</p>
       </li>
       <li>
         <a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a>
@@ -993,14 +998,14 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
 
   <h2>Recently pushed</h2>
   <ul class="plain">
-      <li><a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a> <time datetime="2026-08-22T06:12:32Z">2026-08-22</time></li>
-      <li><a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a> <time datetime="2026-08-22T05:48:45Z">2026-08-22</time></li>
-      <li><a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a> <time datetime="2026-08-22T04:49:32Z">2026-08-22</time></li>
-      <li><a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a> <time datetime="2026-08-22T04:28:37Z">2026-08-22</time></li>
+      <li><a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a> <time datetime="2026-08-23T06:13:26Z">2026-08-23</time></li>
+      <li><a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a> <time datetime="2026-08-23T05:49:48Z">2026-08-23</time></li>
+      <li><a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a> <time datetime="2026-08-23T04:41:55Z">2026-08-23</time></li>
+      <li><a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a> <time datetime="2026-08-23T04:29:35Z">2026-08-23</time></li>
+      <li><a href="https://github.com/copyleftdev/kalshi-kernel"><code>kalshi-kernel</code></a> <time datetime="2026-08-22T23:26:35Z">2026-08-22</time></li>
       <li><a href="https://github.com/copyleftdev/smesh-crawler"><code>smesh-crawler</code></a> <time datetime="2026-08-22T01:50:15Z">2026-08-22</time></li>
       <li><a href="https://github.com/copyleftdev/smesh-devteam"><code>smesh-devteam</code></a> <time datetime="2026-08-21T16:49:08Z">2026-08-21</time></li>
       <li><a href="https://github.com/copyleftdev/kahea"><code>kahea</code></a> <time datetime="2026-08-21T10:15:32Z">2026-08-21</time></li>
-      <li><a href="https://github.com/copyleftdev/smesh-rust"><code>smesh-rust</code></a> <time datetime="2026-08-20T00:11:10Z">2026-08-20</time></li>
   </ul>
 
   <h2>Elsewhere</h2>
@@ -1015,7 +1020,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
   </ul>
 
   <footer>
-    <p>Last generated 2026-08-22 06:27 UTC. Source: <a href="https://github.com/copyleftdev/copyleftdev.github.io">copyleftdev/copyleftdev.github.io</a>.</p>
+    <p>Last generated 2026-08-23 06:27 UTC. Source: <a href="https://github.com/copyleftdev/copyleftdev.github.io">copyleftdev/copyleftdev.github.io</a>.</p>
     <p>This page is self-published and describes its author. Every claim about a repository links to that repository; treat the rest as self-description.</p>
   </footer>
 </main>
