@@ -9,8 +9,8 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 82
-- Followers: 231
+- Original public repositories: 83
+- Followers: 232
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -92,16 +92,17 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [murmur](https://github.com/copyleftdev/murmur) [Rust]: Voice typing that never leaves your machine. Local NVIDIA Parakeet transcription, Rust + iced, for Linux.
 - [rational](https://github.com/copyleftdev/rational) [Python]: AI cost, with the vibes removed. Exact-rational models + a live calculator for the 8 LLM inference-cost decisions every agent builder faces — model choice, routing, self-host, the reasoning-token tax, cascades, caching, and the O(K²) agent loop. Every number reproducible.
 - [runs-on-compute](https://github.com/copyleftdev/runs-on-compute) [Python]: A curated, living directory of open-source AI tools that run on inference — and how to fund the people who build them. Published by TokenTip.
+- [smesh-crawler](https://github.com/copyleftdev/smesh-crawler) [Rust]: Agent-orchestrated web crawler for exact evidence and historical changepoints—with deterministic policy, robots compliance, and local MCP support.
 - [smesh-devteam](https://github.com/copyleftdev/smesh-devteam) [Rust]: An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify
 - [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
 - [symgliph](https://github.com/copyleftdev/symgliph) [Rust]: SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.
 - [allman](https://github.com/copyleftdev/allman) [Rust]: High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.
 - [cowiki-rs](https://github.com/copyleftdev/cowiki-rs) [Rust]: Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.
+- [hearth](https://github.com/copyleftdev/hearth) [HTML]: Put AI compute in the 82 million houses that already have a grid connection. An exact-arithmetic feasibility study of residential AI inference as an alternative to the data center buildout.
 - [kitboga](https://github.com/copyleftdev/kitboga) [HTML]: Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.
 - [nasa-power-of-ten-skill](https://github.com/copyleftdev/nasa-power-of-ten-skill) [Python]: Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.
 - [nim-toon](https://github.com/copyleftdev/nim-toon) [Nim]: Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.
 - [sk1llz](https://github.com/copyleftdev/sk1llz) [Python]: The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.
-- [smesh-crawler](https://github.com/copyleftdev/smesh-crawler) [Rust]: Agent-orchestrated web crawler for exact evidence and historical changepoints—with deterministic policy, robots compliance, and local MCP support.
 - [stretch](https://github.com/copyleftdev/stretch) [Rust]: MCP control plane kernel — routes intents through policy, federates upstream MCP servers, and reasons with Claude Opus 4.7. Named after IBM Project Stretch (IBM 7030, 1961).
 - [taxis-bench](https://github.com/copyleftdev/taxis-bench) [TypeScript]: An adversarial certification environment for agentic RPA: does the agent respect its authorization envelope and commit exactly once under ambiguity? Scores conduct, not just correctness.
 - [zemacs](https://github.com/copyleftdev/zemacs) [Zig]: The Agentic MCP Server for Emacs. Multi-agent orchestration and autonomous coding tools in Zig.
@@ -135,4 +136,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-08-23 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-08-24 06:28 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

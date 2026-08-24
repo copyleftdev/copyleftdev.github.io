@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23 06:27 UTC",
+  "generated": "2026-08-24 06:28 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 82,
+  "count": 83,
   "repositories": [
     {
       "name": "micro-containers",
@@ -279,7 +279,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-23T04:29:35Z",
+      "pushed": "2026-08-24T04:31:29Z",
       "category": "security"
     },
     {
@@ -596,6 +596,35 @@
       "category": "ai"
     },
     {
+      "name": "smesh-crawler",
+      "url": "https://github.com/copyleftdev/smesh-crawler",
+      "description": "Agent-orchestrated web crawler for exact evidence and historical changepoints\u2014with deterministic policy, robots compliance, and local MCP support.",
+      "language": "Rust",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "claude-desktop",
+        "codex",
+        "crawler",
+        "information-retrieval",
+        "mcp-server",
+        "model-context-protocol",
+        "openrouter",
+        "robots-txt",
+        "rust",
+        "semantic-search",
+        "wayback-machine",
+        "web-crawler",
+        "web-research",
+        "web-scraping"
+      ],
+      "stars": 1,
+      "archived": false,
+      "created": "2026-08-22T00:46:08Z",
+      "pushed": "2026-08-24T02:49:58Z",
+      "category": "ai"
+    },
+    {
       "name": "smesh-devteam",
       "url": "https://github.com/copyleftdev/smesh-devteam",
       "description": "An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify",
@@ -636,7 +665,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-01-06T04:22:20Z",
-      "pushed": "2026-08-20T00:11:10Z",
+      "pushed": "2026-08-24T01:59:55Z",
       "category": "ai"
     },
     {
@@ -766,7 +795,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-01-10T15:51:43Z",
-      "pushed": "2026-03-01T05:45:23Z",
+      "pushed": "2026-08-23T20:20:26Z",
       "category": "ai"
     },
     {
@@ -1001,6 +1030,37 @@
       "category": "devtools"
     },
     {
+      "name": "hearth",
+      "url": "https://github.com/copyleftdev/hearth",
+      "description": "Put AI compute in the 82 million houses that already have a grid connection. An exact-arithmetic feasibility study of residential AI inference as an alternative to the data center buildout.",
+      "language": "HTML",
+      "topics": [
+        "ai-energy",
+        "ai-infrastructure",
+        "data-center",
+        "decentralized-ai",
+        "demand-response",
+        "distributed-computing",
+        "edge-computing",
+        "energy",
+        "exact-arithmetic",
+        "feasibility-study",
+        "gpu-economics",
+        "grid-interconnection",
+        "inference-serving",
+        "llm-inference",
+        "residential-compute",
+        "small-language-models",
+        "techno-economic-analysis",
+        "waste-heat-recovery"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-08-23T21:54:59Z",
+      "pushed": "2026-08-24T01:32:08Z",
+      "category": "ai"
+    },
+    {
       "name": "hook-bin",
       "url": "https://github.com/copyleftdev/hook-bin",
       "description": "Single-binary webhook inbox \u2014 capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.",
@@ -1108,7 +1168,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-08-23T05:49:48Z",
+      "pushed": "2026-08-24T05:53:46Z",
       "category": "security"
     },
     {
@@ -1181,7 +1241,7 @@
       "stars": 0,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-23T06:13:26Z",
+      "pushed": "2026-08-24T06:19:55Z",
       "category": "devtools"
     },
     {
@@ -1392,35 +1452,6 @@
       "archived": false,
       "created": "2026-01-24T03:04:28Z",
       "pushed": "2026-07-19T23:39:55Z",
-      "category": "ai"
-    },
-    {
-      "name": "smesh-crawler",
-      "url": "https://github.com/copyleftdev/smesh-crawler",
-      "description": "Agent-orchestrated web crawler for exact evidence and historical changepoints\u2014with deterministic policy, robots compliance, and local MCP support.",
-      "language": "Rust",
-      "topics": [
-        "agentic-ai",
-        "ai-agents",
-        "claude-desktop",
-        "codex",
-        "crawler",
-        "information-retrieval",
-        "mcp-server",
-        "model-context-protocol",
-        "openrouter",
-        "robots-txt",
-        "rust",
-        "semantic-search",
-        "wayback-machine",
-        "web-crawler",
-        "web-research",
-        "web-scraping"
-      ],
-      "stars": 0,
-      "archived": false,
-      "created": "2026-08-22T00:46:08Z",
-      "pushed": "2026-08-22T01:50:15Z",
       "category": "ai"
     },
     {
@@ -1724,7 +1755,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-23T04:41:55Z",
+      "pushed": "2026-08-24T05:22:05Z",
       "category": "security"
     },
     {
