@@ -10,7 +10,7 @@
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
 - Original public repositories: 83
-- Followers: 232
+- Followers: 233
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -64,6 +64,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [cora](https://github.com/copyleftdev/cora) [Rust]: Multi-pattern fixed-string matcher. Aho-Corasick + SIMD on mmap'd files. NDJSON output for AI agents and pipelines.
 - [cosaci](https://github.com/copyleftdev/cosaci) [Rust]: Distributed attested CI mesh — property-tested at every layer
 - [dev-portal-correctly](https://github.com/copyleftdev/dev-portal-correctly) [JavaScript]: Specification-first developer portal: modular OpenAPI 3.1 + AsyncAPI 3.1 sharing one domain model, an enforced error registry, and CI that can actually fail.
+- [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: super top secret
 - [vajra](https://github.com/copyleftdev/vajra) [Rust]: Break noise. Preserve truth. A deterministic semantic reduction engine for structured data — JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.
 - [art-of-context-and-intent](https://github.com/copyleftdev/art-of-context-and-intent) [HTML]: Why prompts are just the surface. Depth comes from the system you build. — Don Johnson
 - [cistron](https://github.com/copyleftdev/cistron) [Rust]: A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.
@@ -73,7 +74,6 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [gemma-4-challenge](https://github.com/copyleftdev/gemma-4-challenge) [Python]: Care Compass: Gemma 4 healthcare navigation demo with Aion signed-policy decision evidence
 - [hook-bin](https://github.com/copyleftdev/hook-bin) [Rust]: Single-binary webhook inbox — capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.
 - [kalshi-kernel](https://github.com/copyleftdev/kalshi-kernel) [Go]: Unofficial safety-focused MCP kernel for Kalshi market workflows
-- [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: super top secret
 - [linux-archaeology-lab](https://github.com/copyleftdev/linux-archaeology-lab) [Shell]: Hands-on exercises for forgotten Linux pipe & stream commands — sample data, real exercises, Claude Code skill included.
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
 - [pi-mini-rack](https://github.com/copyleftdev/pi-mini-rack): Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.
@@ -136,4 +136,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-08-24 06:28 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-08-25 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
