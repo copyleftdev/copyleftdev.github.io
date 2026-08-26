@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25 06:27 UTC",
+  "generated": "2026-08-26 06:27 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 83,
+  "count": 84,
   "repositories": [
     {
       "name": "micro-containers",
@@ -149,6 +149,39 @@
       "category": "systems"
     },
     {
+      "name": "kahea",
+      "url": "https://github.com/copyleftdev/kahea",
+      "description": "OpenAPI testing and deterministic API fuzzing for AI agents\u2014catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.",
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "api-fuzzing",
+        "api-security",
+        "api-testing",
+        "arazzo",
+        "cli",
+        "coding-agents",
+        "contract-testing",
+        "developer-tools",
+        "fuzz-testing",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "openapi",
+        "openapi3",
+        "postman-collection",
+        "property-based-testing",
+        "rest-api",
+        "rust"
+      ],
+      "stars": 2,
+      "archived": false,
+      "created": "2026-08-06T15:13:42Z",
+      "pushed": "2026-08-21T10:15:32Z",
+      "category": "ai"
+    },
+    {
       "name": "palimpsest",
       "url": "https://github.com/copyleftdev/palimpsest",
       "description": "Deterministic crawl kernel in Rust \u2014 same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.",
@@ -279,7 +312,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-25T04:29:37Z",
+      "pushed": "2026-08-26T04:30:00Z",
       "category": "security"
     },
     {
@@ -388,39 +421,6 @@
       "category": "absurd"
     },
     {
-      "name": "kahea",
-      "url": "https://github.com/copyleftdev/kahea",
-      "description": "OpenAPI testing and deterministic API fuzzing for AI agents\u2014catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.",
-      "language": "Rust",
-      "topics": [
-        "ai-agents",
-        "api-fuzzing",
-        "api-security",
-        "api-testing",
-        "arazzo",
-        "cli",
-        "coding-agents",
-        "contract-testing",
-        "developer-tools",
-        "fuzz-testing",
-        "local-first",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "openapi",
-        "openapi3",
-        "postman-collection",
-        "property-based-testing",
-        "rest-api",
-        "rust"
-      ],
-      "stars": 1,
-      "archived": false,
-      "created": "2026-08-06T15:13:42Z",
-      "pushed": "2026-08-21T10:15:32Z",
-      "category": "ai"
-    },
-    {
       "name": "leet-index",
       "url": "https://github.com/copyleftdev/leet-index",
       "description": "super top secret",
@@ -429,7 +429,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-25T06:14:50Z",
+      "pushed": "2026-08-26T06:16:25Z",
       "category": "devtools"
     },
     {
@@ -1180,7 +1180,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-08-25T05:51:14Z",
+      "pushed": "2026-08-26T05:51:55Z",
       "category": "security"
     },
     {
@@ -1452,6 +1452,18 @@
       "archived": false,
       "created": "2026-01-24T03:04:28Z",
       "pushed": "2026-07-19T23:39:55Z",
+      "category": "ai"
+    },
+    {
+      "name": "smesh-a2a",
+      "url": "https://github.com/copyleftdev/smesh-a2a",
+      "description": "A2A v1 interoperability gateway for decentralized SMESH agent swarms",
+      "language": "Rust",
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-08-25T23:57:19Z",
+      "pushed": "2026-08-26T05:26:01Z",
       "category": "ai"
     },
     {
@@ -1755,7 +1767,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-25T05:04:06Z",
+      "pushed": "2026-08-26T05:04:09Z",
       "category": "security"
     },
     {
