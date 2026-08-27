@@ -10,7 +10,7 @@
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
 - Original public repositories: 84
-- Followers: 234
+- Followers: 233
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -61,11 +61,11 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 ### Developer tools
 
 - [tailx](https://github.com/copyleftdev/tailx) [Zig]: Live system cognition engine. Reimagines tail from "show me lines" to "what's happening, what matters, and why?" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.
+- [vajra](https://github.com/copyleftdev/vajra) [Rust]: Break noise. Preserve truth. A deterministic semantic reduction engine for structured data — JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.
 - [cora](https://github.com/copyleftdev/cora) [Rust]: Multi-pattern fixed-string matcher. Aho-Corasick + SIMD on mmap'd files. NDJSON output for AI agents and pipelines.
 - [cosaci](https://github.com/copyleftdev/cosaci) [Rust]: Distributed attested CI mesh — property-tested at every layer
 - [dev-portal-correctly](https://github.com/copyleftdev/dev-portal-correctly) [JavaScript]: Specification-first developer portal: modular OpenAPI 3.1 + AsyncAPI 3.1 sharing one domain model, an enforced error registry, and CI that can actually fail.
 - [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: super top secret
-- [vajra](https://github.com/copyleftdev/vajra) [Rust]: Break noise. Preserve truth. A deterministic semantic reduction engine for structured data — JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.
 - [art-of-context-and-intent](https://github.com/copyleftdev/art-of-context-and-intent) [HTML]: Why prompts are just the surface. Depth comes from the system you build. — Don Johnson
 - [cistron](https://github.com/copyleftdev/cistron) [Rust]: A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.
 - [coelacanth](https://github.com/copyleftdev/coelacanth) [Zig]: AI-first Unix primitives, clean-room reimplemented in Zig under one self-describing, machine-checkable contract
@@ -87,15 +87,15 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ### AI & agent infrastructure
 
-- [kahea](https://github.com/copyleftdev/kahea) [Rust]: OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.
 - [agent-calc](https://github.com/copyleftdev/agent-calc) [Rust]: AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.
+- [kahea](https://github.com/copyleftdev/kahea) [Rust]: OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.
+- [symgliph](https://github.com/copyleftdev/symgliph) [Rust]: SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.
 - [murmur](https://github.com/copyleftdev/murmur) [Rust]: Voice typing that never leaves your machine. Local NVIDIA Parakeet transcription, Rust + iced, for Linux.
 - [rational](https://github.com/copyleftdev/rational) [Python]: AI cost, with the vibes removed. Exact-rational models + a live calculator for the 8 LLM inference-cost decisions every agent builder faces — model choice, routing, self-host, the reasoning-token tax, cascades, caching, and the O(K²) agent loop. Every number reproducible.
 - [runs-on-compute](https://github.com/copyleftdev/runs-on-compute) [Python]: A curated, living directory of open-source AI tools that run on inference — and how to fund the people who build them. Published by TokenTip.
 - [smesh-crawler](https://github.com/copyleftdev/smesh-crawler) [Rust]: Agent-orchestrated web crawler for exact evidence and historical changepoints—with deterministic policy, robots compliance, and local MCP support.
 - [smesh-devteam](https://github.com/copyleftdev/smesh-devteam) [Rust]: An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify
 - [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
-- [symgliph](https://github.com/copyleftdev/symgliph) [Rust]: SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.
 - [allman](https://github.com/copyleftdev/allman) [Rust]: High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.
 - [cowiki-rs](https://github.com/copyleftdev/cowiki-rs) [Rust]: Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.
 - [hearth](https://github.com/copyleftdev/hearth) [HTML]: Put AI compute in the 82 million houses that already have a grid connection. An exact-arithmetic feasibility study of residential AI inference as an alternative to the data center buildout.
@@ -137,4 +137,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-08-26 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-08-27 09:23 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26 06:27 UTC",
+  "generated": "2026-08-27 09:23 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -149,6 +149,39 @@
       "category": "systems"
     },
     {
+      "name": "agent-calc",
+      "url": "https://github.com/copyleftdev/agent-calc",
+      "description": "AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.",
+      "language": "Rust",
+      "topics": [
+        "agent-tools",
+        "ai",
+        "calculator",
+        "cli",
+        "complex-numbers",
+        "contract-first",
+        "deterministic",
+        "exact-arithmetic",
+        "finance",
+        "json-schema",
+        "linear-programming",
+        "matrices",
+        "mutation-testing",
+        "optimization",
+        "property-testing",
+        "rational-arithmetic",
+        "rust",
+        "statistics",
+        "symbolic-math",
+        "units"
+      ],
+      "stars": 2,
+      "archived": false,
+      "created": "2026-05-08T04:10:30Z",
+      "pushed": "2026-08-09T20:30:49Z",
+      "category": "ai"
+    },
+    {
       "name": "kahea",
       "url": "https://github.com/copyleftdev/kahea",
       "description": "OpenAPI testing and deterministic API fuzzing for AI agents\u2014catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.",
@@ -238,37 +271,68 @@
       "category": "security"
     },
     {
-      "name": "agent-calc",
-      "url": "https://github.com/copyleftdev/agent-calc",
-      "description": "AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.",
+      "name": "symgliph",
+      "url": "https://github.com/copyleftdev/symgliph",
+      "description": "SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.",
       "language": "Rust",
       "topics": [
-        "agent-tools",
         "ai",
-        "calculator",
-        "cli",
-        "complex-numbers",
-        "contract-first",
-        "deterministic",
-        "exact-arithmetic",
-        "finance",
-        "json-schema",
-        "linear-programming",
-        "matrices",
-        "mutation-testing",
-        "optimization",
-        "property-testing",
-        "rational-arithmetic",
+        "blake3",
+        "code-analysis",
+        "code-intelligence",
+        "command-line-tool",
+        "context-engineering",
+        "context-window",
+        "developer-tools",
+        "information-retrieval",
+        "knowledge-graph",
+        "llm",
+        "merkle-tree",
+        "provenance",
         "rust",
-        "statistics",
-        "symbolic-math",
-        "units"
+        "semantic-routing",
+        "semantic-search",
+        "token-optimization",
+        "tree-sitter"
       ],
-      "stars": 1,
+      "stars": 2,
       "archived": false,
-      "created": "2026-05-08T04:10:30Z",
-      "pushed": "2026-08-09T20:30:49Z",
+      "created": "2026-08-02T09:40:18Z",
+      "pushed": "2026-08-03T05:23:06Z",
       "category": "ai"
+    },
+    {
+      "name": "vajra",
+      "url": "https://github.com/copyleftdev/vajra",
+      "description": "Break noise. Preserve truth. A deterministic semantic reduction engine for structured data \u2014 JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.",
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "analysis",
+        "anomaly-detection",
+        "cli",
+        "csv",
+        "data-engineering",
+        "data-quality",
+        "deterministic",
+        "edi",
+        "entropy",
+        "fingerprinting",
+        "healthcare",
+        "json",
+        "llm",
+        "observability",
+        "rust",
+        "schema-drift",
+        "semantic-analysis",
+        "streaming",
+        "yaml"
+      ],
+      "stars": 2,
+      "archived": false,
+      "created": "2026-04-08T04:13:47Z",
+      "pushed": "2026-07-30T20:14:17Z",
+      "category": "devtools"
     },
     {
       "name": "circuitbreaker-rs",
@@ -312,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-26T04:30:00Z",
+      "pushed": "2026-08-27T06:28:56Z",
       "category": "security"
     },
     {
@@ -429,7 +493,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-26T06:16:25Z",
+      "pushed": "2026-08-27T07:38:21Z",
       "category": "devtools"
     },
     {
@@ -681,37 +745,6 @@
       "category": "ai"
     },
     {
-      "name": "symgliph",
-      "url": "https://github.com/copyleftdev/symgliph",
-      "description": "SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.",
-      "language": "Rust",
-      "topics": [
-        "ai",
-        "blake3",
-        "code-analysis",
-        "code-intelligence",
-        "command-line-tool",
-        "context-engineering",
-        "context-window",
-        "developer-tools",
-        "information-retrieval",
-        "knowledge-graph",
-        "llm",
-        "merkle-tree",
-        "provenance",
-        "rust",
-        "semantic-routing",
-        "semantic-search",
-        "token-optimization",
-        "tree-sitter"
-      ],
-      "stars": 1,
-      "archived": false,
-      "created": "2026-08-02T09:40:18Z",
-      "pushed": "2026-08-03T05:23:06Z",
-      "category": "ai"
-    },
-    {
       "name": "tip-to-tip-efficiency",
       "url": "https://github.com/copyleftdev/tip-to-tip-efficiency",
       "description": "Mathematically serious Rust crate for a deeply unserious Silicon Valley tip-to-tip efficiency empire.",
@@ -738,39 +771,6 @@
       "created": "2026-05-12T06:15:19Z",
       "pushed": "2026-07-19T23:39:58Z",
       "category": "absurd"
-    },
-    {
-      "name": "vajra",
-      "url": "https://github.com/copyleftdev/vajra",
-      "description": "Break noise. Preserve truth. A deterministic semantic reduction engine for structured data \u2014 JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.",
-      "language": "Rust",
-      "topics": [
-        "ai-tools",
-        "analysis",
-        "anomaly-detection",
-        "cli",
-        "csv",
-        "data-engineering",
-        "data-quality",
-        "deterministic",
-        "edi",
-        "entropy",
-        "fingerprinting",
-        "healthcare",
-        "json",
-        "llm",
-        "observability",
-        "rust",
-        "schema-drift",
-        "semantic-analysis",
-        "streaming",
-        "yaml"
-      ],
-      "stars": 1,
-      "archived": false,
-      "created": "2026-04-08T04:13:47Z",
-      "pushed": "2026-07-30T20:14:17Z",
-      "category": "devtools"
     },
     {
       "name": "akamaiforms-site",
@@ -1147,7 +1147,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-22T15:17:52Z",
-      "pushed": "2026-08-24T22:57:24Z",
+      "pushed": "2026-08-26T20:23:57Z",
       "category": "devtools"
     },
     {
@@ -1180,7 +1180,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-08-26T05:51:55Z",
+      "pushed": "2026-08-27T08:27:02Z",
       "category": "security"
     },
     {
@@ -1463,7 +1463,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-25T23:57:19Z",
-      "pushed": "2026-08-26T05:26:01Z",
+      "pushed": "2026-08-27T08:02:19Z",
       "category": "ai"
     },
     {
@@ -1767,7 +1767,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-26T05:04:09Z",
+      "pushed": "2026-08-27T07:03:32Z",
       "category": "security"
     },
     {
