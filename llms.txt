@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 84
+- Original public repositories: 85
 - Followers: 232
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -48,6 +48,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [bruno](https://github.com/copyleftdev/bruno) [Rust]: Zero-trust proxy network — nodes prove hardware identity via TPM 2.0 remote attestation before receiving ephemeral mTLS certificates. Written in Rust.
 - [claude-rust-todo-tutorial](https://github.com/copyleftdev/claude-rust-todo-tutorial) [Shell]: Production-grade Claude Code artifacts (hooks, agents, commands, gates, sweeps, drifts) wrapped around an axum + sqlx + sqlite todo API. Tutorial.
 - [darkstar](https://github.com/copyleftdev/darkstar) [Zig]: Backend-less internet health and flux monitoring tool (Zig)
+- [hawaii-influencer-house](https://github.com/copyleftdev/hawaii-influencer-house) [HTML]: Can a ten-bedroom creator house in Hawaii pay for itself? An exact-arithmetic feasibility model where no figure was produced by a language model. Powered by Bento.
 - [kilo-data](https://github.com/copyleftdev/kilo-data) [Rust]: Open threat-intelligence and IP-reputation ETL for phishing and abuse screening, with BGP and Arrow/Parquet releases
 - [kilocheck](https://github.com/copyleftdev/kilocheck) [Rust]: Local-first deterministic IP intelligence CLI with auditable evidence and policy-grade JSON
 - [leet-touch](https://github.com/copyleftdev/leet-touch) [Python]: Touch every layer of Git and GitHub—from first commit to platform engineering.
@@ -137,4 +138,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-08-29 06:34 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-08-30 06:36 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

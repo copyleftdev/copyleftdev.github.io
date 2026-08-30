@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29 06:34 UTC",
+  "generated": "2026-08-30 06:36 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 84,
+  "count": 85,
   "repositories": [
     {
       "name": "micro-containers",
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-08-29T04:27:29Z",
+      "pushed": "2026-08-30T04:29:07Z",
       "category": "security"
     },
     {
@@ -493,7 +493,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-08-29T06:22:34Z",
+      "pushed": "2026-08-30T06:23:11Z",
       "category": "devtools"
     },
     {
@@ -1042,6 +1042,26 @@
       "category": "devtools"
     },
     {
+      "name": "hawaii-influencer-house",
+      "url": "https://github.com/copyleftdev/hawaii-influencer-house",
+      "description": "Can a ten-bedroom creator house in Hawaii pay for itself? An exact-arithmetic feasibility model where no figure was produced by a language model. Powered by Bento.",
+      "language": "HTML",
+      "topics": [
+        "agent-calc",
+        "bento",
+        "creator-economy",
+        "exact-arithmetic",
+        "feasibility-study",
+        "financial-modeling",
+        "hawaii"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-08-30T04:31:17Z",
+      "pushed": "2026-08-30T05:05:03Z",
+      "category": "security"
+    },
+    {
       "name": "hearth",
       "url": "https://github.com/copyleftdev/hearth",
       "description": "Put AI compute in the 82 million houses that already have a grid connection. An exact-arithmetic feasibility study of residential AI inference as an alternative to the data center buildout.",
@@ -1147,7 +1167,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-22T15:17:52Z",
-      "pushed": "2026-08-26T20:23:57Z",
+      "pushed": "2026-08-29T22:35:00Z",
       "category": "devtools"
     },
     {
@@ -1463,7 +1483,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-25T23:57:19Z",
-      "pushed": "2026-08-29T02:58:44Z",
+      "pushed": "2026-08-29T21:25:55Z",
       "category": "ai"
     },
     {
@@ -1767,7 +1787,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-08-29T04:51:42Z",
+      "pushed": "2026-08-30T04:43:32Z",
       "category": "security"
     },
     {
