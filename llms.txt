@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 85
+- Original public repositories: 86
 - Followers: 231
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -45,6 +45,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [floq](https://github.com/copyleftdev/floq) [Zig]: Detect C2 beacons in network traffic using Floquet spectral analysis from quantum chaos theory. Fast, 274KB Zig binary. Reads pcap, live capture, or OpenTelemetry JSONL.
 - [long-shadow](https://github.com/copyleftdev/long-shadow) [Python]: Operation Long Shadow · Forensic investigation of a four-cluster GitHub repo-laundering operation that buries fabricated commits in 2037 to bubble laundered repos to the top of every AI-built-code search.
 - [mini-shai-hulud-dragnet](https://github.com/copyleftdev/mini-shai-hulud-dragnet) [Shell]: Forensic dataset + live dashboard for the 2026-04-29 'A Mini Shai-Hulud has Appeared' npm supply-chain worm by TeamPCP. 1,117 dropbox repos, 22 compromised accounts, 47 IOCs across 14 kinds. Trojaned: @cap-js, mbt, @bitwarden/cli. C2 attribution to AS209101 IP Vendetta Inc. JSONL data · kinetic dashboard · CC-BY-4.0.
+- [bifrost-editorial](https://github.com/copyleftdev/bifrost-editorial) [Python]: 
 - [bruno](https://github.com/copyleftdev/bruno) [Rust]: Zero-trust proxy network — nodes prove hardware identity via TPM 2.0 remote attestation before receiving ephemeral mTLS certificates. Written in Rust.
 - [claude-rust-todo-tutorial](https://github.com/copyleftdev/claude-rust-todo-tutorial) [Shell]: Production-grade Claude Code artifacts (hooks, agents, commands, gates, sweeps, drifts) wrapped around an axum + sqlx + sqlite todo API. Tutorial.
 - [darkstar](https://github.com/copyleftdev/darkstar) [Zig]: Backend-less internet health and flux monitoring tool (Zig)
@@ -138,4 +139,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-08-31 06:49 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-02 06:44 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
