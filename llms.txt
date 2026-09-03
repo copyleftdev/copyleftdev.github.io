@@ -9,8 +9,8 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 86
-- Followers: 231
+- Original public repositories: 87
+- Followers: 232
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -119,6 +119,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [poise-rs](https://github.com/copyleftdev/poise-rs) [Rust]: Composable, rigorously verified load-balancing primitives for Rust
 - [akamaiforms-site](https://github.com/copyleftdev/akamaiforms-site) [HTML]: 
 - [asm_ftw](https://github.com/copyleftdev/asm_ftw) [Assembly]: 
+- [cascade-article](https://github.com/copyleftdev/cascade-article): 
 - [claimzen-site](https://github.com/copyleftdev/claimzen-site) [HTML]: ClaimZen — evidence-backed denial recovery. Marketing site.
 - [humanitas](https://github.com/copyleftdev/humanitas) [TypeScript]: Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).
 - [invariantd-site](https://github.com/copyleftdev/invariantd-site) [HTML]: Marketing site for invariantd.com — video-first landing
@@ -139,4 +140,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-02 06:44 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-03 06:41 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
