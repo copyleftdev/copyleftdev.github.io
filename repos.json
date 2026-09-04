@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03 06:41 UTC",
+  "generated": "2026-09-04 06:40 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-03T05:24:06Z",
+      "pushed": "2026-09-04T04:30:53Z",
       "category": "security"
     },
     {
@@ -493,7 +493,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-03T06:25:43Z",
+      "pushed": "2026-09-04T06:27:06Z",
       "category": "devtools"
     },
     {
@@ -571,6 +571,32 @@
       "archived": false,
       "created": "2026-08-14T04:51:24Z",
       "pushed": "2026-08-14T05:51:24Z",
+      "category": "ai"
+    },
+    {
+      "name": "nasa-power-of-ten-skill",
+      "url": "https://github.com/copyleftdev/nasa-power-of-ten-skill",
+      "description": "Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "c",
+        "claude-code",
+        "coding-standards",
+        "cpp",
+        "embedded-systems",
+        "jpl",
+        "nasa",
+        "openai-codex",
+        "power-of-ten",
+        "safety-critical",
+        "software-reliability",
+        "static-analysis"
+      ],
+      "stars": 1,
+      "archived": false,
+      "created": "2026-08-08T00:53:20Z",
+      "pushed": "2026-08-08T00:56:03Z",
       "category": "ai"
     },
     {
@@ -1224,7 +1250,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-03T05:58:36Z",
+      "pushed": "2026-09-04T05:44:37Z",
       "category": "security"
     },
     {
@@ -1319,32 +1345,6 @@
       "created": "2026-05-25T20:45:33Z",
       "pushed": "2026-07-19T23:39:43Z",
       "category": "devtools"
-    },
-    {
-      "name": "nasa-power-of-ten-skill",
-      "url": "https://github.com/copyleftdev/nasa-power-of-ten-skill",
-      "description": "Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "c",
-        "claude-code",
-        "coding-standards",
-        "cpp",
-        "embedded-systems",
-        "jpl",
-        "nasa",
-        "openai-codex",
-        "power-of-ten",
-        "safety-critical",
-        "software-reliability",
-        "static-analysis"
-      ],
-      "stars": 0,
-      "archived": false,
-      "created": "2026-08-08T00:53:20Z",
-      "pushed": "2026-08-08T00:56:03Z",
-      "category": "ai"
     },
     {
       "name": "nim-toon",
@@ -1507,7 +1507,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-25T23:57:19Z",
-      "pushed": "2026-09-03T01:59:38Z",
+      "pushed": "2026-09-04T01:25:07Z",
       "category": "ai"
     },
     {
@@ -1811,7 +1811,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-03T05:59:45Z",
+      "pushed": "2026-09-04T05:07:54Z",
       "category": "security"
     },
     {
