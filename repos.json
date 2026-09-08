@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07 06:50 UTC",
+  "generated": "2026-09-08 06:40 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -267,7 +267,7 @@
       "stars": 2,
       "archived": false,
       "created": "2026-07-27T16:43:13Z",
-      "pushed": "2026-08-31T13:20:41Z",
+      "pushed": "2026-09-07T13:20:10Z",
       "category": "security"
     },
     {
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-07T04:32:44Z",
+      "pushed": "2026-09-08T04:30:39Z",
       "category": "security"
     },
     {
@@ -487,13 +487,27 @@
     {
       "name": "leet-index",
       "url": "https://github.com/copyleftdev/leet-index",
-      "description": "super top secret",
+      "description": "Activity-aware rankings for US-based GitHub developers, with transparent scoring and exportable public data.",
       "language": "JavaScript",
-      "topics": [],
+      "topics": [
+        "data-visualization",
+        "developer-analytics",
+        "gamification",
+        "github",
+        "github-actions",
+        "github-api",
+        "github-pages",
+        "github-profile",
+        "github-stats",
+        "leaderboard",
+        "react",
+        "united-states",
+        "vite"
+      ],
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-07T06:32:35Z",
+      "pushed": "2026-09-08T06:25:34Z",
       "category": "devtools"
     },
     {
@@ -639,7 +653,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-08-05T04:44:29Z",
-      "pushed": "2026-08-18T20:21:32Z",
+      "pushed": "2026-09-07T13:37:01Z",
       "category": "systems"
     },
     {
@@ -1811,7 +1825,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-07T04:55:08Z",
+      "pushed": "2026-09-08T04:55:03Z",
       "category": "security"
     },
     {

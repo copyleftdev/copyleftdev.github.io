@@ -10,7 +10,7 @@
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
 - Original public repositories: 87
-- Followers: 233
+- Followers: 232
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -67,7 +67,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [cora](https://github.com/copyleftdev/cora) [Rust]: Multi-pattern fixed-string matcher. Aho-Corasick + SIMD on mmap'd files. NDJSON output for AI agents and pipelines.
 - [cosaci](https://github.com/copyleftdev/cosaci) [Rust]: Distributed attested CI mesh — property-tested at every layer
 - [dev-portal-correctly](https://github.com/copyleftdev/dev-portal-correctly) [JavaScript]: Specification-first developer portal: modular OpenAPI 3.1 + AsyncAPI 3.1 sharing one domain model, an enforced error registry, and CI that can actually fail.
-- [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: super top secret
+- [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: Activity-aware rankings for US-based GitHub developers, with transparent scoring and exportable public data.
 - [art-of-context-and-intent](https://github.com/copyleftdev/art-of-context-and-intent) [HTML]: Why prompts are just the surface. Depth comes from the system you build. — Don Johnson
 - [cistron](https://github.com/copyleftdev/cistron) [Rust]: A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.
 - [coelacanth](https://github.com/copyleftdev/coelacanth) [Zig]: AI-first Unix primitives, clean-room reimplemented in Zig under one self-describing, machine-checkable contract
@@ -140,4 +140,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-04 06:40 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-08 06:40 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
