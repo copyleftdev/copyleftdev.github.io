@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 06:40 UTC",
+  "generated": "2026-09-10 06:40 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 87,
+  "count": 89,
   "repositories": [
     {
       "name": "micro-containers",
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-09T04:31:09Z",
+      "pushed": "2026-09-10T04:31:06Z",
       "category": "security"
     },
     {
@@ -507,7 +507,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-09T06:27:32Z",
+      "pushed": "2026-09-10T06:27:45Z",
       "category": "devtools"
     },
     {
@@ -1041,6 +1041,27 @@
       "category": "security"
     },
     {
+      "name": "dev-to-comment-hustle",
+      "url": "https://github.com/copyleftdev/dev-to-comment-hustle",
+      "description": "Evidence file: a DEV comment-spam campaign traced to a legitimate SaaS affiliate link. Not malware \u2014 the economics are the vulnerability. 15 raw captures, 6 diagrams, reproduce script.",
+      "language": "Shell",
+      "topics": [
+        "affiliate-fraud",
+        "devto",
+        "incident-report",
+        "iocs",
+        "osint",
+        "passive-reconnaissance",
+        "spam",
+        "threat-intelligence"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-09-10T01:49:09Z",
+      "pushed": "2026-09-10T01:51:13Z",
+      "category": "security"
+    },
+    {
       "name": "entropyx",
       "url": "https://github.com/copyleftdev/entropyx",
       "description": "A forensic instrument for codebases. A quantifiable way to tell the truth.",
@@ -1264,7 +1285,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-09T05:44:52Z",
+      "pushed": "2026-09-10T05:44:09Z",
       "category": "security"
     },
     {
@@ -1521,7 +1542,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-25T23:57:19Z",
-      "pushed": "2026-09-08T21:49:23Z",
+      "pushed": "2026-09-09T17:24:49Z",
       "category": "ai"
     },
     {
@@ -1738,6 +1759,26 @@
       "category": "security"
     },
     {
+      "name": "TUNDR",
+      "url": "https://github.com/copyleftdev/TUNDR",
+      "description": "A high-performance optimization server implementing the Model Context Protocol (MCP) for mathematical optimization tasks, with a focus on Bayesian Optimization using Gaussian Processes. Designed for reliability, scalability, and ease of integration in production environments.",
+      "language": "Go",
+      "topics": [
+        "financial-modeling",
+        "golang",
+        "hyperparameter-tuning",
+        "mcp",
+        "mcp-servers",
+        "optimize-manufacturing-processes",
+        "scientific-research"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2025-07-02T17:16:32Z",
+      "pushed": "2025-07-03T05:02:33Z",
+      "category": "ai"
+    },
+    {
       "name": "vervet",
       "url": "https://github.com/copyleftdev/vervet",
       "description": "AI-native adversary-emulation & breach-and-attack-simulation (BAS) instrument in Rust \u2014 atomic MITRE ATT&CK techniques an LLM can orchestrate, behind Ed25519-signed authorization scopes, emitting typed tamper-evident evidence.",
@@ -1825,7 +1866,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-09T05:10:39Z",
+      "pushed": "2026-09-10T05:06:22Z",
       "category": "security"
     },
     {
