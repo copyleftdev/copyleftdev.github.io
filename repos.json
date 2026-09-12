@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11 06:39 UTC",
+  "generated": "2026-09-12 06:36 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 89,
+  "count": 91,
   "repositories": [
     {
       "name": "micro-containers",
@@ -211,7 +211,7 @@
       "stars": 2,
       "archived": false,
       "created": "2026-08-06T15:13:42Z",
-      "pushed": "2026-09-04T10:15:41Z",
+      "pushed": "2026-09-11T10:16:09Z",
       "category": "ai"
     },
     {
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-11T04:31:23Z",
+      "pushed": "2026-09-12T04:28:54Z",
       "category": "security"
     },
     {
@@ -507,7 +507,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-11T06:26:55Z",
+      "pushed": "2026-09-12T06:24:42Z",
       "category": "devtools"
     },
     {
@@ -1285,7 +1285,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-11T05:44:34Z",
+      "pushed": "2026-09-12T05:43:32Z",
       "category": "security"
     },
     {
@@ -1427,6 +1427,25 @@
       "category": "devtools"
     },
     {
+      "name": "pegrep",
+      "url": "https://github.com/copyleftdev/pegrep",
+      "description": "Text and structural search with readable PEG patterns, typed captures, and JSON output.",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "grep",
+        "peg",
+        "rust",
+        "search",
+        "structural-search"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-09-12T03:24:56Z",
+      "pushed": "2026-09-12T04:28:25Z",
+      "category": "devtools"
+    },
+    {
       "name": "pi-mini-rack",
       "url": "https://github.com/copyleftdev/pi-mini-rack",
       "description": "Cost-optimized 10-inch Raspberry Pi cluster rack builds (\u2013). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.",
@@ -1542,7 +1561,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-25T23:57:19Z",
-      "pushed": "2026-09-11T03:15:51Z",
+      "pushed": "2026-09-12T06:14:47Z",
       "category": "ai"
     },
     {
@@ -1621,6 +1640,34 @@
       "created": "2026-05-22T16:20:48Z",
       "pushed": "2026-07-19T23:45:12Z",
       "category": "ai"
+    },
+    {
+      "name": "tapehound",
+      "url": "https://github.com/copyleftdev/tapehound",
+      "description": "High-performance Kalshi venue scanner: liquid markets, whale fills, live SSE stream. Rust, SIMD hot path, TigerStyle discipline.",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "event-driven",
+        "high-performance",
+        "kalshi",
+        "market-analysis",
+        "market-data",
+        "microstructure",
+        "prediction-markets",
+        "quant",
+        "real-time",
+        "rust",
+        "scanner",
+        "simd",
+        "sse",
+        "trading"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-09-11T18:05:41Z",
+      "pushed": "2026-09-12T03:07:22Z",
+      "category": "devtools"
     },
     {
       "name": "taxis-bench",
@@ -1866,7 +1913,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-11T05:12:04Z",
+      "pushed": "2026-09-12T05:08:42Z",
       "category": "security"
     },
     {

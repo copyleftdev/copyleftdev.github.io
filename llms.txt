@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 89
+- Original public repositories: 91
 - Followers: 233
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -79,7 +79,9 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [kalshi-kernel](https://github.com/copyleftdev/kalshi-kernel) [Go]: Unofficial safety-focused MCP kernel for Kalshi market workflows
 - [linux-archaeology-lab](https://github.com/copyleftdev/linux-archaeology-lab) [Shell]: Hands-on exercises for forgotten Linux pipe & stream commands — sample data, real exercises, Claude Code skill included.
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
+- [pegrep](https://github.com/copyleftdev/pegrep) [Rust]: Text and structural search with readable PEG patterns, typed captures, and JSON output.
 - [pi-mini-rack](https://github.com/copyleftdev/pi-mini-rack): Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.
+- [tapehound](https://github.com/copyleftdev/tapehound) [Rust]: High-performance Kalshi venue scanner: liquid markets, whale fills, live SSE stream. Rust, SIMD hot path, TigerStyle discipline.
 - [tlatools-rs](https://github.com/copyleftdev/tlatools-rs) [Rust]: Ask a TLA+ specification about a state, and get an answer. A parser and evaluator for TLA+ in Rust — not a model checker.
 - [tokentip-go](https://github.com/copyleftdev/tokentip-go) [Go]: Official Go SDK for the TokenTip API — tips that buy AI inference credit. Zero dependencies, stdlib only.
 - [tokentip-js](https://github.com/copyleftdev/tokentip-js) [TypeScript]: Official TypeScript SDK for the TokenTip API — tips that buy AI inference credit. Zero runtime deps.
@@ -142,4 +144,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-10 06:40 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-12 06:36 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
