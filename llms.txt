@@ -9,8 +9,8 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 91
-- Followers: 233
+- Original public repositories: 95
+- Followers: 234
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -104,6 +104,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
 - [allman](https://github.com/copyleftdev/allman) [Rust]: High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.
 - [cowiki-rs](https://github.com/copyleftdev/cowiki-rs) [Rust]: Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.
+- [devto-mcp](https://github.com/copyleftdev/devto-mcp) [Rust]: An MCP server for authorship on dev.to, with the platform's real rules built in — offline validation, rate-budget pacing, and a capability gate dev.to's unscoped API key cannot provide.
 - [hearth](https://github.com/copyleftdev/hearth) [HTML]: Put AI compute in the 82 million houses that already have a grid connection. An exact-arithmetic feasibility study of residential AI inference as an alternative to the data center buildout.
 - [kitboga](https://github.com/copyleftdev/kitboga) [HTML]: Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.
 - [nim-toon](https://github.com/copyleftdev/nim-toon) [Nim]: Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.
@@ -113,6 +114,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [taxis-bench](https://github.com/copyleftdev/taxis-bench) [TypeScript]: An adversarial certification environment for agentic RPA: does the agent respect its authorization envelope and commit exactly once under ambiguity? Scores conduct, not just correctness.
 - [TUNDR](https://github.com/copyleftdev/TUNDR) [Go]: A high-performance optimization server implementing the Model Context Protocol (MCP) for mathematical optimization tasks, with a focus on Bayesian Optimization using Gaussian Processes. Designed for reliability, scalability, and ease of integration in production environments.
 - [zemacs](https://github.com/copyleftdev/zemacs) [Zig]: The Agentic MCP Server for Emacs. Multi-agent orchestration and autonomous coding tools in Zig.
+- [zero-tokens](https://github.com/copyleftdev/zero-tokens): avoid metered tokens
 
 ### Systems & protocol
 
@@ -120,12 +122,14 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [emv-3ds](https://github.com/copyleftdev/emv-3ds) [Rust]: EMV 3-D Secure 2.x (3DS2) protocol — AReq/ARes/CReq/CRes messages, transaction state machine, ECI/CAVV helpers, and full EMVCo spec serialization for payment authentication (SCA/PSD2)
 - [tak-rs](https://github.com/copyleftdev/tak-rs) [Rust]: High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem — drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.
 - [circuitbreaker-rs](https://github.com/copyleftdev/circuitbreaker-rs) [Rust]: 
+- [lotto-vs-kalshi](https://github.com/copyleftdev/lotto-vs-kalshi): The $20 Question: exact-math essay on why spreading $20 across 0.1¢ prediction-market longshots beats the lottery (10.23x less loss per dollar)
 - [poise-rs](https://github.com/copyleftdev/poise-rs) [Rust]: Composable, rigorously verified load-balancing primitives for Rust
 - [akamaiforms-site](https://github.com/copyleftdev/akamaiforms-site) [HTML]: 
 - [asm_ftw](https://github.com/copyleftdev/asm_ftw) [Assembly]: 
 - [cascade-article](https://github.com/copyleftdev/cascade-article): 
 - [claimzen-site](https://github.com/copyleftdev/claimzen-site) [HTML]: ClaimZen — evidence-backed denial recovery. Marketing site.
 - [humanitas](https://github.com/copyleftdev/humanitas) [TypeScript]: Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).
+- [interview-with-a-binary-media](https://github.com/copyleftdev/interview-with-a-binary-media): Media for I Interviewed an Executable. It Had Notes. — cover art, replay stills, and video. No executable source or raw telemetry.
 - [invariantd-site](https://github.com/copyleftdev/invariantd-site) [HTML]: Marketing site for invariantd.com — video-first landing
 - [pipeflow](https://github.com/copyleftdev/pipeflow) [Python]: 
 - [rime](https://github.com/copyleftdev/rime) [Rust]: Lock-free delta-xDS control plane for Envoy. Incremental updates, zero-copy fan-out, content-addressed versioning — the performant Rust alternative to go-control-plane.
@@ -144,4 +148,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-12 06:36 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-13 06:40 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
