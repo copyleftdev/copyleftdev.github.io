@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15 06:41 UTC",
+  "generated": "2026-09-16 06:41 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 96,
+  "count": 98,
   "repositories": [
     {
       "name": "micro-containers",
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-15T04:31:35Z",
+      "pushed": "2026-09-16T04:31:47Z",
       "category": "security"
     },
     {
@@ -507,7 +507,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-15T06:28:31Z",
+      "pushed": "2026-09-16T06:28:05Z",
       "category": "devtools"
     },
     {
@@ -1611,6 +1611,18 @@
       "category": "ai"
     },
     {
+      "name": "skillexec",
+      "url": "https://github.com/copyleftdev/skillexec",
+      "description": "A binary container format for agent skills: SKILL.md compiled into a signed, mmap-able, lazily verified graph with capability-gated wasm segments.",
+      "language": "Rust",
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-09-16T04:12:15Z",
+      "pushed": "2026-09-16T05:52:52Z",
+      "category": "ai"
+    },
+    {
       "name": "smesh-a2a",
       "url": "https://github.com/copyleftdev/smesh-a2a",
       "description": "A2A v1 interoperability gateway for decentralized SMESH agent swarms",
@@ -1698,6 +1710,39 @@
       "created": "2026-05-22T16:20:48Z",
       "pushed": "2026-07-19T23:45:12Z",
       "category": "ai"
+    },
+    {
+      "name": "superforecasting-skills-pack",
+      "url": "https://github.com/copyleftdev/superforecasting-skills-pack",
+      "description": "Thirteen research-attributed forecasting skills for Claude \u2014 Brier scoring, calibration decomposition, logit pooling, Bayesian updating, reference classes, conditional trees. Every technique names its research and states its limits.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "anthropic",
+        "bayesian-inference",
+        "brier-score",
+        "calibration",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "decision-making",
+        "forecasting",
+        "llm-evaluation",
+        "metaculus",
+        "prediction-markets",
+        "probabilistic-forecasting",
+        "probability",
+        "python",
+        "quantitative-finance",
+        "statistics",
+        "superforecasting",
+        "uncertainty-quantification"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-09-16T01:06:12Z",
+      "pushed": "2026-09-16T01:06:16Z",
+      "category": "devtools"
     },
     {
       "name": "tapehound",
@@ -1971,7 +2016,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-15T05:00:28Z",
+      "pushed": "2026-09-16T05:13:35Z",
       "category": "security"
     },
     {

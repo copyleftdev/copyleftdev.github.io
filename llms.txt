@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 96
+- Original public repositories: 98
 - Followers: 235
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -82,6 +82,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
 - [pegrep](https://github.com/copyleftdev/pegrep) [Rust]: Text and structural search with readable PEG patterns, typed captures, and JSON output.
 - [pi-mini-rack](https://github.com/copyleftdev/pi-mini-rack): Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.
+- [superforecasting-skills-pack](https://github.com/copyleftdev/superforecasting-skills-pack) [Python]: Thirteen research-attributed forecasting skills for Claude — Brier scoring, calibration decomposition, logit pooling, Bayesian updating, reference classes, conditional trees. Every technique names its research and states its limits.
 - [tapehound](https://github.com/copyleftdev/tapehound) [Rust]: High-performance Kalshi venue scanner: liquid markets, whale fills, live SSE stream. Rust, SIMD hot path, TigerStyle discipline.
 - [tlatools-rs](https://github.com/copyleftdev/tlatools-rs) [Rust]: Ask a TLA+ specification about a state, and get an answer. A parser and evaluator for TLA+ in Rust — not a model checker.
 - [tokentip-go](https://github.com/copyleftdev/tokentip-go) [Go]: Official Go SDK for the TokenTip API — tips that buy AI inference credit. Zero dependencies, stdlib only.
@@ -110,6 +111,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [kitboga](https://github.com/copyleftdev/kitboga) [HTML]: Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.
 - [nim-toon](https://github.com/copyleftdev/nim-toon) [Nim]: Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.
 - [sk1llz](https://github.com/copyleftdev/sk1llz) [Python]: The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.
+- [skillexec](https://github.com/copyleftdev/skillexec) [Rust]: A binary container format for agent skills: SKILL.md compiled into a signed, mmap-able, lazily verified graph with capability-gated wasm segments.
 - [smesh-a2a](https://github.com/copyleftdev/smesh-a2a) [Rust]: A2A v1 interoperability gateway for decentralized SMESH agent swarms
 - [stretch](https://github.com/copyleftdev/stretch) [Rust]: MCP control plane kernel — routes intents through policy, federates upstream MCP servers, and reasons with Claude Opus 4.7. Named after IBM Project Stretch (IBM 7030, 1961).
 - [taxis-bench](https://github.com/copyleftdev/taxis-bench) [TypeScript]: An adversarial certification environment for agentic RPA: does the agent respect its authorization envelope and commit exactly once under ambiguity? Scores conduct, not just correctness.
@@ -149,4 +151,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-15 06:41 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-16 06:41 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
