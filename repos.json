@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16 06:41 UTC",
+  "generated": "2026-09-17 06:42 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-16T04:31:47Z",
+      "pushed": "2026-09-17T04:31:56Z",
       "category": "security"
     },
     {
@@ -507,7 +507,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-16T06:28:05Z",
+      "pushed": "2026-09-17T06:28:31Z",
       "category": "devtools"
     },
     {
@@ -1343,7 +1343,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-15T05:46:12Z",
+      "pushed": "2026-09-17T05:44:52Z",
       "category": "security"
     },
     {
@@ -1613,13 +1613,26 @@
     {
       "name": "skillexec",
       "url": "https://github.com/copyleftdev/skillexec",
-      "description": "A binary container format for agent skills: SKILL.md compiled into a signed, mmap-able, lazily verified graph with capability-gated wasm segments.",
+      "description": "A binary container for agent skills: SKILL.md compiled into a signed, tiered, content-addressed graph \u2014 with capability-gated wasm segments and an organization compiler.",
       "language": "Rust",
-      "topics": [],
+      "topics": [
+        "agent-skills",
+        "binary-format",
+        "blake3",
+        "content-addressable-storage",
+        "file-format",
+        "formal-verification",
+        "llm",
+        "mcp",
+        "merkle-tree",
+        "rust",
+        "tla-plus",
+        "webassembly"
+      ],
       "stars": 0,
       "archived": false,
       "created": "2026-09-16T04:12:15Z",
-      "pushed": "2026-09-16T05:52:52Z",
+      "pushed": "2026-09-16T23:47:02Z",
       "category": "ai"
     },
     {
@@ -2016,7 +2029,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-16T05:13:35Z",
+      "pushed": "2026-09-17T05:14:42Z",
       "category": "security"
     },
     {

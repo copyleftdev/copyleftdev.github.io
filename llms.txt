@@ -111,7 +111,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [kitboga](https://github.com/copyleftdev/kitboga) [HTML]: Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.
 - [nim-toon](https://github.com/copyleftdev/nim-toon) [Nim]: Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.
 - [sk1llz](https://github.com/copyleftdev/sk1llz) [Python]: The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.
-- [skillexec](https://github.com/copyleftdev/skillexec) [Rust]: A binary container format for agent skills: SKILL.md compiled into a signed, mmap-able, lazily verified graph with capability-gated wasm segments.
+- [skillexec](https://github.com/copyleftdev/skillexec) [Rust]: A binary container for agent skills: SKILL.md compiled into a signed, tiered, content-addressed graph — with capability-gated wasm segments and an organization compiler.
 - [smesh-a2a](https://github.com/copyleftdev/smesh-a2a) [Rust]: A2A v1 interoperability gateway for decentralized SMESH agent swarms
 - [stretch](https://github.com/copyleftdev/stretch) [Rust]: MCP control plane kernel — routes intents through policy, federates upstream MCP servers, and reasons with Claude Opus 4.7. Named after IBM Project Stretch (IBM 7030, 1961).
 - [taxis-bench](https://github.com/copyleftdev/taxis-bench) [TypeScript]: An adversarial certification environment for agentic RPA: does the agent respect its authorization envelope and commit exactly once under ambiguity? Scores conduct, not just correctness.
@@ -151,4 +151,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-16 06:41 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-17 06:42 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
