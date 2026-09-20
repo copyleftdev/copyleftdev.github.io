@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19 06:37 UTC",
+  "generated": "2026-09-20 06:37 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 100,
+  "count": 101,
   "repositories": [
     {
       "name": "micro-containers",
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-19T04:29:58Z",
+      "pushed": "2026-09-20T04:30:36Z",
       "category": "security"
     },
     {
@@ -485,6 +485,39 @@
       "category": "absurd"
     },
     {
+      "name": "jev-labs",
+      "url": "https://github.com/copyleftdev/jev-labs",
+      "description": "Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.",
+      "language": "Python",
+      "topics": [
+        "ai-safety",
+        "antithesis",
+        "asyncapi",
+        "byzantine-fault-tolerance",
+        "calibration",
+        "chaos-engineering",
+        "consensus",
+        "deterministic-simulation",
+        "distributed-systems",
+        "formal-verification",
+        "jev",
+        "llm-evaluation",
+        "metamorphic-testing",
+        "model-checking",
+        "property-based-testing",
+        "rust",
+        "system-one",
+        "tla-plus",
+        "tlc",
+        "typesafe-ai"
+      ],
+      "stars": 1,
+      "archived": false,
+      "created": "2026-09-19T08:07:12Z",
+      "pushed": "2026-09-19T15:15:17Z",
+      "category": "ai"
+    },
+    {
       "name": "leet-index",
       "url": "https://github.com/copyleftdev/leet-index",
       "description": "Activity-aware rankings for US-based GitHub developers, with transparent scoring and exportable public data.",
@@ -507,7 +540,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-19T06:25:08Z",
+      "pushed": "2026-09-20T06:25:07Z",
       "category": "devtools"
     },
     {
@@ -1322,7 +1355,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-08-22T15:17:52Z",
-      "pushed": "2026-08-29T22:35:00Z",
+      "pushed": "2026-09-19T22:32:42Z",
       "category": "devtools"
     },
     {
@@ -1355,7 +1388,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-19T05:44:14Z",
+      "pushed": "2026-09-20T05:44:13Z",
       "category": "security"
     },
     {
@@ -2070,7 +2103,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-19T05:12:51Z",
+      "pushed": "2026-09-20T05:04:33Z",
       "category": "security"
     },
     {

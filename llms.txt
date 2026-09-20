@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 100
+- Original public repositories: 101
 - Followers: 234
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -97,6 +97,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [agent-calc](https://github.com/copyleftdev/agent-calc) [Rust]: AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.
 - [kahea](https://github.com/copyleftdev/kahea) [Rust]: OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.
 - [symgliph](https://github.com/copyleftdev/symgliph) [Rust]: SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.
+- [jev-labs](https://github.com/copyleftdev/jev-labs) [Python]: Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.
 - [murmur](https://github.com/copyleftdev/murmur) [Rust]: Voice typing that never leaves your machine. Local NVIDIA Parakeet transcription, Rust + iced, for Linux.
 - [nasa-power-of-ten-skill](https://github.com/copyleftdev/nasa-power-of-ten-skill) [Python]: Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.
 - [rational](https://github.com/copyleftdev/rational) [Python]: AI cost, with the vibes removed. Exact-rational models + a live calculator for the 8 LLM inference-cost decisions every agent builder faces — model choice, routing, self-host, the reasoning-token tax, cascades, caching, and the O(K²) agent loop. Every number reproducible.
@@ -153,4 +154,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-19 06:37 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-20 06:37 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
