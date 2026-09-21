@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20 06:37 UTC",
+  "generated": "2026-09-21 06:52 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 101,
+  "count": 102,
   "repositories": [
     {
       "name": "micro-containers",
@@ -376,7 +376,7 @@
       "stars": 1,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-20T04:30:36Z",
+      "pushed": "2026-09-21T04:34:16Z",
       "category": "security"
     },
     {
@@ -540,7 +540,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-20T06:25:07Z",
+      "pushed": "2026-09-21T06:35:27Z",
       "category": "devtools"
     },
     {
@@ -930,6 +930,31 @@
       "created": "2026-08-27T16:55:24Z",
       "pushed": "2026-09-01T13:31:46Z",
       "category": "security"
+    },
+    {
+      "name": "braess-router",
+      "url": "https://github.com/copyleftdev/braess-router",
+      "description": "Bounded semantic routing with Jev and Poise. Rust, single-server, alpha.",
+      "language": "Rust",
+      "topics": [
+        "admission-control",
+        "ai-routing",
+        "backpressure",
+        "confidence-aware-ai",
+        "jev",
+        "load-balancing",
+        "rate-limiting",
+        "rust",
+        "semantic-routing",
+        "structured-output",
+        "system-one-models",
+        "typesafe-ai"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-09-20T18:54:00Z",
+      "pushed": "2026-09-21T05:49:45Z",
+      "category": "ai"
     },
     {
       "name": "bruno",
@@ -1388,7 +1413,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-20T05:44:13Z",
+      "pushed": "2026-09-21T05:46:52Z",
       "category": "security"
     },
     {
@@ -2103,7 +2128,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-20T05:04:33Z",
+      "pushed": "2026-09-21T05:15:58Z",
       "category": "security"
     },
     {

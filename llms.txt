@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 101
+- Original public repositories: 102
 - Followers: 234
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -106,6 +106,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [smesh-devteam](https://github.com/copyleftdev/smesh-devteam) [Rust]: An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify
 - [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
 - [allman](https://github.com/copyleftdev/allman) [Rust]: High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.
+- [braess-router](https://github.com/copyleftdev/braess-router) [Rust]: Bounded semantic routing with Jev and Poise. Rust, single-server, alpha.
 - [cowiki-rs](https://github.com/copyleftdev/cowiki-rs) [Rust]: Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.
 - [devto-mcp](https://github.com/copyleftdev/devto-mcp) [Rust]: An MCP server for authorship on dev.to, with the platform's real rules built in — offline validation, rate-budget pacing, and a capability gate dev.to's unscoped API key cannot provide.
 - [hearth](https://github.com/copyleftdev/hearth) [HTML]: Put AI compute in the 82 million houses that already have a grid connection. An exact-arithmetic feasibility study of residential AI inference as an alternative to the data center buildout.
@@ -154,4 +155,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-20 06:37 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-21 06:52 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
