@@ -10,7 +10,7 @@
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
 - Original public repositories: 102
-- Followers: 234
+- Followers: 235
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -41,13 +41,13 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [anomalyx](https://github.com/copyleftdev/anomalyx) [Rust]: Contract-first anomaly detection across ~30 formats — logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.
 - [palimpsest](https://github.com/copyleftdev/palimpsest) [Rust]: Deterministic crawl kernel in Rust — same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.
 - [skbx](https://github.com/copyleftdev/skbx) [Rust]: Agent-first Linux packet-path tracing with Rust/eBPF: bounded evidence, deterministic replay, and packet routes with receipts.
-- [copyleftdev](https://github.com/copyleftdev/copyleftdev) [Python]: Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.
 - [floq](https://github.com/copyleftdev/floq) [Zig]: Detect C2 beacons in network traffic using Floquet spectral analysis from quantum chaos theory. Fast, 274KB Zig binary. Reads pcap, live capture, or OpenTelemetry JSONL.
 - [long-shadow](https://github.com/copyleftdev/long-shadow) [Python]: Operation Long Shadow · Forensic investigation of a four-cluster GitHub repo-laundering operation that buries fabricated commits in 2037 to bubble laundered repos to the top of every AI-built-code search.
 - [mini-shai-hulud-dragnet](https://github.com/copyleftdev/mini-shai-hulud-dragnet) [Shell]: Forensic dataset + live dashboard for the 2026-04-29 'A Mini Shai-Hulud has Appeared' npm supply-chain worm by TeamPCP. 1,117 dropbox repos, 22 compromised accounts, 47 IOCs across 14 kinds. Trojaned: @cap-js, mbt, @bitwarden/cli. C2 attribution to AS209101 IP Vendetta Inc. JSONL data · kinetic dashboard · CC-BY-4.0.
 - [bifrost-editorial](https://github.com/copyleftdev/bifrost-editorial) [Python]: 
 - [bruno](https://github.com/copyleftdev/bruno) [Rust]: Zero-trust proxy network — nodes prove hardware identity via TPM 2.0 remote attestation before receiving ephemeral mTLS certificates. Written in Rust.
 - [claude-rust-todo-tutorial](https://github.com/copyleftdev/claude-rust-todo-tutorial) [Shell]: Production-grade Claude Code artifacts (hooks, agents, commands, gates, sweeps, drifts) wrapped around an axum + sqlx + sqlite todo API. Tutorial.
+- [copyleftdev](https://github.com/copyleftdev/copyleftdev) [Python]: Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.
 - [darkstar](https://github.com/copyleftdev/darkstar) [Zig]: Backend-less internet health and flux monitoring tool (Zig)
 - [dev-to-comment-hustle](https://github.com/copyleftdev/dev-to-comment-hustle) [Shell]: Evidence file: a DEV comment-spam campaign traced to a legitimate SaaS affiliate link. Not malware — the economics are the vulnerability. 15 raw captures, 6 diagrams, reproduce script.
 - [execution-evidence-lab](https://github.com/copyleftdev/execution-evidence-lab) [Python]: A native Linux backup lab with independent verification, eBPF probes, CPU sampling, packet captures, and a reproducible companion article.
@@ -155,4 +155,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-24 06:41 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-25 06:42 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
