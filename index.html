@@ -348,6 +348,13 @@
     },
     {
       "@type": "SoftwareSourceCode",
+      "name": "chathound",
+      "codeRepository": "https://github.com/copyleftdev/chathound",
+      "description": "Polite, exhaustive tap of Kalshi live-market chat: AIMD adaptive polling that hears the whole venue without overwhelming it. Position-annotated NDJSON stream.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
       "name": "cistron",
       "codeRepository": "https://github.com/copyleftdev/cistron",
       "description": "A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.",
@@ -471,13 +478,6 @@
       "codeRepository": "https://github.com/copyleftdev/hook-bin",
       "description": "Single-binary webhook inbox \u2014 capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.",
       "programmingLanguage": "Rust"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "humanitas",
-      "codeRepository": "https://github.com/copyleftdev/humanitas",
-      "description": "Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).",
-      "programmingLanguage": "TypeScript"
     }
   ]
 }
@@ -537,8 +537,8 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
     <ul class="meta">
       <li>Oahu, Hawaii, United States</li>
       <li>On GitHub since 2008</li>
-      <li>102 original public repositories</li>
-      <li>235 followers</li>
+      <li>104 original public repositories</li>
+      <li>236 followers</li>
       <li><a href="mailto:don@codetestcode.io">don@codetestcode.io</a></li>
     </ul>
   </header>
@@ -556,7 +556,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
   <h2>Public work</h2>
   <p class="blurb">Generated from the GitHub API on every run, so this list cannot outlive the repositories it describes. Forks are excluded. Machine-readable: <a href="https://copyleftdev.github.io/repos.json">repos.json</a>, <a href="https://copyleftdev.github.io/llms.txt">llms.txt</a>.</p>
   <section id="security">
-    <h3>Security &amp; detection <span class="count">23</span></h3>
+    <h3>Security &amp; detection <span class="count">22</span></h3>
     <p class="blurb">Beacon detection, anomaly detection, scanners, fuzzers, supply-chain and network forensics.</p>
     <ul class="repos">
       <li>
@@ -603,11 +603,6 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
         <a href="https://github.com/copyleftdev/claude-rust-todo-tutorial"><code>claude-rust-todo-tutorial</code></a>
         <span class="lang">Shell</span>
         <p>Production-grade Claude Code artifacts (hooks, agents, commands, gates, sweeps, drifts) wrapped around an axum + sqlx + sqlite todo API. Tutorial.</p>
-      </li>
-      <li>
-        <a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a>
-        <span class="lang">Python</span>
-        <p>Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.</p>
       </li>
       <li>
         <a href="https://github.com/copyleftdev/darkstar"><code>darkstar</code></a>
@@ -677,7 +672,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
     </ul>
   </section>
   <section id="devtools">
-    <h3>Developer tools <span class="count">27</span></h3>
+    <h3>Developer tools <span class="count">29</span></h3>
     <p class="blurb">Single-binary utilities for the parts of the workflow that usually need a service.</p>
     <ul class="repos">
       <li>
@@ -716,6 +711,11 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
         <p>Why prompts are just the surface. Depth comes from the system you build. — Don Johnson</p>
       </li>
       <li>
+        <a href="https://github.com/copyleftdev/chathound"><code>chathound</code></a>
+        <span class="lang">Rust</span>
+        <p>Polite, exhaustive tap of Kalshi live-market chat: AIMD adaptive polling that hears the whole venue without overwhelming it. Position-annotated NDJSON stream.</p>
+      </li>
+      <li>
         <a href="https://github.com/copyleftdev/cistron"><code>cistron</code></a>
         <span class="lang">Rust</span>
         <p>A convention-safe genome-variant kernel: normalization + VCF/HGVS/VRS boundaries + liftover, validated byte-for-byte against bcftools, vrs-python, and biocommons hgvs.</p>
@@ -744,6 +744,11 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
         <a href="https://github.com/copyleftdev/hook-bin"><code>hook-bin</code></a>
         <span class="lang">Rust</span>
         <p>Single-binary webhook inbox — capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/jevlin"><code>jevlin</code></a>
+        <span class="lang">Zig</span>
+        <p>Zig SDK for TypeSafe AI&#x27;s Jev decision API. Typed classification, scoring and yes/no probabilities with bounded buffers, retries and deadlines.</p>
       </li>
       <li>
         <a href="https://github.com/copyleftdev/kalshi-kernel"><code>kalshi-kernel</code></a>
@@ -818,7 +823,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
     </ul>
   </section>
   <section id="ai">
-    <h3>AI &amp; agent infrastructure <span class="count">27</span></h3>
+    <h3>AI &amp; agent infrastructure <span class="count">28</span></h3>
     <p class="blurb">Protocols, servers, and exact instruments for multi-agent systems — built so an agent gets facts instead of guesses.</p>
     <ul class="repos">
       <li>
@@ -890,6 +895,11 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
         <a href="https://github.com/copyleftdev/allman"><code>allman</code></a>
         <span class="lang">Rust</span>
         <p>High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.</p>
+      </li>
+      <li>
+        <a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a>
+        <span class="lang">Python</span>
+        <p>Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.</p>
       </li>
       <li>
         <a href="https://github.com/copyleftdev/cowiki-rs"><code>cowiki-rs</code></a>
@@ -1098,14 +1108,14 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
 
   <h2>Recently pushed</h2>
   <ul class="plain">
-      <li><a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a> <time datetime="2026-09-26T06:25:47Z">2026-09-26</time></li>
-      <li><a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a> <time datetime="2026-09-26T05:44:42Z">2026-09-26</time></li>
-      <li><a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a> <time datetime="2026-09-26T05:14:12Z">2026-09-26</time></li>
-      <li><a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a> <time datetime="2026-09-26T04:30:56Z">2026-09-26</time></li>
+      <li><a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a> <time datetime="2026-09-27T06:26:53Z">2026-09-27</time></li>
+      <li><a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a> <time datetime="2026-09-27T05:46:07Z">2026-09-27</time></li>
+      <li><a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a> <time datetime="2026-09-27T05:14:43Z">2026-09-27</time></li>
+      <li><a href="https://github.com/copyleftdev/chathound"><code>chathound</code></a> <time datetime="2026-09-27T05:08:20Z">2026-09-27</time></li>
+      <li><a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a> <time datetime="2026-09-27T04:32:40Z">2026-09-27</time></li>
+      <li><a href="https://github.com/copyleftdev/jevlin"><code>jevlin</code></a> <time datetime="2026-09-26T20:47:34Z">2026-09-26</time></li>
       <li><a href="https://github.com/copyleftdev/braess-router"><code>braess-router</code></a> <time datetime="2026-09-22T05:18:01Z">2026-09-22</time></li>
       <li><a href="https://github.com/copyleftdev/kalshi-kernel"><code>kalshi-kernel</code></a> <time datetime="2026-09-19T22:32:42Z">2026-09-19</time></li>
-      <li><a href="https://github.com/copyleftdev/jev-labs"><code>jev-labs</code></a> <time datetime="2026-09-19T15:15:17Z">2026-09-19</time></li>
-      <li><a href="https://github.com/copyleftdev/does-the-grid-bind"><code>does-the-grid-bind</code></a> <time datetime="2026-09-18T19:52:11Z">2026-09-18</time></li>
   </ul>
 
   <h2>Elsewhere</h2>
@@ -1120,7 +1130,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
   </ul>
 
   <footer>
-    <p>Last generated 2026-09-26 06:38 UTC. Source: <a href="https://github.com/copyleftdev/copyleftdev.github.io">copyleftdev/copyleftdev.github.io</a>.</p>
+    <p>Last generated 2026-09-27 06:40 UTC. Source: <a href="https://github.com/copyleftdev/copyleftdev.github.io">copyleftdev/copyleftdev.github.io</a>.</p>
     <p>This page is self-published and describes its author. Every claim about a repository links to that repository; treat the rest as self-description.</p>
   </footer>
 </main>
