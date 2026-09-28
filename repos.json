@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27 06:40 UTC",
+  "generated": "2026-09-28 06:56 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -356,7 +356,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-09-20T18:54:00Z",
-      "pushed": "2026-09-22T05:18:01Z",
+      "pushed": "2026-09-27T13:32:57Z",
       "category": "ai"
     },
     {
@@ -510,6 +510,31 @@
       "category": "ai"
     },
     {
+      "name": "jevlin",
+      "url": "https://github.com/copyleftdev/jevlin",
+      "description": "Zig SDK for TypeSafe AI's Jev decision API. Typed classification, scoring and yes/no probabilities with bounded buffers, retries and deadlines.",
+      "language": "Zig",
+      "topics": [
+        "ai",
+        "api-client",
+        "classification",
+        "decision-api",
+        "fault-injection",
+        "inference",
+        "jev",
+        "sdk",
+        "type-safe",
+        "typesafe-ai",
+        "zig",
+        "ziglang"
+      ],
+      "stars": 1,
+      "archived": false,
+      "created": "2026-09-26T16:02:05Z",
+      "pushed": "2026-09-26T20:47:34Z",
+      "category": "devtools"
+    },
+    {
       "name": "leet-index",
       "url": "https://github.com/copyleftdev/leet-index",
       "description": "Activity-aware rankings for US-based GitHub developers, with transparent scoring and exportable public data.",
@@ -532,7 +557,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-27T06:26:53Z",
+      "pushed": "2026-09-28T06:37:56Z",
       "category": "devtools"
     },
     {
@@ -1122,7 +1147,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-27T04:32:40Z",
+      "pushed": "2026-09-28T04:36:30Z",
       "category": "ai"
     },
     {
@@ -1422,31 +1447,6 @@
       "category": "systems"
     },
     {
-      "name": "jevlin",
-      "url": "https://github.com/copyleftdev/jevlin",
-      "description": "Zig SDK for TypeSafe AI's Jev decision API. Typed classification, scoring and yes/no probabilities with bounded buffers, retries and deadlines.",
-      "language": "Zig",
-      "topics": [
-        "ai",
-        "api-client",
-        "classification",
-        "decision-api",
-        "fault-injection",
-        "inference",
-        "jev",
-        "sdk",
-        "type-safe",
-        "typesafe-ai",
-        "zig",
-        "ziglang"
-      ],
-      "stars": 0,
-      "archived": false,
-      "created": "2026-09-26T16:02:05Z",
-      "pushed": "2026-09-26T20:47:34Z",
-      "category": "devtools"
-    },
-    {
       "name": "kalshi-kernel",
       "url": "https://github.com/copyleftdev/kalshi-kernel",
       "description": "Unofficial safety-focused MCP kernel for Kalshi market workflows",
@@ -1488,7 +1488,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-27T05:46:07Z",
+      "pushed": "2026-09-28T05:50:11Z",
       "category": "security"
     },
     {
@@ -2182,7 +2182,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-27T05:14:43Z",
+      "pushed": "2026-09-28T04:53:56Z",
       "category": "security"
     },
     {

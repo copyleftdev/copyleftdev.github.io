@@ -68,6 +68,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [cora](https://github.com/copyleftdev/cora) [Rust]: Multi-pattern fixed-string matcher. Aho-Corasick + SIMD on mmap'd files. NDJSON output for AI agents and pipelines.
 - [cosaci](https://github.com/copyleftdev/cosaci) [Rust]: Distributed attested CI mesh — property-tested at every layer
 - [dev-portal-correctly](https://github.com/copyleftdev/dev-portal-correctly) [JavaScript]: Specification-first developer portal: modular OpenAPI 3.1 + AsyncAPI 3.1 sharing one domain model, an enforced error registry, and CI that can actually fail.
+- [jevlin](https://github.com/copyleftdev/jevlin) [Zig]: Zig SDK for TypeSafe AI's Jev decision API. Typed classification, scoring and yes/no probabilities with bounded buffers, retries and deadlines.
 - [leet-index](https://github.com/copyleftdev/leet-index) [JavaScript]: Activity-aware rankings for US-based GitHub developers, with transparent scoring and exportable public data.
 - [art-of-context-and-intent](https://github.com/copyleftdev/art-of-context-and-intent) [HTML]: Why prompts are just the surface. Depth comes from the system you build. — Don Johnson
 - [chathound](https://github.com/copyleftdev/chathound) [Rust]: Polite, exhaustive tap of Kalshi live-market chat: AIMD adaptive polling that hears the whole venue without overwhelming it. Position-annotated NDJSON stream.
@@ -77,7 +78,6 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [entropyx-survey](https://github.com/copyleftdev/entropyx-survey) [Rust]: A cartographic browser survey for entropyx: streaming scans over SSE, a printable plain-language brief, and the scoring kernel in WebAssembly.
 - [gemma-4-challenge](https://github.com/copyleftdev/gemma-4-challenge) [Python]: Care Compass: Gemma 4 healthcare navigation demo with Aion signed-policy decision evidence
 - [hook-bin](https://github.com/copyleftdev/hook-bin) [Rust]: Single-binary webhook inbox — capture, inspect, and debug HTTP webhooks with zero dependencies. Embedded SQLite, live dashboard, cross-platform. Just scp and run.
-- [jevlin](https://github.com/copyleftdev/jevlin) [Zig]: Zig SDK for TypeSafe AI's Jev decision API. Typed classification, scoring and yes/no probabilities with bounded buffers, retries and deadlines.
 - [kalshi-kernel](https://github.com/copyleftdev/kalshi-kernel) [Go]: Unofficial safety-focused MCP kernel for Kalshi market workflows
 - [linux-archaeology-lab](https://github.com/copyleftdev/linux-archaeology-lab) [Shell]: Hands-on exercises for forgotten Linux pipe & stream commands — sample data, real exercises, Claude Code skill included.
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
@@ -157,4 +157,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-27 06:40 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-28 06:56 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
