@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29 06:44 UTC",
+  "generated": "2026-09-30 06:44 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 105,
+  "count": 106,
   "repositories": [
     {
       "name": "micro-containers",
@@ -557,7 +557,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-29T06:29:10Z",
+      "pushed": "2026-09-30T06:29:15Z",
       "category": "devtools"
     },
     {
@@ -1178,7 +1178,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-29T04:34:08Z",
+      "pushed": "2026-09-30T04:35:04Z",
       "category": "ai"
     },
     {
@@ -1519,7 +1519,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-29T05:48:04Z",
+      "pushed": "2026-09-30T05:48:46Z",
       "category": "security"
     },
     {
@@ -1764,6 +1764,26 @@
       "created": "2026-04-05T01:38:07Z",
       "pushed": "2026-04-05T03:31:19Z",
       "category": "security"
+    },
+    {
+      "name": "shard-router",
+      "url": "https://github.com/copyleftdev/shard-router",
+      "description": "Deterministic-first shard router for the Kalshi exchange: verified shard resolution, exact integer fee schedules, async-safe prefunding, ledger reconciliation, VOPR-style DST. Rust, TigerStyle.",
+      "language": "Makefile",
+      "topics": [
+        "cli",
+        "fintech",
+        "kalshi",
+        "prediction-markets",
+        "rust",
+        "tigerstyle",
+        "trading"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-09-29T12:42:08Z",
+      "pushed": "2026-09-29T12:45:10Z",
+      "category": "devtools"
     },
     {
       "name": "skillexec",
@@ -2213,7 +2233,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-29T04:52:59Z",
+      "pushed": "2026-09-30T04:53:02Z",
       "category": "security"
     },
     {

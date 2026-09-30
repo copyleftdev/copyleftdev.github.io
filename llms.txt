@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 105
+- Original public repositories: 106
 - Followers: 236
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -84,6 +84,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
 - [pegrep](https://github.com/copyleftdev/pegrep) [Rust]: Text and structural search with readable PEG patterns, typed captures, and JSON output.
 - [pi-mini-rack](https://github.com/copyleftdev/pi-mini-rack): Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.
+- [shard-router](https://github.com/copyleftdev/shard-router) [Makefile]: Deterministic-first shard router for the Kalshi exchange: verified shard resolution, exact integer fee schedules, async-safe prefunding, ledger reconciliation, VOPR-style DST. Rust, TigerStyle.
 - [superforecasting-skills-pack](https://github.com/copyleftdev/superforecasting-skills-pack) [Python]: Thirteen research-attributed forecasting skills for Claude — Brier scoring, calibration decomposition, logit pooling, Bayesian updating, reference classes, conditional trees. Every technique names its research and states its limits.
 - [tapehound](https://github.com/copyleftdev/tapehound) [Rust]: High-performance Kalshi venue scanner: liquid markets, whale fills, live SSE stream. Rust, SIMD hot path, TigerStyle discipline.
 - [tlatools-rs](https://github.com/copyleftdev/tlatools-rs) [Rust]: Ask a TLA+ specification about a state, and get an answer. A parser and evaluator for TLA+ in Rust — not a model checker.
@@ -158,4 +159,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-29 06:44 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-09-30 06:44 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
