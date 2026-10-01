@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30 06:44 UTC",
+  "generated": "2026-10-01 06:45 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -54,6 +54,37 @@
       "category": "systems"
     },
     {
+      "name": "tailx",
+      "url": "https://github.com/copyleftdev/tailx",
+      "description": "Live system cognition engine. Reimagines tail from \"show me lines\" to \"what's happening, what matters, and why?\" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.",
+      "language": "Zig",
+      "topics": [
+        "ai-tools",
+        "anomaly-detection",
+        "cli-tool",
+        "devops",
+        "incident-response",
+        "json-logs",
+        "log-analysis",
+        "log-monitoring",
+        "log-parser",
+        "mcp-tool",
+        "observability",
+        "pattern-recognition",
+        "sre",
+        "stream-processing",
+        "syslog",
+        "tail",
+        "trace-reconstruction",
+        "zig"
+      ],
+      "stars": 4,
+      "archived": false,
+      "created": "2026-03-23T15:01:43Z",
+      "pushed": "2026-07-19T19:11:36Z",
+      "category": "devtools"
+    },
+    {
       "name": "anomalyx",
       "url": "https://github.com/copyleftdev/anomalyx",
       "description": "Contract-first anomaly detection across ~30 formats \u2014 logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.",
@@ -85,37 +116,6 @@
       "created": "2026-05-30T19:22:07Z",
       "pushed": "2026-07-19T19:11:32Z",
       "category": "security"
-    },
-    {
-      "name": "tailx",
-      "url": "https://github.com/copyleftdev/tailx",
-      "description": "Live system cognition engine. Reimagines tail from \"show me lines\" to \"what's happening, what matters, and why?\" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.",
-      "language": "Zig",
-      "topics": [
-        "ai-tools",
-        "anomaly-detection",
-        "cli-tool",
-        "devops",
-        "incident-response",
-        "json-logs",
-        "log-analysis",
-        "log-monitoring",
-        "log-parser",
-        "mcp-tool",
-        "observability",
-        "pattern-recognition",
-        "sre",
-        "stream-processing",
-        "syslog",
-        "tail",
-        "trace-reconstruction",
-        "zig"
-      ],
-      "stars": 3,
-      "archived": false,
-      "created": "2026-03-23T15:01:43Z",
-      "pushed": "2026-07-19T19:11:36Z",
-      "category": "devtools"
     },
     {
       "name": "tak-rs",
@@ -269,6 +269,31 @@
       "created": "2026-07-27T16:43:13Z",
       "pushed": "2026-09-07T13:20:10Z",
       "category": "security"
+    },
+    {
+      "name": "smesh-rust",
+      "url": "https://github.com/copyleftdev/smesh-rust",
+      "description": "High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).",
+      "language": "Rust",
+      "topics": [
+        "async-rust",
+        "claude",
+        "coordination",
+        "decentralized",
+        "distributed-systems",
+        "llm",
+        "multi-agent",
+        "ollama",
+        "p2p",
+        "quic",
+        "rust",
+        "signal-processing"
+      ],
+      "stars": 2,
+      "archived": false,
+      "created": "2026-01-06T04:22:20Z",
+      "pushed": "2026-08-24T01:59:55Z",
+      "category": "ai"
     },
     {
       "name": "symgliph",
@@ -557,7 +582,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-09-30T06:29:15Z",
+      "pushed": "2026-10-01T06:29:23Z",
       "category": "devtools"
     },
     {
@@ -840,31 +865,6 @@
       "archived": false,
       "created": "2026-08-21T05:46:46Z",
       "pushed": "2026-08-21T16:49:08Z",
-      "category": "ai"
-    },
-    {
-      "name": "smesh-rust",
-      "url": "https://github.com/copyleftdev/smesh-rust",
-      "description": "High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).",
-      "language": "Rust",
-      "topics": [
-        "async-rust",
-        "claude",
-        "coordination",
-        "decentralized",
-        "distributed-systems",
-        "llm",
-        "multi-agent",
-        "ollama",
-        "p2p",
-        "quic",
-        "rust",
-        "signal-processing"
-      ],
-      "stars": 1,
-      "archived": false,
-      "created": "2026-01-06T04:22:20Z",
-      "pushed": "2026-08-24T01:59:55Z",
       "category": "ai"
     },
     {
@@ -1178,7 +1178,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-09-30T04:35:04Z",
+      "pushed": "2026-10-01T04:35:00Z",
       "category": "ai"
     },
     {
@@ -1519,7 +1519,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-09-30T05:48:46Z",
+      "pushed": "2026-10-01T05:48:06Z",
       "category": "security"
     },
     {
@@ -2233,7 +2233,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-09-30T04:53:02Z",
+      "pushed": "2026-10-01T04:50:52Z",
       "category": "security"
     },
     {

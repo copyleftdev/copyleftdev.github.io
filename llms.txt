@@ -10,7 +10,7 @@
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
 - Original public repositories: 106
-- Followers: 236
+- Followers: 237
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -99,6 +99,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 - [agent-calc](https://github.com/copyleftdev/agent-calc) [Rust]: AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.
 - [kahea](https://github.com/copyleftdev/kahea) [Rust]: OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.
+- [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
 - [symgliph](https://github.com/copyleftdev/symgliph) [Rust]: SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.
 - [braess-router](https://github.com/copyleftdev/braess-router) [Rust]: Bounded semantic routing with Jev and Poise. Rust, single-server, alpha.
 - [jev-labs](https://github.com/copyleftdev/jev-labs) [Python]: Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.
@@ -109,7 +110,6 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [sk1llz](https://github.com/copyleftdev/sk1llz) [Python]: The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.
 - [smesh-crawler](https://github.com/copyleftdev/smesh-crawler) [Rust]: Agent-orchestrated web crawler for exact evidence and historical changepoints—with deterministic policy, robots compliance, and local MCP support.
 - [smesh-devteam](https://github.com/copyleftdev/smesh-devteam) [Rust]: An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify
-- [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
 - [allman](https://github.com/copyleftdev/allman) [Rust]: High-performance MCP agent mail server — lock-free message routing, NRT search, Git audit trail. Built in Rust.
 - [copyleftdev](https://github.com/copyleftdev/copyleftdev) [Python]: Systems-level software engineer building security tools, developer infrastructure, and AI-native systems in Rust, Go, and Zig. 560+ open source repositories.
 - [cowiki-rs](https://github.com/copyleftdev/cowiki-rs) [Rust]: Formally verified spreading activation primitives for the Co-Wiki architecture (Shomo, 2026). 7 Rust crates, 113 tests, 0 unsafe.
@@ -159,4 +159,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-09-30 06:44 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-10-01 06:45 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

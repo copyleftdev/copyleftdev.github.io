@@ -75,17 +75,17 @@
     },
     {
       "@type": "SoftwareSourceCode",
-      "name": "anomalyx",
-      "codeRepository": "https://github.com/copyleftdev/anomalyx",
-      "description": "Contract-first anomaly detection across ~30 formats \u2014 logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.",
-      "programmingLanguage": "Rust"
-    },
-    {
-      "@type": "SoftwareSourceCode",
       "name": "tailx",
       "codeRepository": "https://github.com/copyleftdev/tailx",
       "description": "Live system cognition engine. Reimagines tail from \"show me lines\" to \"what's happening, what matters, and why?\" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.",
       "programmingLanguage": "Zig"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "anomalyx",
+      "codeRepository": "https://github.com/copyleftdev/anomalyx",
+      "description": "Contract-first anomaly detection across ~30 formats \u2014 logs, security telemetry (syslog, CEF/LEEF, EVTX, Suricata EVE, osquery, CloudTrail), network (pcap, NetFlow, DNS), observability (OTLP, Prometheus, journald), data (CSV/JSON/Parquet/SQLite/Avro/ORC). Deterministic Rust CLI; 9 detectors / 7 classes; NIST-validated, mutation-tested.",
+      "programmingLanguage": "Rust"
     },
     {
       "@type": "SoftwareSourceCode",
@@ -120,6 +120,13 @@
       "name": "skbx",
       "codeRepository": "https://github.com/copyleftdev/skbx",
       "description": "Agent-first Linux packet-path tracing with Rust/eBPF: bounded evidence, deterministic replay, and packet routes with receipts.",
+      "programmingLanguage": "Rust"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "smesh-rust",
+      "codeRepository": "https://github.com/copyleftdev/smesh-rust",
+      "description": "High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).",
       "programmingLanguage": "Rust"
     },
     {
@@ -288,13 +295,6 @@
       "name": "smesh-devteam",
       "codeRepository": "https://github.com/copyleftdev/smesh-devteam",
       "description": "An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify",
-      "programmingLanguage": "Rust"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "smesh-rust",
-      "codeRepository": "https://github.com/copyleftdev/smesh-rust",
-      "description": "High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).",
       "programmingLanguage": "Rust"
     },
     {
@@ -538,7 +538,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
       <li>Oahu, Hawaii, United States</li>
       <li>On GitHub since 2008</li>
       <li>106 original public repositories</li>
-      <li>236 followers</li>
+      <li>237 followers</li>
       <li><a href="mailto:don@codetestcode.io">don@codetestcode.io</a></li>
     </ul>
   </header>
@@ -677,7 +677,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
     <ul class="repos">
       <li>
         <a href="https://github.com/copyleftdev/tailx"><code>tailx</code></a>
-        <span class="lang">Zig</span><span class="stars" title="stars">★ 3</span>
+        <span class="lang">Zig</span><span class="stars" title="stars">★ 4</span>
         <p>Live system cognition engine. Reimagines tail from &quot;show me lines&quot; to &quot;what&#x27;s happening, what matters, and why?&quot; Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.</p>
       </li>
       <li>
@@ -847,6 +847,11 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
         <p>OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.</p>
       </li>
       <li>
+        <a href="https://github.com/copyleftdev/smesh-rust"><code>smesh-rust</code></a>
+        <span class="lang">Rust</span><span class="stars" title="stars">★ 2</span>
+        <p>High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).</p>
+      </li>
+      <li>
         <a href="https://github.com/copyleftdev/symgliph"><code>symgliph</code></a>
         <span class="lang">Rust</span><span class="stars" title="stars">★ 2</span>
         <p>SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.</p>
@@ -895,11 +900,6 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
         <a href="https://github.com/copyleftdev/smesh-devteam"><code>smesh-devteam</code></a>
         <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
         <p>An elite dev team as a signal mesh: LLMs propose, deterministic gates adjudicate, humans ratify</p>
-      </li>
-      <li>
-        <a href="https://github.com/copyleftdev/smesh-rust"><code>smesh-rust</code></a>
-        <span class="lang">Rust</span><span class="stars" title="stars">★ 1</span>
-        <p>High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).</p>
       </li>
       <li>
         <a href="https://github.com/copyleftdev/allman"><code>allman</code></a>
@@ -1118,10 +1118,10 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
 
   <h2>Recently pushed</h2>
   <ul class="plain">
-      <li><a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a> <time datetime="2026-09-30T06:29:15Z">2026-09-30</time></li>
-      <li><a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a> <time datetime="2026-09-30T05:48:46Z">2026-09-30</time></li>
-      <li><a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a> <time datetime="2026-09-30T04:53:02Z">2026-09-30</time></li>
-      <li><a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a> <time datetime="2026-09-30T04:35:04Z">2026-09-30</time></li>
+      <li><a href="https://github.com/copyleftdev/leet-index"><code>leet-index</code></a> <time datetime="2026-10-01T06:29:23Z">2026-10-01</time></li>
+      <li><a href="https://github.com/copyleftdev/kilo-data"><code>kilo-data</code></a> <time datetime="2026-10-01T05:48:06Z">2026-10-01</time></li>
+      <li><a href="https://github.com/copyleftdev/vulngraph-data"><code>vulngraph-data</code></a> <time datetime="2026-10-01T04:50:52Z">2026-10-01</time></li>
+      <li><a href="https://github.com/copyleftdev/copyleftdev"><code>copyleftdev</code></a> <time datetime="2026-10-01T04:35:00Z">2026-10-01</time></li>
       <li><a href="https://github.com/copyleftdev/shard-router"><code>shard-router</code></a> <time datetime="2026-09-29T12:45:10Z">2026-09-29</time></li>
       <li><a href="https://github.com/copyleftdev/poise-rs"><code>poise-rs</code></a> <time datetime="2026-09-28T13:12:43Z">2026-09-28</time></li>
       <li><a href="https://github.com/copyleftdev/chronicle-forge"><code>chronicle-forge</code></a> <time datetime="2026-09-28T07:08:05Z">2026-09-28</time></li>
@@ -1140,7 +1140,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
   </ul>
 
   <footer>
-    <p>Last generated 2026-09-30 06:44 UTC. Source: <a href="https://github.com/copyleftdev/copyleftdev.github.io">copyleftdev/copyleftdev.github.io</a>.</p>
+    <p>Last generated 2026-10-01 06:45 UTC. Source: <a href="https://github.com/copyleftdev/copyleftdev.github.io">copyleftdev/copyleftdev.github.io</a>.</p>
     <p>This page is self-published and describes its author. Every claim about a repository links to that repository; treat the rest as self-description.</p>
   </footer>
 </main>
