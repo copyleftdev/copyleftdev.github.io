@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03 06:48 UTC",
+  "generated": "2026-10-04 08:21 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -212,6 +212,39 @@
       "archived": false,
       "created": "2026-05-08T04:10:30Z",
       "pushed": "2026-08-09T20:30:49Z",
+      "category": "ai"
+    },
+    {
+      "name": "jev-labs",
+      "url": "https://github.com/copyleftdev/jev-labs",
+      "description": "Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.",
+      "language": "Python",
+      "topics": [
+        "ai-safety",
+        "antithesis",
+        "asyncapi",
+        "byzantine-fault-tolerance",
+        "calibration",
+        "chaos-engineering",
+        "consensus",
+        "deterministic-simulation",
+        "distributed-systems",
+        "formal-verification",
+        "jev",
+        "llm-evaluation",
+        "metamorphic-testing",
+        "model-checking",
+        "property-based-testing",
+        "rust",
+        "system-one",
+        "tla-plus",
+        "tlc",
+        "typesafe-ai"
+      ],
+      "stars": 2,
+      "archived": false,
+      "created": "2026-09-19T08:07:12Z",
+      "pushed": "2026-09-19T15:15:17Z",
       "category": "ai"
     },
     {
@@ -502,39 +535,6 @@
       "category": "absurd"
     },
     {
-      "name": "jev-labs",
-      "url": "https://github.com/copyleftdev/jev-labs",
-      "description": "Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.",
-      "language": "Python",
-      "topics": [
-        "ai-safety",
-        "antithesis",
-        "asyncapi",
-        "byzantine-fault-tolerance",
-        "calibration",
-        "chaos-engineering",
-        "consensus",
-        "deterministic-simulation",
-        "distributed-systems",
-        "formal-verification",
-        "jev",
-        "llm-evaluation",
-        "metamorphic-testing",
-        "model-checking",
-        "property-based-testing",
-        "rust",
-        "system-one",
-        "tla-plus",
-        "tlc",
-        "typesafe-ai"
-      ],
-      "stars": 1,
-      "archived": false,
-      "created": "2026-09-19T08:07:12Z",
-      "pushed": "2026-09-19T15:15:17Z",
-      "category": "ai"
-    },
-    {
       "name": "jevlin",
       "url": "https://github.com/copyleftdev/jevlin",
       "description": "Zig SDK for TypeSafe AI's Jev decision API. Typed classification, scoring and yes/no probabilities with bounded buffers, retries and deadlines.",
@@ -582,7 +582,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-03T06:28:35Z",
+      "pushed": "2026-10-04T06:58:48Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-03T04:36:17Z",
+      "pushed": "2026-10-04T05:58:17Z",
       "category": "ai"
     },
     {
@@ -1552,7 +1552,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-03T05:51:08Z",
+      "pushed": "2026-10-04T07:31:17Z",
       "category": "security"
     },
     {
@@ -2266,7 +2266,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-03T04:54:58Z",
+      "pushed": "2026-10-04T06:17:02Z",
       "category": "security"
     },
     {
