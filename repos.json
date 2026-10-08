@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07 06:44 UTC",
+  "generated": "2026-10-08 06:46 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -215,6 +215,31 @@
       "category": "ai"
     },
     {
+      "name": "braess-router",
+      "url": "https://github.com/copyleftdev/braess-router",
+      "description": "Bounded semantic routing with Jev and Poise. Rust, single-server, alpha.",
+      "language": "Rust",
+      "topics": [
+        "admission-control",
+        "ai-routing",
+        "backpressure",
+        "confidence-aware-ai",
+        "jev",
+        "load-balancing",
+        "rate-limiting",
+        "rust",
+        "semantic-routing",
+        "structured-output",
+        "system-one-models",
+        "typesafe-ai"
+      ],
+      "stars": 2,
+      "archived": false,
+      "created": "2026-09-20T18:54:00Z",
+      "pushed": "2026-09-27T13:32:57Z",
+      "category": "ai"
+    },
+    {
       "name": "jev-labs",
       "url": "https://github.com/copyleftdev/jev-labs",
       "description": "Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.",
@@ -393,31 +418,6 @@
       "category": "ai"
     },
     {
-      "name": "braess-router",
-      "url": "https://github.com/copyleftdev/braess-router",
-      "description": "Bounded semantic routing with Jev and Poise. Rust, single-server, alpha.",
-      "language": "Rust",
-      "topics": [
-        "admission-control",
-        "ai-routing",
-        "backpressure",
-        "confidence-aware-ai",
-        "jev",
-        "load-balancing",
-        "rate-limiting",
-        "rust",
-        "semantic-routing",
-        "structured-output",
-        "system-one-models",
-        "typesafe-ai"
-      ],
-      "stars": 1,
-      "archived": false,
-      "created": "2026-09-20T18:54:00Z",
-      "pushed": "2026-09-27T13:32:57Z",
-      "category": "ai"
-    },
-    {
       "name": "circuitbreaker-rs",
       "url": "https://github.com/copyleftdev/circuitbreaker-rs",
       "description": null,
@@ -582,7 +582,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-07T06:27:52Z",
+      "pushed": "2026-10-08T06:30:20Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-07T04:35:58Z",
+      "pushed": "2026-10-08T04:36:17Z",
       "category": "ai"
     },
     {
@@ -1552,7 +1552,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-07T05:50:56Z",
+      "pushed": "2026-10-08T05:51:19Z",
       "category": "security"
     },
     {
@@ -2266,7 +2266,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-07T04:50:40Z",
+      "pushed": "2026-10-08T04:55:57Z",
       "category": "security"
     },
     {
