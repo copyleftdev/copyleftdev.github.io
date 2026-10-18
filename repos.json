@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17 06:37 UTC",
+  "generated": "2026-10-18 06:37 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -83,6 +83,39 @@
       "created": "2026-03-23T15:01:43Z",
       "pushed": "2026-07-19T19:11:36Z",
       "category": "devtools"
+    },
+    {
+      "name": "agent-calc",
+      "url": "https://github.com/copyleftdev/agent-calc",
+      "description": "AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.",
+      "language": "Rust",
+      "topics": [
+        "agent-tools",
+        "ai",
+        "calculator",
+        "cli",
+        "complex-numbers",
+        "contract-first",
+        "deterministic",
+        "exact-arithmetic",
+        "finance",
+        "json-schema",
+        "linear-programming",
+        "matrices",
+        "mutation-testing",
+        "optimization",
+        "property-testing",
+        "rational-arithmetic",
+        "rust",
+        "statistics",
+        "symbolic-math",
+        "units"
+      ],
+      "stars": 3,
+      "archived": false,
+      "created": "2026-05-08T04:10:30Z",
+      "pushed": "2026-08-09T20:30:49Z",
+      "category": "ai"
     },
     {
       "name": "anomalyx",
@@ -180,39 +213,6 @@
       "created": "2026-04-08T04:13:47Z",
       "pushed": "2026-07-30T20:14:17Z",
       "category": "devtools"
-    },
-    {
-      "name": "agent-calc",
-      "url": "https://github.com/copyleftdev/agent-calc",
-      "description": "AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.",
-      "language": "Rust",
-      "topics": [
-        "agent-tools",
-        "ai",
-        "calculator",
-        "cli",
-        "complex-numbers",
-        "contract-first",
-        "deterministic",
-        "exact-arithmetic",
-        "finance",
-        "json-schema",
-        "linear-programming",
-        "matrices",
-        "mutation-testing",
-        "optimization",
-        "property-testing",
-        "rational-arithmetic",
-        "rust",
-        "statistics",
-        "symbolic-math",
-        "units"
-      ],
-      "stars": 2,
-      "archived": false,
-      "created": "2026-05-08T04:10:30Z",
-      "pushed": "2026-08-09T20:30:49Z",
-      "category": "ai"
     },
     {
       "name": "braess-router",
@@ -582,7 +582,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-17T06:23:57Z",
+      "pushed": "2026-10-18T06:23:59Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-17T04:29:48Z",
+      "pushed": "2026-10-18T04:30:45Z",
       "category": "ai"
     },
     {
@@ -1564,7 +1564,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-17T05:44:07Z",
+      "pushed": "2026-10-18T05:45:05Z",
       "category": "security"
     },
     {
@@ -2290,7 +2290,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-17T04:49:05Z",
+      "pushed": "2026-10-18T04:50:18Z",
       "category": "security"
     },
     {
