@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19 06:53 UTC",
+  "generated": "2026-10-20 06:40 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 108,
+  "count": 110,
   "repositories": [
     {
       "name": "micro-containers",
@@ -582,7 +582,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-19T06:34:37Z",
+      "pushed": "2026-10-20T06:25:55Z",
       "category": "devtools"
     },
     {
@@ -740,7 +740,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-08-05T04:44:29Z",
-      "pushed": "2026-10-13T16:59:43Z",
+      "pushed": "2026-10-19T13:36:34Z",
       "category": "systems"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-19T04:34:25Z",
+      "pushed": "2026-10-20T04:31:39Z",
       "category": "ai"
     },
     {
@@ -1248,6 +1248,18 @@
       "created": "2025-12-29T23:00:22Z",
       "pushed": "2025-12-30T00:42:26Z",
       "category": "security"
+    },
+    {
+      "name": "deflect-rs",
+      "url": "https://github.com/copyleftdev/deflect-rs",
+      "description": "Composable, kernel-adjacent DDoS-mitigation primitives in Rust \u2014 rate limiting, SYN cookies, signatures, reflection/amplification defense, learned fingerprints, nftables enforcement, flow telemetry, and upstream RTBH.",
+      "language": "Rust",
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-10-19T12:48:04Z",
+      "pushed": "2026-10-20T02:11:37Z",
+      "category": "systems"
     },
     {
       "name": "dev-to-comment-hustle",
@@ -1499,6 +1511,33 @@
       "category": "systems"
     },
     {
+      "name": "humanlang",
+      "url": "https://github.com/copyleftdev/humanlang",
+      "description": "37 programming languages, one human intent. Token bucket rate limiter implemented across 60 years of languages (1957-2016) \u2014 proving that human language is the ultimate source code.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "ai-coding",
+        "code-generation",
+        "docker",
+        "first-principles",
+        "human-language",
+        "intent-driven-development",
+        "llm",
+        "polyglot",
+        "programming-languages",
+        "rate-limiter",
+        "showcase",
+        "transpiler",
+        "vibe-coding"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-01-18T20:18:20Z",
+      "pushed": "2026-01-18T20:18:22Z",
+      "category": "ai"
+    },
+    {
       "name": "interview-with-a-binary-media",
       "url": "https://github.com/copyleftdev/interview-with-a-binary-media",
       "description": "Media for I Interviewed an Executable. It Had Notes. \u2014 cover art, replay stills, and video. No executable source or raw telemetry.",
@@ -1564,7 +1603,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-19T05:48:40Z",
+      "pushed": "2026-10-20T05:47:53Z",
       "category": "security"
     },
     {
@@ -2290,7 +2329,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-19T04:49:30Z",
+      "pushed": "2026-10-20T04:51:10Z",
       "category": "security"
     },
     {
