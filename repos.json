@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21 06:41 UTC",
+  "generated": "2026-10-22 06:41 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -85,6 +85,37 @@
       "category": "devtools"
     },
     {
+      "name": "tak-rs",
+      "url": "https://github.com/copyleftdev/tak-rs",
+      "description": "High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem \u2014 drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.",
+      "language": "Rust",
+      "topics": [
+        "async",
+        "atak",
+        "cot",
+        "cursor-on-target",
+        "geospatial",
+        "itak",
+        "mtls",
+        "mutual-tls",
+        "protobuf",
+        "rust",
+        "situational-awareness",
+        "tactical",
+        "tak",
+        "tak-protocol",
+        "tak-server",
+        "team-awareness-kit",
+        "tokio",
+        "wintak"
+      ],
+      "stars": 4,
+      "archived": false,
+      "created": "2026-04-28T05:46:42Z",
+      "pushed": "2026-07-19T19:11:47Z",
+      "category": "systems"
+    },
+    {
       "name": "agent-calc",
       "url": "https://github.com/copyleftdev/agent-calc",
       "description": "AI-native exact calculator and contract-first Rust CLI for typed JSON math, symbolic reasoning, property tests, and mutation-tested agent workflows.",
@@ -149,37 +180,6 @@
       "created": "2026-05-30T19:22:07Z",
       "pushed": "2026-07-19T19:11:32Z",
       "category": "security"
-    },
-    {
-      "name": "tak-rs",
-      "url": "https://github.com/copyleftdev/tak-rs",
-      "description": "High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem \u2014 drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.",
-      "language": "Rust",
-      "topics": [
-        "async",
-        "atak",
-        "cot",
-        "cursor-on-target",
-        "geospatial",
-        "itak",
-        "mtls",
-        "mutual-tls",
-        "protobuf",
-        "rust",
-        "situational-awareness",
-        "tactical",
-        "tak",
-        "tak-protocol",
-        "tak-server",
-        "team-awareness-kit",
-        "tokio",
-        "wintak"
-      ],
-      "stars": 3,
-      "archived": false,
-      "created": "2026-04-28T05:46:42Z",
-      "pushed": "2026-07-19T19:11:47Z",
-      "category": "systems"
     },
     {
       "name": "vajra",
@@ -582,7 +582,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-21T06:27:18Z",
+      "pushed": "2026-10-22T06:26:50Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-21T04:32:33Z",
+      "pushed": "2026-10-22T04:32:10Z",
       "category": "ai"
     },
     {
@@ -1603,7 +1603,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-21T05:47:47Z",
+      "pushed": "2026-10-22T05:48:01Z",
       "category": "security"
     },
     {
@@ -2329,7 +2329,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-21T05:19:13Z",
+      "pushed": "2026-10-22T05:13:50Z",
       "category": "security"
     },
     {
