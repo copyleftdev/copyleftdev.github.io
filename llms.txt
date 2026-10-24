@@ -131,8 +131,8 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ### Systems & protocol
 
-- [micro-containers](https://github.com/copyleftdev/micro-containers) [Go]: One Go HTTP server. Five isolation runtimes. gVisor, Kata, Firecracker, and WASM benchmarked.
 - [emv-3ds](https://github.com/copyleftdev/emv-3ds) [Rust]: EMV 3-D Secure 2.x (3DS2) protocol — AReq/ARes/CReq/CRes messages, transaction state machine, ECI/CAVV helpers, and full EMVCo spec serialization for payment authentication (SCA/PSD2)
+- [micro-containers](https://github.com/copyleftdev/micro-containers) [Go]: One Go HTTP server. Five isolation runtimes. gVisor, Kata, Firecracker, and WASM benchmarked.
 - [tak-rs](https://github.com/copyleftdev/tak-rs) [Rust]: High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem — drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.
 - [circuitbreaker-rs](https://github.com/copyleftdev/circuitbreaker-rs) [Rust]: 
 - [lotto-vs-kalshi](https://github.com/copyleftdev/lotto-vs-kalshi): The $20 Question: exact-math essay on why spreading $20 across 0.1¢ prediction-market longshots beats the lottery (10.23x less loss per dollar)
@@ -163,4 +163,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-10-23 06:41 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-10-24 06:38 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
