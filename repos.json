@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25 06:38 UTC",
+  "generated": "2026-10-26 06:54 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -182,6 +182,39 @@
       "category": "security"
     },
     {
+      "name": "palimpsest",
+      "url": "https://github.com/copyleftdev/palimpsest",
+      "description": "Deterministic crawl kernel in Rust \u2014 same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.",
+      "language": "Rust",
+      "topics": [
+        "ai-native",
+        "blake3",
+        "browser-automation",
+        "cdp",
+        "claude-code",
+        "content-addressable",
+        "crawl",
+        "crawl-kernel",
+        "deterministic",
+        "deterministic-simulation",
+        "digital-preservation",
+        "headless-chrome",
+        "replay",
+        "rust",
+        "simulation-testing",
+        "warc",
+        "web-archive",
+        "web-archiving",
+        "web-crawler",
+        "web-scraping"
+      ],
+      "stars": 3,
+      "archived": false,
+      "created": "2026-04-12T02:02:33Z",
+      "pushed": "2026-07-19T19:11:51Z",
+      "category": "security"
+    },
+    {
       "name": "vajra",
       "url": "https://github.com/copyleftdev/vajra",
       "description": "Break noise. Preserve truth. A deterministic semantic reduction engine for structured data \u2014 JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.",
@@ -236,7 +269,7 @@
       "stars": 2,
       "archived": false,
       "created": "2026-09-20T18:54:00Z",
-      "pushed": "2026-10-23T19:05:43Z",
+      "pushed": "2026-10-25T13:33:15Z",
       "category": "ai"
     },
     {
@@ -306,37 +339,25 @@
       "category": "ai"
     },
     {
-      "name": "palimpsest",
-      "url": "https://github.com/copyleftdev/palimpsest",
-      "description": "Deterministic crawl kernel in Rust \u2014 same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.",
-      "language": "Rust",
+      "name": "sk1llz",
+      "url": "https://github.com/copyleftdev/sk1llz",
+      "description": "The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.",
+      "language": "Python",
       "topics": [
-        "ai-native",
-        "blake3",
-        "browser-automation",
-        "cdp",
-        "claude-code",
-        "content-addressable",
-        "crawl",
-        "crawl-kernel",
-        "deterministic",
-        "deterministic-simulation",
-        "digital-preservation",
-        "headless-chrome",
-        "replay",
-        "rust",
-        "simulation-testing",
-        "warc",
-        "web-archive",
-        "web-archiving",
-        "web-crawler",
-        "web-scraping"
+        "ai-skills",
+        "anthropic",
+        "best-practices",
+        "claude",
+        "coding-standards",
+        "programming",
+        "skills",
+        "software-engineering"
       ],
       "stars": 2,
       "archived": false,
-      "created": "2026-04-12T02:02:33Z",
-      "pushed": "2026-07-19T19:11:51Z",
-      "category": "security"
+      "created": "2026-01-24T03:04:28Z",
+      "pushed": "2026-07-19T23:39:55Z",
+      "category": "ai"
     },
     {
       "name": "skbx",
@@ -582,7 +603,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-25T06:24:23Z",
+      "pushed": "2026-10-26T06:34:45Z",
       "category": "devtools"
     },
     {
@@ -796,27 +817,6 @@
       "archived": false,
       "created": "2026-07-21T04:25:18Z",
       "pushed": "2026-07-21T04:26:26Z",
-      "category": "ai"
-    },
-    {
-      "name": "sk1llz",
-      "url": "https://github.com/copyleftdev/sk1llz",
-      "description": "The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.",
-      "language": "Python",
-      "topics": [
-        "ai-skills",
-        "anthropic",
-        "best-practices",
-        "claude",
-        "coding-standards",
-        "programming",
-        "skills",
-        "software-engineering"
-      ],
-      "stars": 1,
-      "archived": false,
-      "created": "2026-01-24T03:04:28Z",
-      "pushed": "2026-07-19T23:39:55Z",
       "category": "ai"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-25T04:31:26Z",
+      "pushed": "2026-10-26T04:36:13Z",
       "category": "ai"
     },
     {
@@ -1603,7 +1603,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-25T05:46:16Z",
+      "pushed": "2026-10-26T05:51:16Z",
       "category": "security"
     },
     {
@@ -2329,7 +2329,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-25T04:51:28Z",
+      "pushed": "2026-10-26T04:55:03Z",
       "category": "security"
     },
     {
