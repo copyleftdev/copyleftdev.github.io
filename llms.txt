@@ -9,8 +9,8 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 110
-- Followers: 244
+- Original public repositories: 112
+- Followers: 246
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -86,6 +86,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
 - [pegrep](https://github.com/copyleftdev/pegrep) [Rust]: Text and structural search with readable PEG patterns, typed captures, and JSON output.
 - [pi-mini-rack](https://github.com/copyleftdev/pi-mini-rack): Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.
+- [r30rg](https://github.com/copyleftdev/r30rg) [Rust]: Chaos & adversarial testing framework for Arbitrum rollup stacks — deterministic simulation + live Docker fault injection. Same seed = same chaos = reproducible bugs.
 - [shard-router](https://github.com/copyleftdev/shard-router) [Makefile]: Deterministic-first shard router for the Kalshi exchange: verified shard resolution, exact integer fee schedules, async-safe prefunding, ledger reconciliation, VOPR-style DST. Rust, TigerStyle.
 - [simulated-annealing-article](https://github.com/copyleftdev/simulated-annealing-article) [Rust]: Stop Guessing: simulated annealing article with a reproducible Rust experiment, equal-budget baselines, raw results, and independent verification.
 - [superforecasting-skills-pack](https://github.com/copyleftdev/superforecasting-skills-pack) [Python]: Thirteen research-attributed forecasting skills for Claude — Brier scoring, calibration decomposition, logit pooling, Bayesian updating, reference classes, conditional trees. Every technique names its research and states its limits.
@@ -143,6 +144,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [claimzen-site](https://github.com/copyleftdev/claimzen-site) [HTML]: ClaimZen — evidence-backed denial recovery. Marketing site.
 - [deflect-rs](https://github.com/copyleftdev/deflect-rs) [Rust]: Composable, kernel-adjacent DDoS-mitigation primitives in Rust — rate limiting, SYN cookies, signatures, reflection/amplification defense, learned fingerprints, nftables enforcement, flow telemetry, and upstream RTBH.
 - [does-the-grid-bind](https://github.com/copyleftdev/does-the-grid-bind) [Python]: Does the grid bind? An invariant audit of the AI energization gap — the conclusion is ~80% likely right, and most of its stated reasons are wrong. TLA+, exact rational arithmetic, 86 provenance-tagged parameters.
+- [gashammer](https://github.com/copyleftdev/gashammer) [Rust]: Adversarial load testing and correctness verification for Arbitrum Nitro rollup infrastructure. Built by @copyleftdev. Hat tip to @PlasmaPower and the @OffchainLabs engineering team.
 - [humanitas](https://github.com/copyleftdev/humanitas) [TypeScript]: Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).
 - [interview-with-a-binary-media](https://github.com/copyleftdev/interview-with-a-binary-media): Media for I Interviewed an Executable. It Had Notes. — cover art, replay stills, and video. No executable source or raw telemetry.
 - [invariantd-site](https://github.com/copyleftdev/invariantd-site) [HTML]: Marketing site for invariantd.com — video-first landing
@@ -163,4 +165,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-10-26 06:54 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-10-27 06:43 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

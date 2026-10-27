@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26 06:54 UTC",
+  "generated": "2026-10-27 06:43 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 110,
+  "count": 112,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -603,7 +603,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-26T06:34:45Z",
+      "pushed": "2026-10-27T06:27:52Z",
       "category": "devtools"
     },
     {
@@ -761,7 +761,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-08-05T04:44:29Z",
-      "pushed": "2026-10-19T13:36:34Z",
+      "pushed": "2026-10-26T13:36:46Z",
       "category": "systems"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-26T04:36:13Z",
+      "pushed": "2026-10-27T04:32:54Z",
       "category": "ai"
     },
     {
@@ -1392,6 +1392,31 @@
       "created": "2026-07-02T21:12:15Z",
       "pushed": "2026-07-19T23:39:31Z",
       "category": "absurd"
+    },
+    {
+      "name": "gashammer",
+      "url": "https://github.com/copyleftdev/gashammer",
+      "description": "Adversarial load testing and correctness verification for Arbitrum Nitro rollup infrastructure. Built by @copyleftdev. Hat tip to @PlasmaPower and the @OffchainLabs engineering team.",
+      "language": "Rust",
+      "topics": [
+        "arbitrum",
+        "blockchain",
+        "chaos-engineering",
+        "correctness-verification",
+        "distributed-systems",
+        "ethereum",
+        "fault-injection",
+        "gas-modeling",
+        "load-testing",
+        "nitro",
+        "rollup",
+        "rust"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-03-06T14:36:43Z",
+      "pushed": "2026-03-07T01:22:25Z",
+      "category": "systems"
     },
     {
       "name": "gemma-4-challenge",
@@ -1797,6 +1822,39 @@
       "created": "2026-07-14T04:21:50Z",
       "pushed": "2026-07-19T23:39:51Z",
       "category": "systems"
+    },
+    {
+      "name": "r30rg",
+      "url": "https://github.com/copyleftdev/r30rg",
+      "description": "Chaos & adversarial testing framework for Arbitrum rollup stacks \u2014 deterministic simulation + live Docker fault injection. Same seed = same chaos = reproducible bugs.",
+      "language": "Rust",
+      "topics": [
+        "adversarial-testing",
+        "arbitrum",
+        "blockchain",
+        "chaos-engineering",
+        "defi",
+        "deterministic-testing",
+        "devops",
+        "docker",
+        "ethereum",
+        "fault-injection",
+        "l2",
+        "l3",
+        "layer2",
+        "nitro",
+        "orbit-chain",
+        "rollup",
+        "rust",
+        "simulation",
+        "testing",
+        "web3"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-03-12T08:44:12Z",
+      "pushed": "2026-03-12T15:32:39Z",
+      "category": "devtools"
     },
     {
       "name": "rime",
@@ -2329,7 +2387,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-26T04:55:03Z",
+      "pushed": "2026-10-27T04:52:48Z",
       "category": "security"
     },
     {
