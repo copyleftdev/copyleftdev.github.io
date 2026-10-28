@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27 06:43 UTC",
+  "generated": "2026-10-28 06:31 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -54,6 +54,37 @@
       "category": "systems"
     },
     {
+      "name": "tak-rs",
+      "url": "https://github.com/copyleftdev/tak-rs",
+      "description": "High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem \u2014 drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.",
+      "language": "Rust",
+      "topics": [
+        "async",
+        "atak",
+        "cot",
+        "cursor-on-target",
+        "geospatial",
+        "itak",
+        "mtls",
+        "mutual-tls",
+        "protobuf",
+        "rust",
+        "situational-awareness",
+        "tactical",
+        "tak",
+        "tak-protocol",
+        "tak-server",
+        "team-awareness-kit",
+        "tokio",
+        "wintak"
+      ],
+      "stars": 5,
+      "archived": false,
+      "created": "2026-04-28T05:46:42Z",
+      "pushed": "2026-07-19T19:11:47Z",
+      "category": "systems"
+    },
+    {
       "name": "tailx",
       "url": "https://github.com/copyleftdev/tailx",
       "description": "Live system cognition engine. Reimagines tail from \"show me lines\" to \"what's happening, what matters, and why?\" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.",
@@ -83,37 +114,6 @@
       "created": "2026-03-23T15:01:43Z",
       "pushed": "2026-07-19T19:11:36Z",
       "category": "devtools"
-    },
-    {
-      "name": "tak-rs",
-      "url": "https://github.com/copyleftdev/tak-rs",
-      "description": "High-performance Rust kernel for the TAK (Team Awareness Kit) ecosystem \u2014 drop-in replacement for the messaging core of the Java TAK Server. Cursor-on-Target (CoT) over mTLS, single-node firehose at 10k+ concurrent clients. Compatible with ATAK, iTAK, WinTAK.",
-      "language": "Rust",
-      "topics": [
-        "async",
-        "atak",
-        "cot",
-        "cursor-on-target",
-        "geospatial",
-        "itak",
-        "mtls",
-        "mutual-tls",
-        "protobuf",
-        "rust",
-        "situational-awareness",
-        "tactical",
-        "tak",
-        "tak-protocol",
-        "tak-server",
-        "team-awareness-kit",
-        "tokio",
-        "wintak"
-      ],
-      "stars": 4,
-      "archived": false,
-      "created": "2026-04-28T05:46:42Z",
-      "pushed": "2026-07-19T19:11:47Z",
-      "category": "systems"
     },
     {
       "name": "agent-calc",
@@ -603,7 +603,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-27T06:27:52Z",
+      "pushed": "2026-10-28T06:21:22Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-27T04:32:54Z",
+      "pushed": "2026-10-28T04:25:53Z",
       "category": "ai"
     },
     {
@@ -1628,7 +1628,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-26T05:51:16Z",
+      "pushed": "2026-10-28T05:40:55Z",
       "category": "security"
     },
     {
@@ -2387,7 +2387,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-27T04:52:48Z",
+      "pushed": "2026-10-28T04:46:12Z",
       "category": "security"
     },
     {
