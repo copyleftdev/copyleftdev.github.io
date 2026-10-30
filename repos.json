@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29 06:31 UTC",
+  "generated": "2026-10-30 06:31 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 112,
+  "count": 113,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -603,7 +603,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-29T06:21:30Z",
+      "pushed": "2026-10-30T06:21:21Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-29T04:25:51Z",
+      "pushed": "2026-10-30T04:25:28Z",
       "category": "ai"
     },
     {
@@ -1628,7 +1628,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-29T05:42:28Z",
+      "pushed": "2026-10-30T05:42:07Z",
       "category": "security"
     },
     {
@@ -1867,6 +1867,25 @@
       "created": "2026-05-14T14:28:04Z",
       "pushed": "2026-07-19T23:39:54Z",
       "category": "systems"
+    },
+    {
+      "name": "seiche",
+      "url": "https://github.com/copyleftdev/seiche",
+      "description": "Height-ordered incremental computation DAG, cutoff propagation, O(1) incremental folds, idempotent delta algebra, sequence-gap book reconstruction, and VOPR simulation testing for prediction-market orderbooks.",
+      "language": "Rust",
+      "topics": [
+        "deterministic-simulation",
+        "incremental-computation",
+        "kalshi",
+        "orderbook",
+        "quantitative-finance",
+        "rust"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-10-30T02:26:21Z",
+      "pushed": "2026-10-30T05:58:05Z",
+      "category": "security"
     },
     {
       "name": "seuil-bench",
@@ -2387,7 +2406,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-29T04:48:25Z",
+      "pushed": "2026-10-30T04:41:51Z",
       "category": "security"
     },
     {

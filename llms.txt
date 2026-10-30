@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 112
+- Original public repositories: 113
 - Followers: 245
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -55,6 +55,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [kilo-data](https://github.com/copyleftdev/kilo-data) [Rust]: Open threat-intelligence and IP-reputation ETL for phishing and abuse screening, with BGP and Arrow/Parquet releases
 - [kilocheck](https://github.com/copyleftdev/kilocheck) [Rust]: Local-first deterministic IP intelligence CLI with auditable evidence and policy-grade JSON
 - [leet-touch](https://github.com/copyleftdev/leet-touch) [Python]: Touch every layer of Git and GitHub—from first commit to platform engineering.
+- [seiche](https://github.com/copyleftdev/seiche) [Rust]: Height-ordered incremental computation DAG, cutoff propagation, O(1) incremental folds, idempotent delta algebra, sequence-gap book reconstruction, and VOPR simulation testing for prediction-market orderbooks.
 - [seuil-rs](https://github.com/copyleftdev/seuil-rs) [Rust]: A complete, safe JSONata implementation in Rust — JSON query, transform, and expression evaluation
 - [solve-score](https://github.com/copyleftdev/solve-score) [Rust]: Independent Rust implementation of SOLVE v0.5, Irregular's rubric for scoring vulnerability-discovery and exploit-development difficulty. Reproduces all 16 published DownUnderCTF calibration assessments.
 - [squib](https://github.com/copyleftdev/squib) [Rust]: Trust-scheduling execution fabric: run untrusted workloads in tiered disposable sandboxes (Firecracker microVM / gVisor / Xen) and emit host-sourced, tamper-evident evidence.
@@ -165,4 +166,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-10-29 06:31 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-10-30 06:31 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
