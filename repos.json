@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30 06:31 UTC",
+  "generated": "2026-10-31 06:24 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -335,7 +335,7 @@
       "stars": 2,
       "archived": false,
       "created": "2026-08-06T15:13:42Z",
-      "pushed": "2026-10-16T10:15:05Z",
+      "pushed": "2026-10-30T10:15:31Z",
       "category": "ai"
     },
     {
@@ -603,7 +603,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-10-30T06:21:21Z",
+      "pushed": "2026-10-31T06:17:00Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-10-30T04:25:28Z",
+      "pushed": "2026-10-31T04:21:06Z",
       "category": "ai"
     },
     {
@@ -1628,7 +1628,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-10-30T05:42:07Z",
+      "pushed": "2026-10-31T05:41:36Z",
       "category": "security"
     },
     {
@@ -2406,7 +2406,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-10-30T04:41:51Z",
+      "pushed": "2026-10-31T04:42:46Z",
       "category": "security"
     },
     {
