@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01 06:26 UTC",
+  "generated": "2026-11-02 06:35 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -35,7 +35,7 @@
         "sca",
         "visa"
       ],
-      "stars": 6,
+      "stars": 7,
       "archived": false,
       "created": "2026-05-26T15:44:16Z",
       "pushed": "2026-07-19T23:39:28Z",
@@ -269,7 +269,7 @@
       "stars": 2,
       "archived": false,
       "created": "2026-09-20T18:54:00Z",
-      "pushed": "2026-10-25T13:33:15Z",
+      "pushed": "2026-11-02T00:46:46Z",
       "category": "ai"
     },
     {
@@ -629,7 +629,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-01T06:17:58Z",
+      "pushed": "2026-11-02T06:24:35Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-01T04:22:03Z",
+      "pushed": "2026-11-02T04:23:04Z",
       "category": "ai"
     },
     {
@@ -1628,7 +1628,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-01T05:41:33Z",
+      "pushed": "2026-11-02T05:41:28Z",
       "category": "security"
     },
     {
@@ -2406,7 +2406,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-01T04:42:45Z",
+      "pushed": "2026-11-02T04:41:39Z",
       "category": "security"
     },
     {
