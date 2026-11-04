@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03 06:27 UTC",
+  "generated": "2026-11-04 06:27 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 113,
+  "count": 114,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -629,7 +629,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-03T06:18:56Z",
+      "pushed": "2026-11-04T06:19:19Z",
       "category": "devtools"
     },
     {
@@ -1211,7 +1211,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-03T04:22:09Z",
+      "pushed": "2026-11-04T04:22:15Z",
       "category": "ai"
     },
     {
@@ -1587,6 +1587,18 @@
       "category": "systems"
     },
     {
+      "name": "jevwright",
+      "url": "https://github.com/copyleftdev/jevwright",
+      "description": "Typed Jev decisions, native Playwright actions. Reusable browser automation with procedural and business UAT gyms.",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-11-03T15:10:27Z",
+      "pushed": "2026-11-03T15:10:33Z",
+      "category": "devtools"
+    },
+    {
       "name": "kalshi-kernel",
       "url": "https://github.com/copyleftdev/kalshi-kernel",
       "description": "Unofficial safety-focused MCP kernel for Kalshi market workflows",
@@ -1628,7 +1640,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-03T05:41:40Z",
+      "pushed": "2026-11-04T05:41:45Z",
       "category": "security"
     },
     {
@@ -2406,7 +2418,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-03T04:42:25Z",
+      "pushed": "2026-11-04T04:48:13Z",
       "category": "security"
     },
     {
