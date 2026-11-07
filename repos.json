@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06 06:27 UTC",
+  "generated": "2026-11-07 06:25 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 115,
+  "count": 116,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -182,6 +182,32 @@
       "category": "security"
     },
     {
+      "name": "nasa-power-of-ten-skill",
+      "url": "https://github.com/copyleftdev/nasa-power-of-ten-skill",
+      "description": "Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "c",
+        "claude-code",
+        "coding-standards",
+        "cpp",
+        "embedded-systems",
+        "jpl",
+        "nasa",
+        "openai-codex",
+        "power-of-ten",
+        "safety-critical",
+        "software-reliability",
+        "static-analysis"
+      ],
+      "stars": 3,
+      "archived": false,
+      "created": "2026-08-08T00:53:20Z",
+      "pushed": "2026-08-08T00:56:03Z",
+      "category": "ai"
+    },
+    {
       "name": "palimpsest",
       "url": "https://github.com/copyleftdev/palimpsest",
       "description": "Deterministic crawl kernel in Rust \u2014 same seed, identical crawl, identical replay. BoringSSL TLS impersonation (JA3/JA4), 17-patch CDP stealth mode, BLAKE3 content-addressed storage, WARC++ format, distributed crawling, RAG extraction. 288 tests, 15 crates, 10K pages proven.",
@@ -336,32 +362,6 @@
       "archived": false,
       "created": "2026-08-06T15:13:42Z",
       "pushed": "2026-10-30T10:15:31Z",
-      "category": "ai"
-    },
-    {
-      "name": "nasa-power-of-ten-skill",
-      "url": "https://github.com/copyleftdev/nasa-power-of-ten-skill",
-      "description": "Unofficial portable Claude Code and Codex skill for NASA/JPL Power of Ten code reviews.",
-      "language": "Python",
-      "topics": [
-        "agent-skills",
-        "c",
-        "claude-code",
-        "coding-standards",
-        "cpp",
-        "embedded-systems",
-        "jpl",
-        "nasa",
-        "openai-codex",
-        "power-of-ten",
-        "safety-critical",
-        "software-reliability",
-        "static-analysis"
-      ],
-      "stars": 2,
-      "archived": false,
-      "created": "2026-08-08T00:53:20Z",
-      "pushed": "2026-08-08T00:56:03Z",
       "category": "ai"
     },
     {
@@ -629,7 +629,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-06T06:20:08Z",
+      "pushed": "2026-11-07T06:17:25Z",
       "category": "devtools"
     },
     {
@@ -1223,7 +1223,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-06T04:22:45Z",
+      "pushed": "2026-11-07T04:21:40Z",
       "category": "ai"
     },
     {
@@ -1575,6 +1575,24 @@
       "category": "ai"
     },
     {
+      "name": "hypertiger",
+      "url": "https://github.com/copyleftdev/hypertiger",
+      "description": "Early alpha. A Hyperliquid kernel for Rust in TigerBeetle's style: no_std, no floats, deterministic simulation. Not ready for real money.",
+      "language": "Rust",
+      "topics": [
+        "deterministic-simulation",
+        "early-alpha",
+        "hyperliquid",
+        "rust",
+        "tigerstyle"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-11-06T06:39:24Z",
+      "pushed": "2026-11-06T14:45:36Z",
+      "category": "systems"
+    },
+    {
       "name": "interview-with-a-binary-media",
       "url": "https://github.com/copyleftdev/interview-with-a-binary-media",
       "description": "Media for I Interviewed an Executable. It Had Notes. \u2014 cover art, replay stills, and video. No executable source or raw telemetry.",
@@ -1652,7 +1670,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-06T05:40:53Z",
+      "pushed": "2026-11-07T05:41:37Z",
       "category": "security"
     },
     {
@@ -2430,7 +2448,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-06T05:12:02Z",
+      "pushed": "2026-11-07T05:06:37Z",
       "category": "security"
     },
     {
