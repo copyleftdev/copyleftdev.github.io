@@ -9,8 +9,8 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 116
-- Followers: 247
+- Original public repositories: 117
+- Followers: 248
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -152,6 +152,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [hypertiger](https://github.com/copyleftdev/hypertiger) [Rust]: Early alpha. A Hyperliquid kernel for Rust in TigerBeetle's style: no_std, no floats, deterministic simulation. Not ready for real money.
 - [interview-with-a-binary-media](https://github.com/copyleftdev/interview-with-a-binary-media): Media for I Interviewed an Executable. It Had Notes. — cover art, replay stills, and video. No executable source or raw telemetry.
 - [invariantd-site](https://github.com/copyleftdev/invariantd-site) [HTML]: Marketing site for invariantd.com — video-first landing
+- [jane-got-skills](https://github.com/copyleftdev/jane-got-skills) [Python]: Jane Street personas and practice skills for Claude Code, grounded in public sources and gated by verbatim-quote, speaker-attribution and compiled-snippet checks. Not affiliated with Jane Street.
 - [pipeflow](https://github.com/copyleftdev/pipeflow) [Python]: 
 - [rime](https://github.com/copyleftdev/rime) [Rust]: Lock-free delta-xDS control plane for Envoy. Incremental updates, zero-copy fan-out, content-addressed versioning — the performant Rust alternative to go-control-plane.
 - [seuil-bench](https://github.com/copyleftdev/seuil-bench) [HTML]: Seuil Proof of Rigor — WASM benchmark visualization
@@ -169,4 +170,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-11-07 06:25 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-11-08 06:25 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
