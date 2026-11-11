@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 117
+- Original public repositories: 116
 - Followers: 249
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -109,7 +109,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [jev-labs](https://github.com/copyleftdev/jev-labs) [Python]: Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.
 - [kahea](https://github.com/copyleftdev/kahea) [Rust]: OpenAPI testing and deterministic API fuzzing for AI agents—catch contract bugs before unsafe calls with local-first sealed plans, MCP, and replayable evidence.
 - [sk1llz](https://github.com/copyleftdev/sk1llz) [Python]: The skills of the gods, encoded for mortals. Legendary engineer coding philosophies as Anthropic-compatible Skills.
-- [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: High-performance decentralized coordination protocol for multi-agent LLM systems. Plant-inspired signal diffusion with sub-microsecond processing, QUIC P2P networking, and unified LLM backends (Ollama + Claude).
+- [smesh-rust](https://github.com/copyleftdev/smesh-rust) [Rust]: Consensus without a center: a Rust protocol where agents coordinate through signals that diffuse, decay and get reinforced. A2A v1.0 gateway, QUIC P2P mesh, plain-language agent routing, and a read-only prediction-market research mesh.
 - [symgliph](https://github.com/copyleftdev/symgliph) [Rust]: SCGP reference implementation in Rust: compile large codebases into verified semantic graphs, deterministic glyphs, and token-budgeted AI context.
 - [murmur](https://github.com/copyleftdev/murmur) [Rust]: Voice typing that never leaves your machine. Local NVIDIA Parakeet transcription, Rust + iced, for Linux.
 - [rational](https://github.com/copyleftdev/rational) [Python]: AI cost, with the vibes removed. Exact-rational models + a live calculator for the 8 LLM inference-cost decisions every agent builder faces — model choice, routing, self-host, the reasoning-token tax, cascades, caching, and the O(K²) agent loop. Every number reproducible.
@@ -125,7 +125,6 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [kitboga](https://github.com/copyleftdev/kitboga) [HTML]: Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.
 - [nim-toon](https://github.com/copyleftdev/nim-toon) [Nim]: Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.
 - [skillexec](https://github.com/copyleftdev/skillexec) [Rust]: A binary container for agent skills: SKILL.md compiled into a signed, tiered, content-addressed graph — with capability-gated wasm segments and an organization compiler.
-- [smesh-a2a](https://github.com/copyleftdev/smesh-a2a) [Rust]: A2A v1 interoperability gateway for decentralized SMESH agent swarms
 - [stretch](https://github.com/copyleftdev/stretch) [Rust]: MCP control plane kernel — routes intents through policy, federates upstream MCP servers, and reasons with Claude Opus 4.7. Named after IBM Project Stretch (IBM 7030, 1961).
 - [supercast](https://github.com/copyleftdev/supercast) [Rust]: Rust primitives for probabilistic forecasting and AI agents: Bayesian updates, calibration, scoring, decision theory, and auditable journals.
 - [taxis-bench](https://github.com/copyleftdev/taxis-bench) [TypeScript]: An adversarial certification environment for agentic RPA: does the agent respect its authorization envelope and commit exactly once under ambiguity? Scores conduct, not just correctness.
@@ -170,4 +169,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-11-10 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-11-11 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
