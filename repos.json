@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 06:27 UTC",
+  "generated": "2026-11-12 06:28 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 116,
+  "count": 117,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -637,7 +637,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-11T06:18:56Z",
+      "pushed": "2026-11-12T06:19:25Z",
       "category": "devtools"
     },
     {
@@ -1231,7 +1231,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-11T04:22:37Z",
+      "pushed": "2026-11-12T04:22:41Z",
       "category": "ai"
     },
     {
@@ -1690,7 +1690,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-11T05:41:48Z",
+      "pushed": "2026-11-12T05:40:55Z",
       "category": "security"
     },
     {
@@ -1808,6 +1808,32 @@
       "created": "2026-03-31T14:57:25Z",
       "pushed": "2026-07-19T23:39:48Z",
       "category": "ai"
+    },
+    {
+      "name": "overpunch-rx",
+      "url": "https://github.com/copyleftdev/overpunch-rx",
+      "description": "Fast, allocation-free Rust library for signed overpunch and zoned decimal encoding/decoding. ASCII/EBCDIC, exact decimals, fixed-width COBOL/mainframe records, and no_std.",
+      "language": "Rust",
+      "topics": [
+        "allocation-free",
+        "cobol",
+        "decimal",
+        "ebcdic",
+        "fixed-width",
+        "fixed-width-parser",
+        "mainframe",
+        "ncpdp",
+        "no-std",
+        "overpunch",
+        "rust",
+        "signed-overpunch",
+        "zoned-decimal"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-11-11T19:11:50Z",
+      "pushed": "2026-11-11T20:15:17Z",
+      "category": "devtools"
     },
     {
       "name": "oxide-ci",
@@ -2456,7 +2482,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-11T04:51:22Z",
+      "pushed": "2026-11-12T04:47:30Z",
       "category": "security"
     },
     {

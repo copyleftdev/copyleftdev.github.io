@@ -9,8 +9,8 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 116
-- Followers: 249
+- Original public repositories: 117
+- Followers: 247
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -86,6 +86,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [jevwright](https://github.com/copyleftdev/jevwright) [JavaScript]: Typed Jev decisions, native Playwright actions. Reusable browser automation with procedural and business UAT gyms.
 - [kalshi-kernel](https://github.com/copyleftdev/kalshi-kernel) [Go]: Unofficial safety-focused MCP kernel for Kalshi market workflows
 - [linux-archaeology-lab](https://github.com/copyleftdev/linux-archaeology-lab) [Shell]: Hands-on exercises for forgotten Linux pipe & stream commands — sample data, real exercises, Claude Code skill included.
+- [overpunch-rx](https://github.com/copyleftdev/overpunch-rx) [Rust]: Fast, allocation-free Rust library for signed overpunch and zoned decimal encoding/decoding. ASCII/EBCDIC, exact decimals, fixed-width COBOL/mainframe records, and no_std.
 - [oxide-ci](https://github.com/copyleftdev/oxide-ci) [Rust]: A modern, extensible, high-performance CI/CD engine written in Rust.
 - [pegrep](https://github.com/copyleftdev/pegrep) [Rust]: Text and structural search with readable PEG patterns, typed captures, and JSON output.
 - [pi-mini-rack](https://github.com/copyleftdev/pi-mini-rack): Cost-optimized 10-inch Raspberry Pi cluster rack builds (–). Four verified BOMs with PoE+ switch, DeskPi RackMate, and UPS. MILP-optimized pricing.
@@ -169,4 +170,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-11-11 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-11-12 06:28 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
