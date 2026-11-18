@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17 06:28 UTC",
+  "generated": "2026-11-18 06:28 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -241,6 +241,39 @@
       "category": "security"
     },
     {
+      "name": "smesh-rust",
+      "url": "https://github.com/copyleftdev/smesh-rust",
+      "description": "Consensus without a center: a Rust protocol where agents coordinate through signals that diffuse, decay and get reinforced. A2A v1.0 gateway, QUIC P2P mesh, plain-language agent routing, and a read-only prediction-market research mesh.",
+      "language": "Rust",
+      "topics": [
+        "a2a",
+        "agent-coordination",
+        "agent2agent",
+        "ai-agents",
+        "bio-inspired",
+        "claude",
+        "consensus",
+        "decentralized",
+        "distributed-systems",
+        "kalshi",
+        "llm",
+        "llm-agents",
+        "multi-agent",
+        "multi-agent-systems",
+        "p2p",
+        "prediction-markets",
+        "quantitative-finance",
+        "quic",
+        "rust",
+        "swarm-intelligence"
+      ],
+      "stars": 3,
+      "archived": false,
+      "created": "2026-01-06T04:22:20Z",
+      "pushed": "2026-11-10T20:36:02Z",
+      "category": "ai"
+    },
+    {
       "name": "vajra",
       "url": "https://github.com/copyleftdev/vajra",
       "description": "Break noise. Preserve truth. A deterministic semantic reduction engine for structured data \u2014 JSON, YAML, CSV, NDJSON, Markdown, PDF. Fingerprinting, entropy, anomaly detection, schema drift, clustering, and AI-ready essence generation. Built in Rust.",
@@ -407,39 +440,6 @@
       "created": "2026-07-27T16:43:13Z",
       "pushed": "2026-09-07T13:20:10Z",
       "category": "security"
-    },
-    {
-      "name": "smesh-rust",
-      "url": "https://github.com/copyleftdev/smesh-rust",
-      "description": "Consensus without a center: a Rust protocol where agents coordinate through signals that diffuse, decay and get reinforced. A2A v1.0 gateway, QUIC P2P mesh, plain-language agent routing, and a read-only prediction-market research mesh.",
-      "language": "Rust",
-      "topics": [
-        "a2a",
-        "agent-coordination",
-        "agent2agent",
-        "ai-agents",
-        "bio-inspired",
-        "claude",
-        "consensus",
-        "decentralized",
-        "distributed-systems",
-        "kalshi",
-        "llm",
-        "llm-agents",
-        "multi-agent",
-        "multi-agent-systems",
-        "p2p",
-        "prediction-markets",
-        "quantitative-finance",
-        "quic",
-        "rust",
-        "swarm-intelligence"
-      ],
-      "stars": 2,
-      "archived": false,
-      "created": "2026-01-06T04:22:20Z",
-      "pushed": "2026-11-10T20:36:02Z",
-      "category": "ai"
     },
     {
       "name": "symgliph",
@@ -637,7 +637,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-17T06:19:30Z",
+      "pushed": "2026-11-18T06:19:06Z",
       "category": "devtools"
     },
     {
@@ -1231,7 +1231,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-17T04:22:48Z",
+      "pushed": "2026-11-18T04:22:54Z",
       "category": "ai"
     },
     {
@@ -1690,7 +1690,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-17T05:41:24Z",
+      "pushed": "2026-11-18T05:40:58Z",
       "category": "security"
     },
     {
@@ -2482,7 +2482,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-17T05:07:41Z",
+      "pushed": "2026-11-18T05:05:03Z",
       "category": "security"
     },
     {
