@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 117
+- Original public repositories: 118
 - Followers: 251
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -166,8 +166,9 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [git-archaeology-lab](https://github.com/copyleftdev/git-archaeology-lab) [Shell]: Hands-on exercises for forgotten git commands — crafted history, real bugs, real bisect targets.
 - [OverHelloWorld](https://github.com/copyleftdev/OverHelloWorld) [Go]: A robust, over-engineered "Hello World" Go application demonstrating:  DDD, CQRS, and event sourcing Redis and file-backed event bus Plugin system (ASCII, TTS, LED, etc) Prometheus & OpenTelemetry observability Property-based and integration tests Automated test reporting and coverage
 - [tip-to-tip-efficiency](https://github.com/copyleftdev/tip-to-tip-efficiency) [Rust]: Mathematically serious Rust crate for a deeply unserious Silicon Valley tip-to-tip efficiency empire.
+- [dado](https://github.com/copyleftdev/dado) [Python]: Open-hardware modular enclosure for Raspberry Pi 5 clusters. One computer in one cell; slide a second on and it holds.
 - [fafoaas](https://github.com/copyleftdev/fafoaas) [TypeScript]: FAFO as a Service — an event-driven homage to FOAAS and a working masterclass in spec-first engineering: AsyncAPI 3 + MCP, polyglot codegen, derived contract tests, a generated conformant server, 98/98 mutation score. Consequences: eventual.
 
 ## Provenance
 
-Generated 2026-11-18 06:28 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-11-19 06:28 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
