@@ -9,7 +9,7 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 118
+- Original public repositories: 119
 - Followers: 251
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
@@ -148,6 +148,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [deflect-rs](https://github.com/copyleftdev/deflect-rs) [Rust]: Composable, kernel-adjacent DDoS-mitigation primitives in Rust — rate limiting, SYN cookies, signatures, reflection/amplification defense, learned fingerprints, nftables enforcement, flow telemetry, and upstream RTBH.
 - [does-the-grid-bind](https://github.com/copyleftdev/does-the-grid-bind) [Python]: Does the grid bind? An invariant audit of the AI energization gap — the conclusion is ~80% likely right, and most of its stated reasons are wrong. TLA+, exact rational arithmetic, 86 provenance-tagged parameters.
 - [gashammer](https://github.com/copyleftdev/gashammer) [Rust]: Adversarial load testing and correctness verification for Arbitrum Nitro rollup infrastructure. Built by @copyleftdev. Hat tip to @PlasmaPower and the @OffchainLabs engineering team.
+- [hcbt](https://github.com/copyleftdev/hcbt) [Python]: Backtester with exact integer money on a TigerBeetle-derived ledger. Strategies in any language, Backtesting.py parity, quote fills, JSON Lines events. Binaries only.
 - [humanitas](https://github.com/copyleftdev/humanitas) [TypeScript]: Unofficial Effect-native TypeScript SDK for the Humana Data Exchange APIs (Apigee + FHIR R4).
 - [hypertiger](https://github.com/copyleftdev/hypertiger) [Rust]: Early alpha. A Hyperliquid kernel for Rust in TigerBeetle's style: no_std, no floats, deterministic simulation. Not ready for real money.
 - [interview-with-a-binary-media](https://github.com/copyleftdev/interview-with-a-binary-media): Media for I Interviewed an Executable. It Had Notes. — cover art, replay stills, and video. No executable source or raw telemetry.
@@ -171,4 +172,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-11-21 06:26 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-11-22 06:27 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.

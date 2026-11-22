@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21 06:26 UTC",
+  "generated": "2026-11-22 06:27 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 118,
+  "count": 119,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -114,7 +114,7 @@
       "stars": 4,
       "archived": false,
       "created": "2026-05-08T04:10:30Z",
-      "pushed": "2026-11-21T05:50:01Z",
+      "pushed": "2026-11-21T07:41:11Z",
       "category": "ai"
     },
     {
@@ -637,7 +637,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-21T06:17:41Z",
+      "pushed": "2026-11-22T06:17:40Z",
       "category": "devtools"
     },
     {
@@ -1231,7 +1231,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-21T04:22:31Z",
+      "pushed": "2026-11-22T04:22:46Z",
       "category": "ai"
     },
     {
@@ -1498,6 +1498,18 @@
       "category": "security"
     },
     {
+      "name": "hcbt",
+      "url": "https://github.com/copyleftdev/hcbt",
+      "description": "Backtester with exact integer money on a TigerBeetle-derived ledger. Strategies in any language, Backtesting.py parity, quote fills, JSON Lines events. Binaries only.",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-11-22T04:10:15Z",
+      "pushed": "2026-11-22T04:10:29Z",
+      "category": "systems"
+    },
+    {
       "name": "hearth",
       "url": "https://github.com/copyleftdev/hearth",
       "description": "Put AI compute in the 82 million houses that already have a grid connection. An exact-arithmetic feasibility study of residential AI inference as an alternative to the data center buildout.",
@@ -1717,7 +1729,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-21T05:41:16Z",
+      "pushed": "2026-11-22T05:40:57Z",
       "category": "security"
     },
     {
@@ -2509,7 +2521,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-21T04:41:33Z",
+      "pushed": "2026-11-22T04:49:01Z",
       "category": "security"
     },
     {
