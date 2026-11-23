@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22 06:27 UTC",
+  "generated": "2026-11-23 06:37 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 119,
+  "count": 120,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -637,7 +637,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-22T06:17:40Z",
+      "pushed": "2026-11-23T06:25:08Z",
       "category": "devtools"
     },
     {
@@ -1231,7 +1231,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-22T04:22:46Z",
+      "pushed": "2026-11-23T04:25:31Z",
       "category": "ai"
     },
     {
@@ -1395,6 +1395,30 @@
       "category": "devtools"
     },
     {
+      "name": "espnclock",
+      "url": "https://github.com/copyleftdev/espnclock",
+      "description": "Unofficial ESPN scoreboard CLI: pre/in/post game clock (NFL NBA MLB NHL UFC). Local SSE. No API key.",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "espn",
+        "espn-api",
+        "nba",
+        "nfl",
+        "rust",
+        "scoreboard",
+        "sports",
+        "sports-data",
+        "sse",
+        "unofficial-api"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-11-22T19:19:02Z",
+      "pushed": "2026-11-22T19:33:49Z",
+      "category": "devtools"
+    },
+    {
       "name": "evidence-driven-development",
       "url": "https://github.com/copyleftdev/evidence-driven-development",
       "description": "A runnable evidence-driven development tutorial: falsifiable claims, SQLite retries, negative controls, and reproducible results.",
@@ -1506,7 +1530,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-11-22T04:10:15Z",
-      "pushed": "2026-11-22T04:10:29Z",
+      "pushed": "2026-11-22T14:53:57Z",
       "category": "systems"
     },
     {
@@ -1729,7 +1753,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-22T05:40:57Z",
+      "pushed": "2026-11-23T05:41:33Z",
       "category": "security"
     },
     {
@@ -2521,7 +2545,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-22T04:49:01Z",
+      "pushed": "2026-11-23T04:38:02Z",
       "category": "security"
     },
     {
