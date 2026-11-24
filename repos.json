@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23 06:37 UTC",
+  "generated": "2026-11-24 06:28 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 120,
+  "count": 121,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -637,7 +637,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-23T06:25:08Z",
+      "pushed": "2026-11-24T06:20:24Z",
       "category": "devtools"
     },
     {
@@ -769,7 +769,7 @@
       "stars": 1,
       "archived": false,
       "created": "2026-08-05T04:44:29Z",
-      "pushed": "2026-10-26T13:36:46Z",
+      "pushed": "2026-11-23T14:36:19Z",
       "category": "systems"
     },
     {
@@ -1056,6 +1056,28 @@
       "category": "security"
     },
     {
+      "name": "canary-article",
+      "url": "https://github.com/copyleftdev/canary-article",
+      "description": "A reproducible experiment on instruction canaries in AI coding agents. 30-attempt main study with honest null result.",
+      "language": "HTML",
+      "topics": [
+        "agents",
+        "ai",
+        "canary",
+        "codex",
+        "devops",
+        "experiment",
+        "instruction-following",
+        "programming",
+        "testing"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-11-24T06:15:20Z",
+      "pushed": "2026-11-24T06:18:02Z",
+      "category": "devtools"
+    },
+    {
       "name": "cascade-article",
       "url": "https://github.com/copyleftdev/cascade-article",
       "description": null,
@@ -1231,7 +1253,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-23T04:25:31Z",
+      "pushed": "2026-11-24T04:23:13Z",
       "category": "ai"
     },
     {
@@ -1753,7 +1775,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-23T05:41:33Z",
+      "pushed": "2026-11-24T05:41:05Z",
       "category": "security"
     },
     {
@@ -2545,7 +2567,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-23T04:38:02Z",
+      "pushed": "2026-11-24T05:05:56Z",
       "category": "security"
     },
     {
