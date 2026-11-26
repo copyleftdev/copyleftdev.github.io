@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25 06:30 UTC",
+  "generated": "2026-11-26 06:29 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 121,
+  "count": 122,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -637,7 +637,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-25T06:20:38Z",
+      "pushed": "2026-11-26T06:20:11Z",
       "category": "devtools"
     },
     {
@@ -1059,7 +1059,7 @@
       "name": "canary-article",
       "url": "https://github.com/copyleftdev/canary-article",
       "description": "A reproducible experiment on instruction canaries in AI coding agents. 30-attempt main study with honest null result.",
-      "language": "HTML",
+      "language": "Python",
       "topics": [
         "agents",
         "ai",
@@ -1074,7 +1074,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-11-24T06:15:20Z",
-      "pushed": "2026-11-24T06:18:02Z",
+      "pushed": "2026-11-26T02:02:42Z",
       "category": "devtools"
     },
     {
@@ -1253,7 +1253,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-25T04:23:59Z",
+      "pushed": "2026-11-26T04:23:34Z",
       "category": "ai"
     },
     {
@@ -1317,6 +1317,25 @@
       "created": "2025-12-29T23:00:22Z",
       "pushed": "2025-12-30T00:42:26Z",
       "category": "security"
+    },
+    {
+      "name": "datamuta",
+      "url": "https://github.com/copyleftdev/datamuta",
+      "description": "Experimental Rust database migration runtime with recoverable execution and native data verification",
+      "language": "Rust",
+      "topics": [
+        "data-migration",
+        "database-migration",
+        "etl",
+        "experimental",
+        "postgresql",
+        "rust"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-10-27T22:52:34Z",
+      "pushed": "2026-11-26T02:01:18Z",
+      "category": "systems"
     },
     {
       "name": "deflect-rs",
@@ -1775,7 +1794,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-25T05:41:15Z",
+      "pushed": "2026-11-26T05:41:15Z",
       "category": "security"
     },
     {
@@ -2567,7 +2586,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-25T04:38:00Z",
+      "pushed": "2026-11-26T05:10:10Z",
       "category": "security"
     },
     {
