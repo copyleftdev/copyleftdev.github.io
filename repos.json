@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26 06:29 UTC",
+  "generated": "2026-11-27 06:29 UTC",
   "person": {
     "name": "Don Johnson",
     "handle": "copyleftdev",
@@ -14,7 +14,7 @@
       "https://tokentip.to/@copyleftdev"
     ]
   },
-  "count": 122,
+  "count": 123,
   "repositories": [
     {
       "name": "emv-3ds",
@@ -637,7 +637,7 @@
       "stars": 1,
       "archived": false,
       "created": "2023-06-01T23:04:59Z",
-      "pushed": "2026-11-26T06:20:11Z",
+      "pushed": "2026-11-27T06:20:15Z",
       "category": "devtools"
     },
     {
@@ -1253,7 +1253,7 @@
       "stars": 0,
       "archived": false,
       "created": "2024-05-13T06:04:11Z",
-      "pushed": "2026-11-26T04:23:34Z",
+      "pushed": "2026-11-27T04:23:35Z",
       "category": "ai"
     },
     {
@@ -1794,7 +1794,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-13T05:37:04Z",
-      "pushed": "2026-11-26T05:41:15Z",
+      "pushed": "2026-11-27T05:42:25Z",
       "category": "security"
     },
     {
@@ -2014,6 +2014,21 @@
       "created": "2026-07-14T04:21:50Z",
       "pushed": "2026-07-19T23:39:51Z",
       "category": "systems"
+    },
+    {
+      "name": "pulsefold",
+      "url": "https://github.com/copyleftdev/pulsefold",
+      "description": "A playable replay debugger: can an AI agent's instruction canary stay exact while its code breaks a rule?",
+      "language": "Rust",
+      "topics": [
+        "dst",
+        "testing"
+      ],
+      "stars": 0,
+      "archived": false,
+      "created": "2026-11-26T07:27:07Z",
+      "pushed": "2026-11-26T14:31:40Z",
+      "category": "ai"
     },
     {
       "name": "r30rg",
@@ -2586,7 +2601,7 @@
       "stars": 0,
       "archived": false,
       "created": "2026-07-21T06:21:44Z",
-      "pushed": "2026-11-26T05:10:10Z",
+      "pushed": "2026-11-27T04:46:03Z",
       "category": "security"
     },
     {

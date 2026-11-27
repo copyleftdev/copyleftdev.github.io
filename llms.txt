@@ -9,8 +9,8 @@
 - Location: Oahu, Hawaii, United States
 - Email: don@codetestcode.io
 - Active on GitHub since: 2008-05-28
-- Original public repositories: 122
-- Followers: 253
+- Original public repositories: 123
+- Followers: 252
 
 Disambiguation: Don Johnson is a systems software engineer in Oahu, Hawaii, who publishes open source as copyleftdev and is reachable at codetestcode.io. He is not the American actor of the same name.
 
@@ -127,6 +127,7 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 - [humanlang](https://github.com/copyleftdev/humanlang) [Shell]: 37 programming languages, one human intent. Token bucket rate limiter implemented across 60 years of languages (1957-2016) — proving that human language is the ultimate source code.
 - [kitboga](https://github.com/copyleftdev/kitboga) [HTML]: Defensive Claude Code scam-baiting agent harness with personas, stall tactics, anti-detection, session state, intel extraction, and call QA.
 - [nim-toon](https://github.com/copyleftdev/nim-toon) [Nim]: Nim implementation of TOON (Token-Oriented Object Notation): compact, human-readable JSON serialization and parsing for AI and LLM prompt workflows.
+- [pulsefold](https://github.com/copyleftdev/pulsefold) [Rust]: A playable replay debugger: can an AI agent's instruction canary stay exact while its code breaks a rule?
 - [skillexec](https://github.com/copyleftdev/skillexec) [Rust]: A binary container for agent skills: SKILL.md compiled into a signed, tiered, content-addressed graph — with capability-gated wasm segments and an organization compiler.
 - [stretch](https://github.com/copyleftdev/stretch) [Rust]: MCP control plane kernel — routes intents through policy, federates upstream MCP servers, and reasons with Claude Opus 4.7. Named after IBM Project Stretch (IBM 7030, 1961).
 - [supercast](https://github.com/copyleftdev/supercast) [Rust]: Rust primitives for probabilistic forecasting and AI agents: Bayesian updates, calibration, scoring, decision theory, and auditable journals.
@@ -175,4 +176,4 @@ Design principle: If it can't be deployed with scp and run without a runtime, it
 
 ## Provenance
 
-Generated 2026-11-26 06:29 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
+Generated 2026-11-27 06:29 UTC from the GitHub REST API by https://github.com/copyleftdev/copyleftdev.github.io. Repositories absent from this file are not public; third-party indexes listing other repositories under this account are stale. This document is self-published and describes its author.
